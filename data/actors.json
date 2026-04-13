@@ -36553,5 +36553,4181 @@
       "mamma-mia",
       "goldeneye"
     ]
+  },
+  {
+    "id": "wagner-moura",
+    "name": "Wagner Moura",
+    "fullName": "Wagner Moura",
+    "slug": "wagner-moura",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1976-06-27",
+    "birthPlace": "Salvador, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "bio": "Wagner Moura is Brazils most internationally acclaimed actor known for his iconic portrayal of Pablo Escobar in Netflixs Narcos. He is considered one of the greatest Latin American actors and has appeared in Hollywood films like Elysium and Sergio. He is known for his powerful and transformative performances.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wagner_Moura",
+    "movies": [
+      "elysium",
+      "sergio",
+      "operation-mincemeat"
+    ],
+    "dramas": [
+      "narcos",
+      "santa-evita"
+    ],
+    "costars": [],
+    "awards": [
+      "Critics Choice Award",
+      "TCA Award Best Actor"
+    ],
+    "active": "1996",
+    "netWorth": "8 million USD",
+    "spouse": "Sandra Delgado (married 2004)",
+    "children": "3"
+  },
+  {
+    "id": "alice-braga",
+    "name": "Alice Braga",
+    "fullName": "Alice Braga Moraes",
+    "slug": "alice-braga",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1983-04-15",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "bio": "Alice Braga is one of Brazils most internationally successful actresses known for her roles in City of God I Am Legend and Queen of the South. She is the niece of legendary Brazilian actress Sonia Braga and has established herself as one of Latin Americas most respected actresses globally.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alice_Braga",
+    "movies": [
+      "city-of-god",
+      "i-am-legend",
+      "predators",
+      "elysium"
+    ],
+    "dramas": [
+      "queen-of-the-south",
+      "the-stand"
+    ],
+    "costars": [],
+    "awards": [
+      "BAFTA Nomination",
+      "Screen Actors Guild Award Nomination"
+    ],
+    "active": "2002",
+    "netWorth": "8 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "rodrigo-santoro",
+    "name": "Rodrigo Santoro",
+    "fullName": "Rodrigo Santoro",
+    "slug": "rodrigo-santoro",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1975-08-22",
+    "birthPlace": "Petropolis, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Rodrigo Santoro is one of Brazils biggest international stars known for his roles in 300 Love Actually and Westworld. He is one of the most recognizable Brazilian actors in Hollywood and has appeared in numerous major productions. He is known for his tall athletic physique.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rodrigo_Santoro",
+    "movies": [
+      "300",
+      "love-actually",
+      "rio",
+      "christ-the-redeemer"
+    ],
+    "dramas": [
+      "westworld",
+      "lost"
+    ],
+    "costars": [],
+    "awards": [
+      "Brazilian Cinema Award",
+      "Grande Otelo Award"
+    ],
+    "active": "1995",
+    "netWorth": "12 million USD",
+    "spouse": "Mel Fronckowiak (married 2016)",
+    "children": "1"
+  },
+  {
+    "id": "selton-mello",
+    "name": "Selton Mello",
+    "fullName": "Selton Mello",
+    "slug": "selton-mello",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1972-11-30",
+    "birthPlace": "Ourinhos, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Writer"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Thriller"
+    ],
+    "bio": "Selton Mello is one of Brazils most acclaimed actors and directors known for his powerful performances and artistic vision. He has won numerous Brazilian cinema awards and is considered one of the finest performers in Latin American cinema. He is known for his versatile acting range.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Selton_Mello",
+    "movies": [
+      "the-clown",
+      "o-palhaço",
+      "bellini"
+    ],
+    "dramas": [
+      "avenida-brasil",
+      "fina-estampa"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Brazilian Cinema Award Best Director"
+    ],
+    "active": "1991",
+    "netWorth": "5 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "fernanda-montenegro",
+    "name": "Fernanda Montenegro",
+    "fullName": "Arlete Pinheiro Esteves Torres",
+    "slug": "fernanda-montenegro",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1929-10-16",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Art"
+    ],
+    "bio": "Fernanda Montenegro is a legendary Brazilian actress considered the greatest actress in Brazilian cinema history. She received an Academy Award nomination for Best Actress for Central Station in 1999 becoming the first Brazilian actress to be nominated. She is a national treasure of Brazil.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fernanda_Montenegro",
+    "movies": [
+      "central-station",
+      "the-story-of-eternity"
+    ],
+    "dramas": [
+      "o-auto-da-compadecida",
+      "years-and-years"
+    ],
+    "costars": [],
+    "awards": [
+      "Academy Award Nomination Best Actress",
+      "BAFTA Award Best Actress",
+      "Berlin Silver Bear"
+    ],
+    "active": "1950",
+    "netWorth": "10 million USD",
+    "spouse": "Fernando Torres (married 1954)",
+    "children": "2"
+  },
+  {
+    "id": "mateus-solano",
+    "name": "Mateus Solano",
+    "fullName": "Mateus Solano",
+    "slug": "mateus-solano",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1981-09-04",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Mateus Solano is one of Brazils most popular television actors known for his powerful performances in hit telenovelas. He gained massive recognition through Amor a Vida and O Outro Lado do Paraiso. He is known for his versatile acting and has won numerous Brazilian television awards.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mateus_Solano",
+    "movies": [],
+    "dramas": [
+      "amor-a-vida",
+      "o-outro-lado-do-paraiso",
+      "totalmente-demais"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Contigo Award Best Actor"
+    ],
+    "active": "2003",
+    "netWorth": "3 million USD",
+    "spouse": "Paula Braun (married 2009)",
+    "children": "2"
+  },
+  {
+    "id": "giovanna-antonelli",
+    "name": "Giovanna Antonelli",
+    "fullName": "Giovanna Antonelli",
+    "slug": "giovanna-antonelli",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1976-08-18",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Giovanna Antonelli is one of Brazils most popular and highest paid telenovela actresses. She gained massive fame through Por Amor and O Clone. She is known for her powerful performances and natural beauty. She has been one of the most beloved faces on Brazilian television for decades.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Giovanna_Antonelli",
+    "movies": [],
+    "dramas": [
+      "o-clone",
+      "por-amor",
+      "segunda-chamada"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "Contigo Award Best Actress"
+    ],
+    "active": "1996",
+    "netWorth": "8 million USD",
+    "spouse": "Leonardo Nogueira (married 2009)",
+    "children": "3"
+  },
+  {
+    "id": "cauã-reymond",
+    "name": "Caua Reymond",
+    "fullName": "Caua Reymond",
+    "slug": "caua-reymond",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1980-08-04",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Caua Reymond is one of Brazils most handsome and popular actors known for his romantic roles in telenovelas. He gained fame through A Regra do Jogo and Ilha de Ferro. He is also a successful model and is known for his charming looks and powerful screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cauã_Reymond",
+    "movies": [],
+    "dramas": [
+      "a-regra-do-jogo",
+      "ilha-de-ferro",
+      "um-lugar-ao-sol"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Contigo Award Best Actor"
+    ],
+    "active": "2003",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "1"
+  },
+  {
+    "id": "taís-araújo",
+    "name": "Tais Araujo",
+    "fullName": "Tais Araujo",
+    "slug": "tais-araujo",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1978-11-25",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Tais Araujo is one of Brazils most beloved and respected actresses and the first Black woman to star as the lead in a prime time Brazilian telenovela. She has delivered powerful performances in Da Cor do Pecado and Cheias de Charme. She is known for her powerful advocacy for racial equality.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taís_Araújo",
+    "movies": [],
+    "dramas": [
+      "da-cor-do-pecado",
+      "cheias-de-charme",
+      "malhacao"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "NAACP Image Award Nomination"
+    ],
+    "active": "1995",
+    "netWorth": "5 million USD",
+    "spouse": "Lázaro Ramos (married 2006)",
+    "children": "2"
+  },
+  {
+    "id": "lázaro-ramos",
+    "name": "Lazaro Ramos",
+    "fullName": "Lazaro Ramos",
+    "slug": "lazaro-ramos",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1978-05-01",
+    "birthPlace": "Salvador, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Comedy"
+    ],
+    "bio": "Lazaro Ramos is one of Brazils most respected and acclaimed actors known for his powerful performances in both television and cinema. He has appeared in numerous award-winning productions and is also known for his social activism and advocacy for Black representation in Brazilian media.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lázaro_Ramos",
+    "movies": [
+      "madame-sata",
+      "the-man-of-the-crowd"
+    ],
+    "dramas": [
+      "avenida-brasil",
+      "a-forca-do-querer"
+    ],
+    "costars": [
+      "tais-araujo"
+    ],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Brazilian Cinema Award Best Actor"
+    ],
+    "active": "1998",
+    "netWorth": "5 million USD",
+    "spouse": "Tais Araujo (married 2006)",
+    "children": "2"
+  },
+  {
+    "id": "tony-ramos",
+    "name": "Tony Ramos",
+    "fullName": "Antonio Domingos Ramos Barbosa",
+    "slug": "tony-ramos",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1948-08-25",
+    "birthPlace": "Uberlandia, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Tony Ramos is a legendary Brazilian actor with a career spanning over five decades. He is one of the most beloved actors in Brazilian television history and has appeared in over 50 telenovelas. He is known for his natural acting style and has won numerous awards throughout his illustrious career.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tony_Ramos",
+    "movies": [
+      "o-auto-da-compadecida"
+    ],
+    "dramas": [
+      "roque-santeiro",
+      "vale-tudo",
+      "terra-nostra"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Lifetime Achievement",
+      "Contigo Award Best Actor"
+    ],
+    "active": "1969",
+    "netWorth": "8 million USD",
+    "spouse": "Andrea Werner (married 1978)",
+    "children": "2"
+  },
+  {
+    "id": "julia-lemmertz",
+    "name": "Julia Lemmertz",
+    "fullName": "Julia Lemmertz",
+    "slug": "julia-lemmertz",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1966-04-24",
+    "birthPlace": "Porto Alegre, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Julia Lemmertz is a highly acclaimed Brazilian actress known for her powerful performances in telenovelas and films. She has won numerous awards for her work and is respected for her artistic integrity and dedication to meaningful projects. She is considered one of the finest actresses in Brazil.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Julia_Lemmertz",
+    "movies": [
+      "the-way-he-looks",
+      "today-i-want-to-go-back-alone"
+    ],
+    "dramas": [
+      "em-familia",
+      "a-regra-do-jogo"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "Brazilian Cinema Award Best Actress"
+    ],
+    "active": "1988",
+    "netWorth": "3 million USD",
+    "spouse": "Alexandre Nero (married 2015)",
+    "children": "0"
+  },
+  {
+    "id": "alexandre-nero",
+    "name": "Alexandre Nero",
+    "fullName": "Alexandre Nero",
+    "slug": "alexandre-nero",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1974-01-19",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Alexandre Nero is one of Brazils most popular and acclaimed television actors known for his powerful performances in Globo telenovelas. He gained massive fame through Imperio and A Regra do Jogo. He is known for his intense acting style and strong screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexandre_Nero",
+    "movies": [],
+    "dramas": [
+      "imperio",
+      "a-regra-do-jogo",
+      "nos-dias-de-hoje"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Contigo Award Best Actor"
+    ],
+    "active": "1995",
+    "netWorth": "5 million USD",
+    "spouse": "Julia Lemmertz (married 2015)",
+    "children": "0"
+  },
+  {
+    "id": "osmar-prado",
+    "name": "Osmar Prado",
+    "fullName": "Osmar Prado",
+    "slug": "osmar-prado",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1947-09-04",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Comedy"
+    ],
+    "bio": "Osmar Prado is a veteran Brazilian actor with a career spanning over five decades. He is known for his powerful character roles in telenovelas and films and has won numerous awards. He is particularly celebrated for his role in O Rei do Gado and various other classic Brazilian telenovelas.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Osmar_Prado",
+    "movies": [],
+    "dramas": [
+      "o-rei-do-gado",
+      "a-indomada",
+      "meu-pedacinho-de-chao"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Contigo Award"
+    ],
+    "active": "1968",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "fernanda-vasconcellos",
+    "name": "Fernanda Vasconcellos",
+    "fullName": "Fernanda Vasconcellos",
+    "slug": "fernanda-vasconcellos",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1986-08-18",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Fernanda Vasconcellos is a popular Brazilian actress known for her charming personality and romantic roles in telenovelas. She has appeared in numerous successful productions and is recognized for her natural acting style and engaging screen presence in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fernanda_Vasconcellos",
+    "movies": [],
+    "dramas": [
+      "a-vida-da-gente",
+      "sangue-bom",
+      "babilonia"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2006",
+    "netWorth": "2 million USD",
+    "spouse": "Caua Reymond (ex)",
+    "children": "0"
+  },
+  {
+    "id": "sheron-menezes",
+    "name": "Sheron Menezes",
+    "fullName": "Sheron Menezes",
+    "slug": "sheron-menezes",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1983-12-27",
+    "birthPlace": "Belo Horizonte, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Sheron Menezes is a popular Brazilian actress known for her natural acting and charming personality. She has appeared in numerous successful telenovelas and is recognized for her versatile performances in Brazilian television industry.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sheron_Menezes",
+    "movies": [],
+    "dramas": [
+      "malhacao",
+      "sangue-bom",
+      "alto-astral"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2002",
+    "netWorth": "2 million USD",
+    "spouse": "Saulo Bernard (married 2017)",
+    "children": "1"
+  },
+  {
+    "id": "caio-castro",
+    "name": "Caio Castro",
+    "fullName": "Caio Castro",
+    "slug": "caio-castro",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1989-07-06",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Caio Castro is a popular Brazilian actor and model known for his handsome looks and romantic telenovela roles. He gained fame through Ti Ti Ti and has appeared in numerous successful productions. He is also known for his passion for motorsports and racing cars.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Caio_Castro",
+    "movies": [],
+    "dramas": [
+      "ti-ti-ti",
+      "a-regra-do-jogo",
+      "o-outro-lado-do-paraiso"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2009",
+    "netWorth": "3 million USD",
+    "spouse": "Divorced",
+    "children": "0"
+  },
+  {
+    "id": "claudia-raia",
+    "name": "Claudia Raia",
+    "fullName": "Claudia Raia",
+    "slug": "claudia-raia",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1966-12-25",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Dancer",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Claudia Raia is a legendary Brazilian actress dancer and host who has been entertaining audiences for over four decades. She is known for her powerful telenovela performances and stage work. She is one of the most beloved celebrities in Brazil and is known for her youthful energy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Claudia_Raia",
+    "movies": [],
+    "dramas": [
+      "anos-dourados",
+      "sassaricando",
+      "o-clone"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "Contigo Award Lifetime Achievement"
+    ],
+    "active": "1981",
+    "netWorth": "10 million USD",
+    "spouse": "Jarbas Homem de Mello (married 2019)",
+    "children": "3"
+  },
+  {
+    "id": "reynaldo-gianecchini",
+    "name": "Reynaldo Gianecchini",
+    "fullName": "Reynaldo Gianecchini",
+    "slug": "reynaldo-gianecchini",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1972-04-23",
+    "birthPlace": "Birigui, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Reynaldo Gianecchini is one of Brazils most popular and handsome actors known for his romantic telenovela roles. He gained massive fame through Lacos de Familia and has appeared in numerous successful Globo productions. He is known for his charming looks and natural acting style.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reynaldo_Gianecchini",
+    "movies": [],
+    "dramas": [
+      "lacos-de-familia",
+      "america",
+      "o-astro"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Award Best Actor"
+    ],
+    "active": "2000",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "0"
+  },
+  {
+    "id": "paulo-betti",
+    "name": "Paulo Betti",
+    "fullName": "Paulo Betti",
+    "slug": "paulo-betti",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1955-04-19",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Action"
+    ],
+    "bio": "Paulo Betti is a veteran Brazilian actor and director known for his powerful performances in both cinema and television. He has appeared in numerous acclaimed productions and is respected for his artistic integrity. He is considered one of the finest actors in Brazilian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paulo_Betti",
+    "movies": [
+      "o-que-e-isso-companheiro",
+      "lamarca"
+    ],
+    "dramas": [
+      "titan",
+      "mutantes-caminhos-do-coracao"
+    ],
+    "costars": [],
+    "awards": [
+      "Brazilian Cinema Award Best Actor",
+      "Grande Otelo Award"
+    ],
+    "active": "1978",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "lima-duarte",
+    "name": "Lima Duarte",
+    "fullName": "Ariclenes Venancio Murtinho",
+    "slug": "lima-duarte",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1930-03-29",
+    "birthPlace": "Montes Claros, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Lima Duarte is a legendary Brazilian actor with a career spanning over seven decades. He is considered one of the greatest actors in Brazilian entertainment history and has appeared in over 100 productions. He delivered iconic performances in Roque Santeiro and O Bem Amado.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lima_Duarte",
+    "movies": [
+      "a-marvada-carne"
+    ],
+    "dramas": [
+      "roque-santeiro",
+      "o-bem-amado",
+      "o-rei-do-gado"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Lifetime Achievement",
+      "Brazilian Cinema Lifetime Achievement"
+    ],
+    "active": "1952",
+    "netWorth": "5 million USD",
+    "spouse": "Married",
+    "children": "4"
+  },
+  {
+    "id": "isis-valverde",
+    "name": "Isis Valverde",
+    "fullName": "Isis Valverde",
+    "slug": "isis-valverde",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1986-12-17",
+    "birthPlace": "Montes Claros, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Isis Valverde is a popular Brazilian actress known for her beauty and powerful telenovela performances. She gained massive fame through Amor a Vida and A Forca do Querer. She has been one of the most popular young faces on Brazilian television and has a massive social media following.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isis_Valverde",
+    "movies": [],
+    "dramas": [
+      "amor-a-vida",
+      "a-forca-do-querer",
+      "amor-de-mae"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Award Best Actress"
+    ],
+    "active": "2005",
+    "netWorth": "4 million USD",
+    "spouse": "Andre Resende (married 2018)",
+    "children": "1"
+  },
+  {
+    "id": "humberto-martins",
+    "name": "Humberto Martins",
+    "fullName": "Humberto Martins",
+    "slug": "humberto-martins",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1966-01-11",
+    "birthPlace": "Vitoria, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Humberto Martins is a popular Brazilian actor known for his powerful performances in numerous Globo telenovelas. He has appeared in over 20 telenovelas and is recognized for his natural acting style and strong screen presence. He is one of the most reliable actors in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Humberto_Martins",
+    "movies": [],
+    "dramas": [
+      "passione",
+      "salve-jorge",
+      "o-outro-lado-do-paraiso"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Nomination"
+    ],
+    "active": "1990",
+    "netWorth": "3 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "gabriela-duarte",
+    "name": "Gabriela Duarte",
+    "fullName": "Gabriela Duarte",
+    "slug": "gabriela-duarte",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1974-07-06",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Gabriela Duarte is a popular Brazilian actress and daughter of legendary actress Regina Duarte. She has appeared in numerous successful telenovelas and is known for her charming personality and natural acting style. She is one of the most beloved actresses in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gabriela_Duarte",
+    "movies": [],
+    "dramas": [
+      "por-amor",
+      "copa-de-elite",
+      "meu-bem-querer"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Nomination"
+    ],
+    "active": "1993",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "marcelo-serrado",
+    "name": "Marcelo Serrado",
+    "fullName": "Marcelo Serrado",
+    "slug": "marcelo-serrado",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1971-08-14",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Marcelo Serrado is a popular Brazilian actor and comedian known for his hilarious performances and natural comedic timing. He has appeared in numerous successful telenovelas and films and is recognized for his versatile acting range in both comedy and dramatic productions.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcelo_Serrado",
+    "movies": [
+      "se-eu-fosse-voce"
+    ],
+    "dramas": [
+      "fina-estampa",
+      "salve-jorge",
+      "babilonia"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Supporting Actor",
+      "Grande Otelo Award"
+    ],
+    "active": "1995",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "murilo-benicio",
+    "name": "Murilo Benicio",
+    "fullName": "Murilo Benicio",
+    "slug": "murilo-benicio",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1971-10-28",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Murilo Benicio is a popular Brazilian actor known for his powerful performances in telenovelas and films. He has appeared in numerous acclaimed productions and is recognized for his intense acting style and strong screen presence. He is one of the most respected actors in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Murilo_Benício",
+    "movies": [],
+    "dramas": [
+      "o-clone",
+      "avenida-brasil",
+      "a-forca-do-querer"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Award Best Actor"
+    ],
+    "active": "1993",
+    "netWorth": "4 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "leticia-colin",
+    "name": "Leticia Colin",
+    "fullName": "Leticia Colin",
+    "slug": "leticia-colin",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1989-06-01",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Leticia Colin is a critically acclaimed Brazilian actress known for her powerful and naturalistic performances. She has appeared in numerous acclaimed telenovelas and films and is recognized for her artistic approach to her roles. She is considered one of the finest young actresses in Brazil.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Letícia_Colin",
+    "movies": [
+      "boa-sorte"
+    ],
+    "dramas": [
+      "nos-dias-de-hoje",
+      "onde-esta-meu-coracao",
+      "todas-as-flores"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "Brazilian Cinema Award Best Actress"
+    ],
+    "active": "2012",
+    "netWorth": "2 million USD",
+    "spouse": "Michel Melamed",
+    "children": "1"
+  },
+  {
+    "id": "rodrigo-lombardi",
+    "name": "Rodrigo Lombardi",
+    "fullName": "Rodrigo Lombardi",
+    "slug": "rodrigo-lombardi",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1978-11-19",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Rodrigo Lombardi is a popular Brazilian actor known for his intense performances and strong screen presence. He has appeared in numerous successful Globo telenovelas and is recognized for his powerful acting style. He is one of the most sought-after actors in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rodrigo_Lombardi",
+    "movies": [],
+    "dramas": [
+      "salve-jorge",
+      "verdades-secretas",
+      "o-sete-vidas"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Award Best Actor"
+    ],
+    "active": "2006",
+    "netWorth": "4 million USD",
+    "spouse": "Aline Becker (married 2014)",
+    "children": "2"
+  },
+  {
+    "id": "dira-paes",
+    "name": "Dira Paes",
+    "fullName": "Dira Paes",
+    "slug": "dira-paes",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1969-08-01",
+    "birthPlace": "Belem, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Comedy"
+    ],
+    "bio": "Dira Paes is a veteran Brazilian actress known for her powerful and versatile performances in telenovelas and films. She has appeared in numerous acclaimed productions and is recognized for her natural acting style and strong character portrayals. She is one of the most respected actresses in Brazil.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dira_Paes",
+    "movies": [
+      "carandiru",
+      "cidade-de-deus"
+    ],
+    "dramas": [
+      "rei-do-gado",
+      "o-clone",
+      "nos-dias-de-hoje"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "Brazilian Cinema Award Best Actress"
+    ],
+    "active": "1989",
+    "netWorth": "3 million USD",
+    "spouse": "Pablo Baiao (married 2003)",
+    "children": "2"
+  },
+  {
+    "id": "marcos-palmeira",
+    "name": "Marcos Palmeira",
+    "fullName": "Marcos Palmeira",
+    "slug": "marcos-palmeira",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1963-04-10",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Action"
+    ],
+    "bio": "Marcos Palmeira is a veteran Brazilian actor known for his powerful dramatic performances in both television and cinema. He has appeared in numerous acclaimed productions and is recognized for his intense acting style and dedication to his craft. He is one of the most respected actors in Brazil.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcos_Palmeira",
+    "movies": [
+      "behind-the-sun",
+      "eu-sei-que-vou-te-amar"
+    ],
+    "dramas": [
+      "avenida-brasil",
+      "velho-chico",
+      "nos-dias-de-hoje"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actor",
+      "Brazilian Cinema Award Best Actor"
+    ],
+    "active": "1986",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "fernanda-torres",
+    "name": "Fernanda Torres",
+    "fullName": "Fernanda Torres",
+    "slug": "fernanda-torres",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1965-06-15",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Writer"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Fernanda Torres is a legendary Brazilian actress and daughter of Fernanda Montenegro. She won the Best Actress award at the Cannes Film Festival for Foreign Land and received a Golden Globe nomination for Que Horas Ela Volta. She is considered one of the greatest actresses in Brazilian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fernanda_Torres",
+    "movies": [
+      "foreign-land",
+      "eu-sei-que-vou-te-amar",
+      "que-horas-ela-volta"
+    ],
+    "dramas": [
+      "sai-de-baixo",
+      "tapas-e-beijos"
+    ],
+    "costars": [],
+    "awards": [
+      "Cannes Film Festival Best Actress",
+      "Golden Globe Nomination",
+      "Brazilian Cinema Award"
+    ],
+    "active": "1983",
+    "netWorth": "5 million USD",
+    "spouse": "Andrucha Waddington (married 1997)",
+    "children": "2"
+  },
+  {
+    "id": "juliana-paes",
+    "name": "Juliana Paes",
+    "fullName": "Juliana Paes",
+    "slug": "juliana-paes",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1979-08-26",
+    "birthPlace": "Niteroi, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Juliana Paes is one of Brazils most popular and beautiful actresses known for her powerful telenovela performances. She gained massive fame through Caminho das Indias and A Forca do Querer. She is known for her stunning looks and natural acting style and has a massive social media following.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juliana_Paes",
+    "movies": [],
+    "dramas": [
+      "caminho-das-indias",
+      "a-forca-do-querer",
+      "a-dona-do-pedaco"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Award Best Actress"
+    ],
+    "active": "2001",
+    "netWorth": "8 million USD",
+    "spouse": "Carlos Eduardo Baptista (married 2008)",
+    "children": "2"
+  },
+  {
+    "id": "thiago-lacerda",
+    "name": "Thiago Lacerda",
+    "fullName": "Thiago Lacerda",
+    "slug": "thiago-lacerda",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1978-01-22",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Historical"
+    ],
+    "bio": "Thiago Lacerda is a popular Brazilian actor known for his romantic roles and powerful performances in telenovelas. He has appeared in numerous successful Globo productions and is recognized for his charming looks and natural acting style. He is one of the most popular actors in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thiago_Lacerda",
+    "movies": [],
+    "dramas": [
+      "nos-tempos-do-imperador",
+      "escrava-isaura-remake",
+      "o-profeta"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2000",
+    "netWorth": "3 million USD",
+    "spouse": "Vanessa Loes (married 2007)",
+    "children": "3"
+  },
+  {
+    "id": "ana-paula-arosio",
+    "name": "Ana Paula Arosio",
+    "fullName": "Ana Paula Arosio",
+    "slug": "ana-paula-arosio",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1975-06-10",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Ana Paula Arosio is a popular Brazilian actress and model known for her stunning looks and charming performances in telenovelas. She gained massive fame through Terra Nostra and has appeared in numerous successful productions. She is known for her natural beauty and engaging screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ana_Paula_Arosio",
+    "movies": [],
+    "dramas": [
+      "terra-nostra",
+      "lacos-de-familia",
+      "o-clone"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Nomination"
+    ],
+    "active": "1996",
+    "netWorth": "4 million USD",
+    "spouse": "Henrique Plut (married 2012)",
+    "children": "1"
+  },
+  {
+    "id": "wagner-sanches",
+    "name": "Emilio Orciollo Netto",
+    "fullName": "Emilio Orciollo Netto",
+    "slug": "emilio-orciollo-netto",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1974-07-18",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "bio": "Emilio Orciollo Netto is a Brazilian actor known for his versatile performances in telenovelas and films. He has appeared in numerous successful productions and is recognized for his natural acting style and strong screen presence in Brazilian television industry.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "a-grande-familia",
+      "caminho-das-indias",
+      "babilonia"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Supporting Actor"
+    ],
+    "active": "1998",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "marieta-severo",
+    "name": "Marieta Severo",
+    "fullName": "Marieta Severo",
+    "slug": "marieta-severo",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1946-05-22",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Marieta Severo is a legendary Brazilian actress with a career spanning over five decades. She has appeared in numerous acclaimed productions and is considered one of the greatest actresses in Brazilian entertainment history. She is known for her powerful and versatile performances across all genres.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marieta_Severo",
+    "movies": [
+      "eu-sei-que-vou-te-amar"
+    ],
+    "dramas": [
+      "sai-de-baixo",
+      "a-grande-familia",
+      "o-auto-da-compadecida"
+    ],
+    "costars": [],
+    "awards": [
+      "Grande Otelo Award Best Actress",
+      "Lifetime Achievement Award"
+    ],
+    "active": "1967",
+    "netWorth": "4 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "chay-suede",
+    "name": "Chay Suede",
+    "fullName": "Chay Suede",
+    "slug": "chay-suede",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1992-03-13",
+    "birthPlace": "Presidente Prudente, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Singer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Chay Suede is a popular young Brazilian actor and singer known for his charming personality and romantic telenovela roles. He gained fame through Em Familia and has appeared in numerous successful productions. He is also a singer and has released several popular songs.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chay_Suede",
+    "movies": [],
+    "dramas": [
+      "em-familia",
+      "the-originals-brasil",
+      "nos-dias-de-hoje"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best New Actor",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2013",
+    "netWorth": "2 million USD",
+    "spouse": "Laura Neiva (married 2018)",
+    "children": "2"
+  },
+  {
+    "id": "sophie-charlotte",
+    "name": "Sophie Charlotte",
+    "fullName": "Sophie Charlotte",
+    "slug": "sophie-charlotte",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1990-01-06",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "bio": "Sophie Charlotte is a popular young Brazilian actress known for her powerful performances in telenovelas and series. She has appeared in numerous successful productions and is recognized for her natural acting style and engaging screen presence. She is one of the rising stars of Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sophie_Charlotte",
+    "movies": [],
+    "dramas": [
+      "o-rebu",
+      "nos-tempos-do-imperador",
+      "all-the-flowers"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2010",
+    "netWorth": "2 million USD",
+    "spouse": "Daniel de Oliveira",
+    "children": "1"
+  },
+  {
+    "id": "marcos-pitombo",
+    "name": "Marcos Pitombo",
+    "fullName": "Marcos Pitombo",
+    "slug": "marcos-pitombo",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1984-08-25",
+    "birthPlace": "Salvador, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Marcos Pitombo is a popular Brazilian actor and model known for his handsome looks and romantic telenovela roles. He has appeared in numerous successful productions and is recognized for his charming screen presence and natural acting abilities in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcos_Pitombo",
+    "movies": [],
+    "dramas": [
+      "sangue-bom",
+      "alto-astral",
+      "deus-salve-o-rei"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor Nomination",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2008",
+    "netWorth": "2 million USD",
+    "spouse": "Divorced",
+    "children": "0"
+  },
+  {
+    "id": "adriana-esteves",
+    "name": "Adriana Esteves",
+    "fullName": "Adriana Esteves",
+    "slug": "adriana-esteves",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1969-09-06",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Thriller"
+    ],
+    "bio": "Adriana Esteves is one of Brazils most acclaimed actresses known for her powerful and intense performances. She delivered an iconic performance as Carminha in Avenida Brasil which is considered one of the greatest acting performances in Brazilian telenovela history. She has won numerous awards.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adriana_Esteves",
+    "movies": [],
+    "dramas": [
+      "avenida-brasil",
+      "o-outro-lado-do-paraiso",
+      "todas-as-flores"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Award Best Actress",
+      "International Emmy Nomination"
+    ],
+    "active": "1990",
+    "netWorth": "5 million USD",
+    "spouse": "Vladimir Brichta (married 2008)",
+    "children": "2"
+  },
+  {
+    "id": "fabio-assuncao",
+    "name": "Fabio Assuncao",
+    "fullName": "Fabio Assuncao",
+    "slug": "fabio-assuncao",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1973-08-18",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Fabio Assuncao is a popular Brazilian actor known for his powerful performances in telenovelas and films. He has appeared in numerous successful productions and is recognized for his intense acting style and strong screen presence. He is one of the most respected actors in Brazilian television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fábio_Assunção",
+    "movies": [],
+    "dramas": [
+      "por-amor",
+      "mulheres-apaixonadas",
+      "a-lei-do-amor"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Award Best Actor"
+    ],
+    "active": "1995",
+    "netWorth": "4 million USD",
+    "spouse": "Pally Siqueira (married 2019)",
+    "children": "3"
+  },
+  {
+    "id": "sergio-guize",
+    "name": "Sergio Guize",
+    "fullName": "Sergio Guize",
+    "slug": "sergio-guize",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1963-09-17",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Sergio Guize is a veteran Brazilian actor known for his versatile performances in telenovelas and films. He has appeared in numerous successful productions throughout his long career and is recognized for his natural acting style and memorable character portrayals.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "o-clone",
+      "avenida-brasil",
+      "salve-jorge"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Supporting Actor",
+      "Grande Otelo Nomination"
+    ],
+    "active": "1988",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "renata-sorrah",
+    "name": "Renata Sorrah",
+    "fullName": "Renata Sorrah",
+    "slug": "renata-sorrah",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1947-07-09",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Thriller"
+    ],
+    "bio": "Renata Sorrah is a legendary Brazilian actress known for her powerful villain roles in telenovelas. She delivered one of the most iconic villain performances in Brazilian television history as Nazare Tedesco in Senhora do Destino. She is known for her intense and commanding screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Renata_Sorrah",
+    "movies": [],
+    "dramas": [
+      "senhora-do-destino",
+      "o-clone",
+      "empire"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Villain",
+      "Grande Otelo Award Best Actress"
+    ],
+    "active": "1970",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "paulo-rocha-actor",
+    "name": "Rodrigo Penna",
+    "fullName": "Rodrigo Penna",
+    "slug": "rodrigo-penna",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1984-11-20",
+    "birthPlace": "Belo Horizonte, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Rodrigo Penna is a Brazilian actor known for his work in telenovelas and theater productions. He has appeared in various successful Brazilian productions and is recognized for his natural acting abilities and dedication to his craft.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "malhacao",
+      "babilonia",
+      "segunda-chamada"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Nomination"
+    ],
+    "active": "2008",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "paulo-gustavo",
+    "name": "Paulo Gustavo",
+    "fullName": "Paulo Gustavo",
+    "slug": "paulo-gustavo",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1978-10-30",
+    "birthPlace": "Niteroi, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Comedian",
+      "Director"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Social"
+    ],
+    "bio": "Paulo Gustavo was one of Brazils most beloved comedians and actors known for his hilarious performances in the Minha Mae e uma Peca franchise. He passed away in 2021 from COVID-19 complications and his death was mourned by the entire nation. He is considered a national treasure of Brazilian comedy.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paulo_Gustavo",
+    "movies": [
+      "minha-mae-e-uma-peca",
+      "minha-mae-e-uma-peca-2",
+      "minha-mae-e-uma-peca-3"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Best Comedy Actor Award",
+      "Brazilian Cinema Award"
+    ],
+    "active": "2000",
+    "netWorth": "5 million USD",
+    "spouse": "Thales Bretas (married 2015)",
+    "children": "2"
+  },
+  {
+    "id": "giovanna-ewbank",
+    "name": "Giovanna Ewbank",
+    "fullName": "Giovanna Ewbank",
+    "slug": "giovanna-ewbank",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1986-12-05",
+    "birthPlace": "Curitiba, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Model",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Giovanna Ewbank is a popular Brazilian actress model and host known for her natural beauty and charming personality. She has appeared in numerous successful telenovelas and is also a popular television host. She is married to actor Bruno Gagliasso and is one of the most popular celebrity couples in Brazil.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Giovanna_Ewbank",
+    "movies": [],
+    "dramas": [
+      "malhacao",
+      "ti-ti-ti",
+      "babilonia"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress Nomination"
+    ],
+    "active": "2006",
+    "netWorth": "5 million USD",
+    "spouse": "Bruno Gagliasso (married 2010)",
+    "children": "3"
+  },
+  {
+    "id": "bruno-gagliasso",
+    "name": "Bruno Gagliasso",
+    "fullName": "Bruno Gagliasso",
+    "slug": "bruno-gagliasso",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1982-09-28",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Romance"
+    ],
+    "bio": "Bruno Gagliasso is one of Brazils most popular and handsome actors known for his powerful performances in telenovelas. He gained massive fame through O Clone and Coraçao Indomavel. He is married to actress Giovanna Ewbank and together they are one of Brazils most popular celebrity couples.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bruno_Gagliasso",
+    "movies": [],
+    "dramas": [
+      "o-clone",
+      "coração-indomavel",
+      "o-sete-vidas"
+    ],
+    "costars": [
+      "giovanna-ewbank"
+    ],
+    "awards": [
+      "Contigo Award Best Actor",
+      "Grande Otelo Award Best Actor"
+    ],
+    "active": "2003",
+    "netWorth": "6 million USD",
+    "spouse": "Giovanna Ewbank (married 2010)",
+    "children": "3"
+  },
+  {
+    "id": "nanda-costa",
+    "name": "Nanda Costa",
+    "fullName": "Fernanda Costa",
+    "slug": "nanda-costa",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1987-06-13",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress",
+      "Musician"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Romance"
+    ],
+    "bio": "Nanda Costa is a talented Brazilian actress and musician known for her powerful performances in telenovelas and series. She has appeared in numerous successful productions and is recognized for her natural acting style. She is also a musician and is known for her progressive views on social issues.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nanda_Costa",
+    "movies": [],
+    "dramas": [
+      "salve-jorge",
+      "a-regra-do-jogo",
+      "verdades-secretas"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Nomination"
+    ],
+    "active": "2009",
+    "netWorth": "2 million USD",
+    "spouse": "Lan Lanh (married 2022)",
+    "children": "2"
+  },
+  {
+    "id": "ivete-sangalo",
+    "name": "Ivete Sangalo",
+    "fullName": "Ivete Maria Dias de Sangalo",
+    "slug": "ivete-sangalo",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1972-05-27",
+    "birthPlace": "Juazeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Singer",
+      "Actress",
+      "Host"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Music"
+    ],
+    "bio": "Ivete Sangalo is Brazils biggest pop star and one of the most beloved celebrities in the country. She has appeared in television productions and is known for her incredible energy and powerful stage presence. She is considered a national icon of Brazil and has won numerous music and entertainment awards.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ivete_Sangalo",
+    "movies": [],
+    "dramas": [
+      "entertainment-appearances"
+    ],
+    "costars": [],
+    "awards": [
+      "Latin Grammy Award",
+      "Billboard Latin Music Award",
+      "Best Brazilian Singer Award"
+    ],
+    "active": "1993",
+    "netWorth": "45 million USD",
+    "spouse": "Daniel Cady (married 2011)",
+    "children": "3"
+  },
+  {
+    "id": "sonia-braga",
+    "name": "Sonia Braga",
+    "fullName": "Sonia Braga",
+    "slug": "sonia-braga",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1950-06-08",
+    "birthPlace": "Maringa, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Social"
+    ],
+    "bio": "Sonia Braga is a legendary Brazilian actress who achieved international fame through the film Kiss of the Spider Woman. She appeared in Hollywood films and the series Alias Grace. She is the aunt of actress Alice Braga and is considered a pioneer of Brazilian actresses in international cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sônia_Braga",
+    "movies": [
+      "kiss-of-the-spider-woman",
+      "the-milagro-beanfield-war"
+    ],
+    "dramas": [
+      "alias-grace",
+      "pose"
+    ],
+    "costars": [],
+    "awards": [
+      "Golden Globe Nomination",
+      "BAFTA Nomination",
+      "Brazilian Cinema Award"
+    ],
+    "active": "1969",
+    "netWorth": "5 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "celso-frateschi",
+    "name": "Debora Falabella",
+    "fullName": "Debora Falabella",
+    "slug": "debora-falabella",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1978-04-20",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Social"
+    ],
+    "bio": "Debora Falabella is a highly acclaimed Brazilian actress known for her powerful and intense performances. She delivered acclaimed roles in A Forca do Querer and Truque de Mestre. She has appeared in both television and theatre and is considered one of the finest actresses in Brazilian entertainment.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Débora_Falabella",
+    "movies": [],
+    "dramas": [
+      "a-forca-do-querer",
+      "desejos-de-mulher",
+      "truque-de-mestre"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Award Best Actress"
+    ],
+    "active": "1998",
+    "netWorth": "3 million USD",
+    "spouse": "Murilo Benicio (ex)",
+    "children": "1"
+  },
+  {
+    "id": "rodrigo-andrade",
+    "name": "Rodrigo Andrade",
+    "fullName": "Rodrigo Andrade",
+    "slug": "rodrigo-andrade",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1976-12-14",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Rodrigo Andrade is a popular Brazilian actor known for his work in telenovelas and theatrical productions. He has appeared in various successful Brazilian productions and is recognized for his powerful acting abilities and strong screen presence throughout his career.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [],
+    "dramas": [
+      "o-rebu",
+      "verdades-secretas",
+      "todas-as-flores"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Nomination"
+    ],
+    "active": "2000",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "paulo-cesar-grande",
+    "name": "Paulo Cesar Grande",
+    "fullName": "Paulo Cesar Grande",
+    "slug": "paulo-cesar-grande",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1969-03-25",
+    "birthPlace": "Sao Paulo, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actor",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Social"
+    ],
+    "bio": "Paulo Cesar Grande is a popular Brazilian comedian and actor known for his hilarious performances. He has appeared in numerous successful Brazilian productions and is recognized for his natural comedic timing and entertaining screen presence in both film and television.",
+    "image": "",
+    "wikipedia": "",
+    "movies": [
+      "os-normais-o-filme"
+    ],
+    "dramas": [
+      "os-normais",
+      "a-grande-familia"
+    ],
+    "costars": [],
+    "awards": [
+      "Best Comedy Actor Award"
+    ],
+    "active": "1997",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "carol-duarte",
+    "name": "Carol Duarte",
+    "fullName": "Carol Duarte",
+    "slug": "carol-duarte",
+    "country": "Brazil",
+    "countrySlug": "brazil",
+    "born": "1989-09-11",
+    "birthPlace": "Rio de Janeiro, Brazil",
+    "nationality": "Brazilian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Thriller"
+    ],
+    "bio": "Carol Duarte is a talented Brazilian actress known for her powerful and socially conscious performances. She gained recognition through A Forca do Querer and Onde Esta Meu Coracao. She is known for her dedication to meaningful projects and her powerful portrayal of complex characters.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carol_Duarte",
+    "movies": [],
+    "dramas": [
+      "a-forca-do-querer",
+      "onde-esta-meu-coracao",
+      "todas-as-flores"
+    ],
+    "costars": [],
+    "awards": [
+      "Contigo Award Best Actress",
+      "Grande Otelo Award Best Actress"
+    ],
+    "active": "2012",
+    "netWorth": "1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "monica-bellucci",
+    "name": "Monica Bellucci",
+    "fullName": "Monica Bellucci",
+    "slug": "monica-bellucci",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1964-09-30",
+    "birthPlace": "Citta di Castello, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Romance"
+    ],
+    "bio": "Monica Bellucci is one of Italys most internationally famous actresses and models. She appeared in major Hollywood films including The Matrix Reloaded The Passion of the Christ and Spectre as a Bond girl. She is known for her stunning beauty and powerful acting and is considered one of the most beautiful women in the world.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monica_Bellucci",
+    "movies": [
+      "the-matrix-reloaded",
+      "the-passion-of-the-christ",
+      "spectre",
+      "irréversible"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "European Film Award Nomination"
+    ],
+    "active": "1990",
+    "netWorth": "45 million USD",
+    "spouse": "Vincent Cassel (divorced)",
+    "children": "2"
+  },
+  {
+    "id": "roberto-benigni",
+    "name": "Roberto Benigni",
+    "fullName": "Roberto Benigni",
+    "slug": "roberto-benigni",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1952-10-27",
+    "birthPlace": "Misiccio, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Comedian",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Art"
+    ],
+    "bio": "Roberto Benigni is a legendary Italian actor and director who won three Academy Awards for Life is Beautiful including Best Actor Best Director and Best Foreign Language Film. He is the only person to win both Best Actor and Best Director for a non-English language film at the Oscars.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roberto_Benigni",
+    "movies": [
+      "life-is-beautiful",
+      "pinocchio",
+      "johnny-stecchino"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Academy Award Best Actor",
+      "Academy Award Best Director",
+      "Academy Award Best Foreign Film",
+      "Cannes Jury Prize"
+    ],
+    "active": "1972",
+    "netWorth": "30 million USD",
+    "spouse": "Nicoletta Braschi (married 1991)",
+    "children": "0"
+  },
+  {
+    "id": "sophia-loren",
+    "name": "Sophia Loren",
+    "fullName": "Sofia Villani Scicolone",
+    "slug": "sophia-loren",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1934-09-20",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress",
+      "Singer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Sophia Loren is a legendary Italian actress and one of the greatest icons of world cinema. She won the Academy Award for Best Actress for Two Women becoming the first actress to win an Oscar for a non-English language performance. She has appeared in over 100 films and is a true cinematic legend.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sophia_Loren",
+    "movies": [
+      "two-women",
+      "marriage-italian-style",
+      "el-cid",
+      "grumpier-old-men"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Academy Award Best Actress",
+      "Golden Globe Award",
+      "Honorary Oscar",
+      "BAFTA Lifetime Achievement"
+    ],
+    "active": "1950",
+    "netWorth": "75 million USD",
+    "spouse": "Carlo Ponti (married 1957)",
+    "children": "2"
+  },
+  {
+    "id": "marcello-mastroianni",
+    "name": "Marcello Mastroianni",
+    "fullName": "Marcello Vincenzo Domenico Mastroianni",
+    "slug": "marcello-mastroianni",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1924-09-28",
+    "birthPlace": "Fontana Liri, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Art"
+    ],
+    "bio": "Marcello Mastroianni was one of the greatest actors in cinema history known as the quintessential Italian leading man. He delivered iconic performances in La Dolce Vita 8½ and Divorce Italian Style. He worked extensively with director Federico Fellini and is considered a symbol of Italian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcello_Mastroianni",
+    "movies": [
+      "la-dolce-vita",
+      "8½",
+      "divorce-italian-style",
+      "yesterday-today-and-tomorrow"
+    ],
+    "dramas": [],
+    "costars": [
+      "sophia-loren"
+    ],
+    "awards": [
+      "Cannes Best Actor",
+      "Academy Award Nomination",
+      "Golden Globe Award"
+    ],
+    "active": "1947",
+    "netWorth": "10 million USD",
+    "spouse": "Flora Carabella (married 1950)",
+    "children": "2"
+  },
+  {
+    "id": "giancarlo-giannini",
+    "name": "Giancarlo Giannini",
+    "fullName": "Giancarlo Giannini",
+    "slug": "giancarlo-giannini",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1942-08-01",
+    "birthPlace": "La Spezia, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "bio": "Giancarlo Giannini is a legendary Italian actor known for his powerful performances in Seven Beauties and Love and Anarchy. He appeared in Hollywood films including Casino Royale and Quantum of Solace. He received an Academy Award nomination for Best Actor for Seven Beauties.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Giancarlo_Giannini",
+    "movies": [
+      "seven-beauties",
+      "casino-royale",
+      "quantum-of-solace",
+      "hannibal"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Academy Award Nomination Best Actor",
+      "David di Donatello Award",
+      "Cannes Best Actor"
+    ],
+    "active": "1965",
+    "netWorth": "10 million USD",
+    "spouse": "Married",
+    "children": "3"
+  },
+  {
+    "id": "anna-magnani",
+    "name": "Anna Magnani",
+    "fullName": "Anna Magnani",
+    "slug": "anna-magnani",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1908-03-07",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Art"
+    ],
+    "bio": "Anna Magnani was a legendary Italian actress considered one of the greatest performers in cinema history. She won the Academy Award for Best Actress for The Rose Tattoo and delivered iconic performances in Rome Open City and Bellissima. She is known as the symbol of Italian neorealism.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Magnani",
+    "movies": [
+      "rome-open-city",
+      "the-rose-tattoo",
+      "bellissima",
+      "mamma-roma"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Academy Award Best Actress",
+      "BAFTA Award Best Actress",
+      "Cannes Best Actress"
+    ],
+    "active": "1934",
+    "netWorth": "5 million USD",
+    "spouse": "Goffredo Alessandrini (divorced)",
+    "children": "1"
+  },
+  {
+    "id": "mastroianni-chiara",
+    "name": "Chiara Mastroianni",
+    "fullName": "Chiara Mastroianni",
+    "slug": "chiara-mastroianni",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1972-05-28",
+    "birthPlace": "Paris, France",
+    "nationality": "Italian-French",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Art"
+    ],
+    "bio": "Chiara Mastroianni is a French-Italian actress and daughter of legendary actors Marcello Mastroianni and Catherine Deneuve. She has appeared in numerous acclaimed French and Italian productions and is known for her powerful and nuanced performances. She won the Cannes Best Actress award.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chiara_Mastroianni",
+    "movies": [
+      "three-lives-and-only-one-death",
+      "my-sex-life",
+      "on-my-way"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Cannes Film Festival Best Actress",
+      "Cesar Award Nomination"
+    ],
+    "active": "1993",
+    "netWorth": "5 million USD",
+    "spouse": "Benjamin Biolay (divorced)",
+    "children": "1"
+  },
+  {
+    "id": "alberto-sordi",
+    "name": "Alberto Sordi",
+    "fullName": "Alberto Sordi",
+    "slug": "alberto-sordi",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1920-06-15",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Social"
+    ],
+    "bio": "Alberto Sordi was a legendary Italian comedian and actor known for his satirical portrayals of Italian society. He appeared in over 200 films and is considered one of the greatest comedians in Italian cinema history. He is a symbol of Roman culture and Italian cinematic tradition.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alberto_Sordi",
+    "movies": [
+      "the-white-sheik",
+      "i-vitelloni",
+      "an-american-in-rome"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Honorary Oscar",
+      "David di Donatello Lifetime Achievement",
+      "Venice Film Festival Award"
+    ],
+    "active": "1938",
+    "netWorth": "20 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "claudia-cardinale",
+    "name": "Claudia Cardinale",
+    "fullName": "Claude Joséphine Rose Cardinale",
+    "slug": "claudia-cardinale",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1938-04-15",
+    "birthPlace": "Tunis, Tunisia",
+    "nationality": "Italian-Tunisian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Western",
+      "Romance"
+    ],
+    "bio": "Claudia Cardinale is a legendary Italian actress known for her stunning beauty and powerful performances in The Leopard Once Upon a Time in the West and 8½. She is one of the most iconic figures of Italian cinema and has appeared in films by legendary directors like Luchino Visconti and Federico Fellini.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Claudia_Cardinale",
+    "movies": [
+      "the-leopard",
+      "once-upon-a-time-in-the-west",
+      "8½",
+      "the-pink-panther"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Silver Bear Berlin",
+      "Honorary Cesar Award"
+    ],
+    "active": "1958",
+    "netWorth": "20 million USD",
+    "spouse": "Pasquale Squitieri (partner)",
+    "children": "2"
+  },
+  {
+    "id": "vittorio-gassman",
+    "name": "Vittorio Gassman",
+    "fullName": "Vittorio Gassman",
+    "slug": "vittorio-gassman",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1922-09-01",
+    "birthPlace": "Genoa, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Art"
+    ],
+    "bio": "Vittorio Gassman was a legendary Italian actor known as Il Mattatore known for his powerful performances in The Easy Life Big Deal on Madonna Street and Scent of a Woman. He was a dominant force in Italian cinema for over five decades and is considered one of the greatest Italian actors ever.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vittorio_Gassman",
+    "movies": [
+      "the-easy-life",
+      "big-deal-on-madonna-street",
+      "scent-of-a-woman",
+      "we-all-loved-each-other-so-much"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Cannes Best Actor",
+      "David di Donatello Award",
+      "BAFTA Award"
+    ],
+    "active": "1945",
+    "netWorth": "15 million USD",
+    "spouse": "Shelley Winters (divorced)",
+    "children": "4"
+  },
+  {
+    "id": "riccardo-scamarcio",
+    "name": "Riccardo Scamarcio",
+    "fullName": "Riccardo Scamarcio",
+    "slug": "riccardo-scamarcio",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1979-11-19",
+    "birthPlace": "Trani, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Producer"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ],
+    "bio": "Riccardo Scamarcio is one of Italys most popular contemporary actors known for his charming looks and powerful performances. He appeared in the John Wick franchise and numerous Italian and international productions. He is known for his versatile acting range and strong screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Riccardo_Scamarcio",
+    "movies": [
+      "john-wick-2",
+      "john-wick-3",
+      "loose-cannons",
+      "mine"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "2003",
+    "netWorth": "10 million USD",
+    "spouse": "Angharad Wood",
+    "children": "1"
+  },
+  {
+    "id": "isabella-rossellini",
+    "name": "Isabella Rossellini",
+    "fullName": "Isabella Fiorella Elettra Giovanna Rossellini",
+    "slug": "isabella-rossellini",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1952-06-18",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress",
+      "Model",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Thriller"
+    ],
+    "bio": "Isabella Rossellini is an Italian-American actress and model who is the daughter of legendary director Roberto Rossellini and actress Ingrid Bergman. She is known for her iconic role in Blue Velvet and has appeared in numerous acclaimed films. She is also a successful model and has been a Lancôme ambassador.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isabella_Rossellini",
+    "movies": [
+      "blue-velvet",
+      "fearless",
+      "fearless",
+      "conclave"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Academy Award Nomination",
+      "BAFTA Nomination",
+      "Golden Globe Nomination"
+    ],
+    "active": "1976",
+    "netWorth": "15 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "laura-morante",
+    "name": "Laura Morante",
+    "fullName": "Laura Morante",
+    "slug": "laura-morante",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1956-08-22",
+    "birthPlace": "Carrara, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Comedy"
+    ],
+    "bio": "Laura Morante is a highly acclaimed Italian actress known for her powerful and nuanced performances in Italian cinema. She has appeared in numerous award-winning productions and is recognized for her natural acting style and artistic vision. She is considered one of the finest actresses in Italian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laura_Morante",
+    "movies": [
+      "the-son-s-room",
+      "the-best-of-youth",
+      "romanzo-criminale"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actress",
+      "European Film Award Nomination",
+      "Cannes Recognition"
+    ],
+    "active": "1979",
+    "netWorth": "3 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "toni-servillo",
+    "name": "Toni Servillo",
+    "fullName": "Toni Servillo",
+    "slug": "toni-servillo",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1959-01-25",
+    "birthPlace": "Afragola, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Theatre Artist"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Thriller"
+    ],
+    "bio": "Toni Servillo is widely considered the greatest Italian actor of his generation known for his powerful and transformative performances. He starred in the Oscar-winning film The Great Beauty directed by Paolo Sorrentino. He is known for his exceptional range and is a dominant force in Italian and European cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toni_Servillo",
+    "movies": [
+      "the-great-beauty",
+      "il-divo",
+      "gomorra",
+      "their-finest"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actor",
+      "European Film Award Best Actor",
+      "BAFTA Nomination"
+    ],
+    "active": "1986",
+    "netWorth": "5 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "luca-marinelli",
+    "name": "Luca Marinelli",
+    "fullName": "Luca Marinelli",
+    "slug": "luca-marinelli",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1984-10-22",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Art"
+    ],
+    "bio": "Luca Marinelli is one of Italys most acclaimed young actors known for his powerful and intense performances. He won the Volpi Cup for Best Actor at Venice Film Festival for Martin Eden. He has appeared in numerous acclaimed Italian and international productions and is considered one of the finest actors of his generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luca_Marinelli",
+    "movies": [
+      "martin-eden",
+      "the-old-guard",
+      "dont-be-bad",
+      "they-call-me-jeeg"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Venice Film Festival Best Actor",
+      "David di Donatello Best Actor",
+      "European Film Award Best Actor"
+    ],
+    "active": "2011",
+    "netWorth": "3 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "valeria-golino",
+    "name": "Valeria Golino",
+    "fullName": "Valeria Golino",
+    "slug": "valeria-golino",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1965-10-22",
+    "birthPlace": "Naples, Italy",
+    "nationality": "Italian-Greek",
+    "profession": [
+      "Actress",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Art"
+    ],
+    "bio": "Valeria Golino is an acclaimed Italian actress who appeared in major Hollywood films including Rain Man opposite Dustin Hoffman and Tom Cruise. She is known for her powerful performances and has also become a successful director. She is considered one of the most talented Italian actresses internationally.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Valeria_Golino",
+    "movies": [
+      "rain-man",
+      "hot-shots",
+      "respiro",
+      "entre-nos"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Cannes Best Actress",
+      "David di Donatello Award",
+      "Venice Film Festival Award"
+    ],
+    "active": "1983",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "0"
+  },
+  {
+    "id": "stefano-accorsi",
+    "name": "Stefano Accorsi",
+    "fullName": "Stefano Accorsi",
+    "slug": "stefano-accorsi",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1971-03-02",
+    "birthPlace": "Bologna, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Stefano Accorsi is one of Italys most popular actors known for his charming looks and versatile performances. He delivered acclaimed roles in The Best of Youth and numerous other Italian productions. He is known for his natural acting style and strong screen presence in Italian cinema and television.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stefano_Accorsi",
+    "movies": [
+      "the-best-of-youth",
+      "100-passi",
+      "red-dragon"
+    ],
+    "dramas": [
+      "1992",
+      "1993",
+      "1994"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award Best Actor"
+    ],
+    "active": "1993",
+    "netWorth": "5 million USD",
+    "spouse": "Bianca Vitali (married 2015)",
+    "children": "3"
+  },
+  {
+    "id": "pierfrancesco-favino",
+    "name": "Pierfrancesco Favino",
+    "fullName": "Pierfrancesco Favino",
+    "slug": "pierfrancesco-favino",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1969-08-24",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "bio": "Pierfrancesco Favino is one of Italys most acclaimed actors known for his powerful transformative performances. He appeared in major Hollywood productions including Angels and Demons The Chronicles of Narnia and World War Z. He won the David di Donatello for Best Actor for Padrenostro.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pierfrancesco_Favino",
+    "movies": [
+      "angels-and-demons",
+      "world-war-z",
+      "padrenostro",
+      "hammamet"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Best Actor",
+      "Venice Film Festival Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1993",
+    "netWorth": "8 million USD",
+    "spouse": "Anna Ferzetti (partner)",
+    "children": "2"
+  },
+  {
+    "id": "alba-rohrwacher",
+    "name": "Alba Rohrwacher",
+    "fullName": "Alba Rohrwacher",
+    "slug": "alba-rohrwacher",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1979-02-23",
+    "birthPlace": "Florence, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Social"
+    ],
+    "bio": "Alba Rohrwacher is one of Italys most critically acclaimed young actresses known for her powerful and naturalistic performances. She has appeared in numerous award-winning Italian and international productions. She won the Volpi Cup for Best Actress at Venice Film Festival and is considered a major talent.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alba_Rohrwacher",
+    "movies": [
+      "the-solitude-of-prime-numbers",
+      "hungry-hearts",
+      "rosy-fingers"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Venice Film Festival Best Actress",
+      "David di Donatello Best Actress",
+      "European Film Award Best Actress"
+    ],
+    "active": "2006",
+    "netWorth": "2 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "filippo-timi",
+    "name": "Filippo Timi",
+    "fullName": "Filippo Timi",
+    "slug": "filippo-timi",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1974-12-12",
+    "birthPlace": "Perugia, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Theatre"
+    ],
+    "bio": "Filippo Timi is a talented Italian actor known for his powerful performances in cinema and theatre. He gained recognition through Vincere and numerous other acclaimed Italian productions. He is known for his intense acting style and his work in both film and stage productions.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Filippo_Timi",
+    "movies": [
+      "vincere",
+      "il-gioiellino"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actor",
+      "Nastro d'Argento Award"
+    ],
+    "active": "2001",
+    "netWorth": "1 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "margherita-buy",
+    "name": "Margherita Buy",
+    "fullName": "Margherita Buy",
+    "slug": "margherita-buy",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1962-01-15",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Art"
+    ],
+    "bio": "Margherita Buy is one of Italys most acclaimed and beloved actresses known for her powerful performances in both drama and comedy. She has won the David di Donatello Award five times making her one of the most decorated actresses in Italian cinema history. She is known for her versatile acting range.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Margherita_Buy",
+    "movies": [
+      "the-sons-room",
+      "saturno-contro",
+      "to-rome-with-love"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Best Actress 5 times",
+      "European Film Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1985",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "1"
+  },
+  {
+    "id": "claudio-amendola",
+    "name": "Claudio Amendola",
+    "fullName": "Claudio Amendola",
+    "slug": "claudio-amendola",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1963-07-01",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "bio": "Claudio Amendola is a popular Italian actor and director known for his powerful roles in crime and action films and television series. He is one of the most recognized faces in Italian television and has appeared in numerous successful productions. He is known for his intense screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Claudio_Amendola",
+    "movies": [
+      "romanzo-criminale",
+      "the-unknown-woman"
+    ],
+    "dramas": [
+      "nero-a-meta",
+      "il-commissario-rex"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Nomination",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1984",
+    "netWorth": "5 million USD",
+    "spouse": "Francesca Neri (divorced)",
+    "children": "2"
+  },
+  {
+    "id": "matteo-garrone-actor",
+    "name": "Elio Germano",
+    "fullName": "Elio Germano",
+    "slug": "elio-germano",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1980-09-25",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Social"
+    ],
+    "bio": "Elio Germano is one of Italys most critically acclaimed actors known for his powerful and physically committed performances. He won the Cannes Film Festival Best Actor award for Our Life and the Berlin Silver Bear for Hidden Away. He is considered one of the greatest Italian actors of his generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elio_Germano",
+    "movies": [
+      "our-life",
+      "hidden-away",
+      "il-giovane-favoloso"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Cannes Best Actor",
+      "Berlin Silver Bear Best Actor",
+      "David di Donatello Best Actor"
+    ],
+    "active": "2000",
+    "netWorth": "3 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "kim-rossi-stuart",
+    "name": "Kim Rossi Stuart",
+    "fullName": "Kim Rossi Stuart",
+    "slug": "kim-rossi-stuart",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1969-10-31",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Action",
+      "Romance"
+    ],
+    "bio": "Kim Rossi Stuart is a popular Italian actor known for his handsome looks and powerful performances. He appeared in Quentin Tarantinos Inglourious Basterds and has delivered acclaimed roles in Italian cinema and television. He is known for his intense acting style and strong screen presence.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kim_Rossi_Stuart",
+    "movies": [
+      "inglourious-basterds",
+      "amiche-da-morire",
+      "anche-libero-va-bene"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actor",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1985",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "sergio-castellitto",
+    "name": "Sergio Castellitto",
+    "fullName": "Sergio Castellitto",
+    "slug": "sergio-castellitto",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1953-08-18",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Art"
+    ],
+    "bio": "Sergio Castellitto is a highly acclaimed Italian actor and director known for his powerful performances and artistic vision. He appeared in The Star Maker My Mother and numerous other acclaimed productions. He is also a successful novelist and screenwriter and is considered a major figure in Italian culture.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sergio_Castellitto",
+    "movies": [
+      "the-star-maker",
+      "my-mother",
+      "three-steps-above-heaven"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Best Actor",
+      "Cannes Jury Prize",
+      "European Film Award"
+    ],
+    "active": "1980",
+    "netWorth": "10 million USD",
+    "spouse": "Margaret Mazzantini (married 1987)",
+    "children": "4"
+  },
+  {
+    "id": "anna-galiena",
+    "name": "Anna Galiena",
+    "fullName": "Anna Galiena",
+    "slug": "anna-galiena",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1954-12-22",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Art"
+    ],
+    "bio": "Anna Galiena is a veteran Italian actress known for her elegant beauty and powerful performances in Italian and international cinema. She appeared in The Hairdresser's Husband and Il Postino. She is known for her natural grace and has appeared in both art house and mainstream productions.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Galiena",
+    "movies": [
+      "the-hairdressers-husband",
+      "il-postino",
+      "the-best-man"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Cesar Award Nomination"
+    ],
+    "active": "1980",
+    "netWorth": "2 million USD",
+    "spouse": "Divorced",
+    "children": "1"
+  },
+  {
+    "id": "ornella-muti",
+    "name": "Ornella Muti",
+    "fullName": "Francesca Romana Rivelli",
+    "slug": "ornella-muti",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1955-03-09",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress",
+      "Model"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Ornella Muti is a legendary Italian actress known for her extraordinary beauty and powerful performances. She appeared in Flash Gordon The Count of Monte Cristo and numerous Italian and European productions. She is considered one of the most beautiful Italian actresses and has a massive international fan following.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ornella_Muti",
+    "movies": [
+      "flash-gordon",
+      "the-count-of-monte-cristo",
+      "love-and-money"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1969",
+    "netWorth": "10 million USD",
+    "spouse": "Divorced",
+    "children": "3"
+  },
+  {
+    "id": "raoul-bova",
+    "name": "Raoul Bova",
+    "fullName": "Raoul Bova",
+    "slug": "raoul-bova",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1971-08-14",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Action"
+    ],
+    "bio": "Raoul Bova is one of Italys most popular actors known for his handsome looks and romantic roles. He appeared in Hollywood films including Under the Tuscan Sun and Alien vs Predator. He is one of the most recognizable Italian faces internationally and has a massive fan following.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raoul_Bova",
+    "movies": [
+      "under-the-tuscan-sun",
+      "alien-vs-predator",
+      "heart",
+      "facing-windows"
+    ],
+    "dramas": [
+      "don-matteo",
+      "romanzo-criminale"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1993",
+    "netWorth": "8 million USD",
+    "spouse": "Rocio Munoz Morales (partner)",
+    "children": "4"
+  },
+  {
+    "id": "asia-argento",
+    "name": "Asia Argento",
+    "fullName": "Asia Argento",
+    "slug": "asia-argento",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1975-09-20",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress",
+      "Director",
+      "Singer"
+    ],
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Horror"
+    ],
+    "bio": "Asia Argento is a controversial Italian actress and director known for her powerful and unconventional performances. She is the daughter of legendary horror director Dario Argento and has appeared in numerous acclaimed productions. She appeared in The Heart is Deceitful Above All Things and xXx.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asia_Argento",
+    "movies": [
+      "xxx",
+      "the-stendhal-syndrome",
+      "land-of-the-dead"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1986",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "virna-lisi",
+    "name": "Virna Lisi",
+    "fullName": "Virna Pieralisi",
+    "slug": "virna-lisi",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1936-11-08",
+    "birthPlace": "Ancona, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Historical"
+    ],
+    "bio": "Virna Lisi was a legendary Italian actress known for her stunning beauty and powerful performances. She won the Cannes Best Actress award for The Queen Margot and appeared in numerous Italian and Hollywood films. She is considered one of the most beautiful Italian actresses of the golden era.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Virna_Lisi",
+    "movies": [
+      "how-to-murder-your-wife",
+      "queen-margot",
+      "the-christmas-tree"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Cannes Best Actress",
+      "David di Donatello Award",
+      "Cesar Award Best Supporting Actress"
+    ],
+    "active": "1953",
+    "netWorth": "10 million USD",
+    "spouse": "Franco Pesci (married 1960)",
+    "children": "1"
+  },
+  {
+    "id": "massimo-troisi",
+    "name": "Massimo Troisi",
+    "fullName": "Massimo Troisi",
+    "slug": "massimo-troisi",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1953-02-19",
+    "birthPlace": "San Giorgio a Cremano, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Comedian"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Massimo Troisi was a beloved Italian comedian and actor known for his charming personality and witty humor. He delivered an iconic performance in Il Postino The Postman which earned him a posthumous Academy Award nomination for Best Actor. He passed away from heart failure just hours after completing filming.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Massimo_Troisi",
+    "movies": [
+      "il-postino",
+      "ricomincio-da-tre",
+      "scusate-il-ritardo"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Academy Award Nomination Best Actor",
+      "David di Donatello Award",
+      "BAFTA Nomination"
+    ],
+    "active": "1978",
+    "netWorth": "5 million USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "giuseppe-tornatore",
+    "name": "Enrico-Lo Verso",
+    "fullName": "Enrico Lo Verso",
+    "slug": "enrico-lo-verso",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1964-12-17",
+    "birthPlace": "Palermo, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Social"
+    ],
+    "bio": "Enrico Lo Verso is a Sicilian actor known for his powerful performances in Italian cinema particularly in films directed by Gianni Amelio. He delivered acclaimed roles in The Stolen Children and Lamerica. He is known for his naturalistic acting style and dedication to meaningful projects.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enrico_Lo_Verso",
+    "movies": [
+      "the-stolen-children",
+      "lamerica",
+      "the-star-maker"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actor",
+      "European Film Award Best Actor"
+    ],
+    "active": "1991",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "sabrina-ferilli",
+    "name": "Sabrina Ferilli",
+    "fullName": "Sabrina Ferilli",
+    "slug": "sabrina-ferilli",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1964-06-28",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Sabrina Ferilli is one of Italys most popular actresses known for her natural beauty and powerful performances in telenovelas and films. She has appeared in numerous successful Italian productions and is one of the most beloved faces in Italian television. She is also known for her charity work.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sabrina_Ferilli",
+    "movies": [
+      "the-great-beauty",
+      "the-unknown-woman"
+    ],
+    "dramas": [
+      "una-grande-famiglia",
+      "il-commissario-rex"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award Best Actress"
+    ],
+    "active": "1990",
+    "netWorth": "8 million USD",
+    "spouse": "Flavio Cattaneo (married 2011)",
+    "children": "0"
+  },
+  {
+    "id": "marco-giallini",
+    "name": "Marco Giallini",
+    "fullName": "Marco Giallini",
+    "slug": "marco-giallini",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1963-04-04",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Thriller"
+    ],
+    "bio": "Marco Giallini is a popular Italian actor known for his powerful performances in Italian cinema and television. He has appeared in numerous acclaimed productions and is recognized for his natural acting style and memorable character portrayals. He is one of the most respected Italian actors of his generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marco_Giallini",
+    "movies": [
+      "perfect-strangers",
+      "romanzo-criminale",
+      "suburra"
+    ],
+    "dramas": [
+      "rocco-schiavone"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Supporting Actor",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1993",
+    "netWorth": "3 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "maya-sansa",
+    "name": "Maya Sansa",
+    "fullName": "Maya Sansa",
+    "slug": "maya-sansa",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1975-10-14",
+    "birthPlace": "London, UK",
+    "nationality": "Italian-British",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Thriller"
+    ],
+    "bio": "Maya Sansa is a critically acclaimed Italian-British actress known for her powerful and naturalistic performances. She won the European Film Award for Best Actress for Buongiorno Notte. She has appeared in numerous acclaimed Italian and international productions and is considered one of the finest actresses in Italian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maya_Sansa",
+    "movies": [
+      "buongiorno-notte",
+      "the-best-of-youth",
+      "eight-mountains"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "European Film Award Best Actress",
+      "David di Donatello Award"
+    ],
+    "active": "1999",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "silvio-orlando",
+    "name": "Silvio Orlando",
+    "fullName": "Silvio Orlando",
+    "slug": "silvio-orlando",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1957-08-24",
+    "birthPlace": "Naples, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Art"
+    ],
+    "bio": "Silvio Orlando is a highly acclaimed Italian actor known for his powerful and nuanced performances in both drama and comedy. He has appeared in numerous award-winning Italian productions and is recognized for his exceptional acting range. He is considered one of the finest Italian actors of his generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silvio_Orlando",
+    "movies": [
+      "the-sons-room",
+      "lights-of-variety",
+      "the-caiman"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actor",
+      "Nastro d'Argento Award",
+      "European Film Award Nomination"
+    ],
+    "active": "1984",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "anna-bonaiuto",
+    "name": "Anna Bonaiuto",
+    "fullName": "Anna Bonaiuto",
+    "slug": "anna-bonaiuto",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1950-01-11",
+    "birthPlace": "Naples, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Theatre"
+    ],
+    "bio": "Anna Bonaiuto is a respected Italian actress known for her powerful performances in both cinema and theatre. She has appeared in numerous acclaimed Italian productions and is recognized for her dedication to her craft. She is particularly known for her theatre work and has won numerous awards.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Bonaiuto",
+    "movies": [
+      "the-great-beauty",
+      "il-divo",
+      "we-have-a-pope"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award",
+      "UBU Theatre Award"
+    ],
+    "active": "1975",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "fabrizio-gifuni",
+    "name": "Fabrizio Gifuni",
+    "fullName": "Fabrizio Gifuni",
+    "slug": "fabrizio-gifuni",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1966-10-04",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Theatre Artist"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Historical"
+    ],
+    "bio": "Fabrizio Gifuni is a highly acclaimed Italian actor known for his powerful performances in both cinema and theatre. He appeared in the critically acclaimed series The Best of Youth and We Are Who We Are. He is recognized for his dedication to meaningful projects and his exceptional acting abilities.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fabrizio_Gifuni",
+    "movies": [
+      "the-best-of-youth",
+      "marco-bellocchio"
+    ],
+    "dramas": [
+      "we-are-who-we-are",
+      "1992"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "UBU Theatre Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1993",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "luigi-lo-cascio",
+    "name": "Luigi Lo Cascio",
+    "fullName": "Luigi Lo Cascio",
+    "slug": "luigi-lo-cascio",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1967-10-20",
+    "birthPlace": "Palermo, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Social"
+    ],
+    "bio": "Luigi Lo Cascio is a critically acclaimed Italian actor known for his powerful performances in The Best of Youth and Light of My Eyes. He won the David di Donatello for Best New Actor and is considered one of the finest Italian actors of his generation. He is also a director and writer.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luigi_Lo_Cascio",
+    "movies": [
+      "the-best-of-youth",
+      "light-of-my-eyes",
+      "100-passi"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best New Actor",
+      "Nastro d'Argento Award",
+      "European Film Award Nomination"
+    ],
+    "active": "2001",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "alessio-boni",
+    "name": "Alessio Boni",
+    "fullName": "Alessio Boni",
+    "slug": "alessio-boni",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1966-05-04",
+    "birthPlace": "Sarnico, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Historical"
+    ],
+    "bio": "Alessio Boni is a popular Italian actor known for his handsome looks and powerful dramatic performances. He delivered acclaimed roles in The Best of Youth and numerous Italian television productions. He is recognized for his natural acting style and strong screen presence in Italian entertainment.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alessio_Boni",
+    "movies": [
+      "the-best-of-youth",
+      "romanzo-criminale"
+    ],
+    "dramas": [
+      "don-matteo",
+      "baciamo-le-mani"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1995",
+    "netWorth": "2 million USD",
+    "spouse": "Nina Verdelli (married 2017)",
+    "children": "2"
+  },
+  {
+    "id": "jasmine-trinca",
+    "name": "Jasmine Trinca",
+    "fullName": "Jasmine Trinca",
+    "slug": "jasmine-trinca",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1981-04-24",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Art",
+      "Social"
+    ],
+    "bio": "Jasmine Trinca is a critically acclaimed Italian actress known for her powerful and naturalistic performances. She won the Best Actress award at Cannes Film Festival for A Bigger Splash. She has appeared in numerous award-winning productions and is considered one of the finest young actresses in Italian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jasmine_Trinca",
+    "movies": [
+      "the-sons-room",
+      "beast",
+      "a-bigger-splash"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "Cannes Film Festival Best Actress",
+      "David di Donatello Award",
+      "European Film Award Nomination"
+    ],
+    "active": "2001",
+    "netWorth": "1 million USD",
+    "spouse": "Unmarried",
+    "children": "1"
+  },
+  {
+    "id": "micaela-ramazzotti",
+    "name": "Micaela Ramazzotti",
+    "fullName": "Micaela Ramazzotti",
+    "slug": "micaela-ramazzotti",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1979-06-05",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "bio": "Micaela Ramazzotti is a popular Italian actress known for her charming personality and powerful performances. She has appeared in numerous acclaimed Italian productions and is recognized for her versatile acting range. She has won multiple David di Donatello Awards for her performances.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Micaela_Ramazzotti",
+    "movies": [
+      "la-prima-cosa-bella",
+      "the-dinner",
+      "crazy-something"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actress",
+      "Nastro d'Argento Award"
+    ],
+    "active": "2004",
+    "netWorth": "2 million USD",
+    "spouse": "Paolo Virzi (divorced)",
+    "children": "2"
+  },
+  {
+    "id": "stefania-sandrelli",
+    "name": "Stefania Sandrelli",
+    "fullName": "Stefania Sandrelli",
+    "slug": "stefania-sandrelli",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1946-06-05",
+    "birthPlace": "Viareggio, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Art"
+    ],
+    "bio": "Stefania Sandrelli is a legendary Italian actress known for her iconic performances in Divorce Italian Style The Conformist and We All Loved Each Other So Much. She is one of the most beloved figures in Italian cinema and has worked with legendary directors like Bernardo Bertolucci and Ettore Scola.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stefania_Sandrelli",
+    "movies": [
+      "divorce-italian-style",
+      "the-conformist",
+      "we-all-loved-each-other-so-much"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award",
+      "Venice Film Festival Award"
+    ],
+    "active": "1961",
+    "netWorth": "5 million USD",
+    "spouse": "Divorced",
+    "children": "2"
+  },
+  {
+    "id": "carolina-crescentini",
+    "name": "Carolina Crescentini",
+    "fullName": "Carolina Crescentini",
+    "slug": "carolina-crescentini",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1980-07-27",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "bio": "Carolina Crescentini is a popular Italian actress known for her natural beauty and versatile performances. She has appeared in numerous successful Italian productions including films and television series. She is recognized for her charming personality and natural acting style.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carolina_Crescentini",
+    "movies": [
+      "perfect-strangers",
+      "mine",
+      "amici-miei"
+    ],
+    "dramas": [
+      "moana",
+      "mare-fuori"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Nomination",
+      "Nastro d'Argento Award"
+    ],
+    "active": "2005",
+    "netWorth": "2 million USD",
+    "spouse": "Francesco Motta (married 2019)",
+    "children": "0"
+  },
+  {
+    "id": "filippo-nigro",
+    "name": "Filippo Nigro",
+    "fullName": "Filippo Nigro",
+    "slug": "filippo-nigro",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1970-01-07",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Comedy"
+    ],
+    "bio": "Filippo Nigro is a talented Italian actor known for his versatile performances in Italian cinema and television. He has appeared in numerous successful productions and is recognized for his natural acting style and strong screen presence. He is one of the reliable character actors in Italian entertainment.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Filippo_Nigro",
+    "movies": [
+      "the-unknown-woman",
+      "perfect-strangers"
+    ],
+    "dramas": [
+      "suburra",
+      "romanzo-criminale-la-serie"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Nomination",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1997",
+    "netWorth": "1 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "alba-brugnoni",
+    "name": "Edoardo Leo",
+    "fullName": "Edoardo Leo",
+    "slug": "edoardo-leo",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1974-04-16",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director",
+      "Writer"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Edoardo Leo is a popular Italian actor director and writer known for his entertaining films. He directed and starred in the hit comedy Perfect Strangers which was remade in numerous countries. He is known for his natural comedic talent and is one of the most beloved figures in contemporary Italian cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edoardo_Leo",
+    "movies": [
+      "perfect-strangers",
+      "smetto-quando-voglio",
+      "non-ci-resta-che-il-crimine"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award Best Director"
+    ],
+    "active": "1999",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "valerio-mastandrea",
+    "name": "Valerio Mastandrea",
+    "fullName": "Valerio Mastandrea",
+    "slug": "valerio-mastandrea",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1972-02-06",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Art"
+    ],
+    "bio": "Valerio Mastandrea is one of Italys most acclaimed actors known for his powerful and nuanced performances. He has appeared in numerous award-winning Italian productions and has also directed acclaimed films. He is recognized for his natural acting style and is considered one of the finest Italian actors.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Valerio_Mastandrea",
+    "movies": [
+      "radio-west",
+      "tutta-la-vita-davanti",
+      "dont-be-bad"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award Best Actor",
+      "Nastro d'Argento Award",
+      "European Film Award Nomination"
+    ],
+    "active": "1995",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "elena-sofia-ricci",
+    "name": "Elena Sofia Ricci",
+    "fullName": "Elena Sofia Ricci",
+    "slug": "elena-sofia-ricci",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1962-03-05",
+    "birthPlace": "Florence, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Social"
+    ],
+    "bio": "Elena Sofia Ricci is one of Italys most popular and acclaimed television actresses known for her powerful performances in numerous hit series. She is particularly known for her long running role in Che Dio ci aiuti. She has won numerous Italian television awards and is one of the most recognized faces in Italian TV.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elena_Sofia_Ricci",
+    "movies": [
+      "to-rome-with-love",
+      "papa-giovanni"
+    ],
+    "dramas": [
+      "che-dio-ci-aiuti",
+      "una-grande-famiglia"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award",
+      "Italian TV Award Best Actress"
+    ],
+    "active": "1984",
+    "netWorth": "5 million USD",
+    "spouse": "Stefano Mainetti (married 2009)",
+    "children": "2"
+  },
+  {
+    "id": "gianmarco-tognazzi",
+    "name": "Gianmarco Tognazzi",
+    "fullName": "Gianmarco Tognazzi",
+    "slug": "gianmarco-tognazzi",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1967-03-10",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Thriller"
+    ],
+    "bio": "Gianmarco Tognazzi is a popular Italian actor and son of legendary comedian Ugo Tognazzi. He has appeared in numerous successful Italian films and television productions and is recognized for his natural acting style. He is known for his versatile performances across different genres.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gianmarco_Tognazzi",
+    "movies": [
+      "la-finestra-di-fronte",
+      "perfect-strangers"
+    ],
+    "dramas": [
+      "suburra",
+      "romanzo-criminale-la-serie"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Nomination",
+      "Nastro d'Argento Award"
+    ],
+    "active": "1991",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "2"
+  },
+  {
+    "id": "anna-foglietta",
+    "name": "Anna Foglietta",
+    "fullName": "Anna Foglietta",
+    "slug": "anna-foglietta",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1979-07-06",
+    "birthPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "bio": "Anna Foglietta is a popular Italian actress known for her natural charm and versatile performances in both comedy and drama. She appeared in Perfect Strangers and numerous other Italian productions. She is recognized for her natural acting style and has become one of the most beloved Italian actresses of her generation.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Foglietta",
+    "movies": [
+      "perfect-strangers",
+      "un-giorno-speciale",
+      "italian-race"
+    ],
+    "dramas": [],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award Best Actress"
+    ],
+    "active": "2005",
+    "netWorth": "2 million USD",
+    "spouse": "Paolo Sopranzetti (married 2012)",
+    "children": "2"
+  },
+  {
+    "id": "marco-d-amore",
+    "name": "Marco D Amore",
+    "fullName": "Marco D'Amore",
+    "slug": "marco-d-amore",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1981-09-13",
+    "birthPlace": "Caserta, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor",
+      "Director"
+    ],
+    "genre": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "bio": "Marco D'Amore is a hugely popular Italian actor and director known worldwide for his iconic role as Ciro Di Marzio in the hit Netflix series Gomorra. He has become one of the most recognized Italian actors internationally through the show and has also directed acclaimed films and episodes.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marco_D%27Amore",
+    "movies": [
+      "l-immortale",
+      "the-king-of-naples"
+    ],
+    "dramas": [
+      "gomorra",
+      "l-amica-geniale"
+    ],
+    "costars": [],
+    "awards": [
+      "David di Donatello Award",
+      "Nastro d'Argento Award Best Actor"
+    ],
+    "active": "2007",
+    "netWorth": "3 million USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "salvatore-esposito",
+    "name": "Salvatore Esposito",
+    "fullName": "Salvatore Esposito",
+    "slug": "salvatore-esposito",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "1986-08-26",
+    "birthPlace": "Naples, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actor"
+    ],
+    "genre": [
+      "Drama",
+      "Crime",
+      "Action"
+    ],
+    "bio": "Salvatore Esposito is a popular Italian actor known worldwide for his role as Genny Savastano in the hit series Gomorra. He has become one of the most recognized Italian actors internationally and is known for his powerful and intense performance in the acclaimed crime series.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salvatore_Esposito",
+    "movies": [],
+    "dramas": [
+      "gomorra",
+      "fargo"
+    ],
+    "costars": [
+      "marco-d-amore"
+    ],
+    "awards": [
+      "Nastro d'Argento Award",
+      "Italian TV Award Best Actor"
+    ],
+    "active": "2014",
+    "netWorth": "2 million USD",
+    "spouse": "Married",
+    "children": "1"
+  },
+  {
+    "id": "gaia-girace",
+    "name": "Gaia Girace",
+    "fullName": "Gaia Girace",
+    "slug": "gaia-girace",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "2004-01-14",
+    "birthPlace": "Naples, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Art"
+    ],
+    "bio": "Gaia Girace is a young Italian actress who gained international recognition for her powerful performance as Lila in My Brilliant Friend. Her performance as a teenager in the acclaimed HBO series was praised globally and established her as one of the most talented young actresses in European cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gaia_Girace",
+    "movies": [],
+    "dramas": [
+      "my-brilliant-friend",
+      "l-amica-geniale"
+    ],
+    "costars": [],
+    "awards": [
+      "Critics Choice Award Nomination",
+      "Italian TV Award Best New Actress"
+    ],
+    "active": "2018",
+    "netWorth": "500K USD",
+    "spouse": "Unmarried",
+    "children": "0"
+  },
+  {
+    "id": "margherita-mazzucco",
+    "name": "Margherita Mazzucco",
+    "fullName": "Margherita Mazzucco",
+    "slug": "margherita-mazzucco",
+    "country": "Italy",
+    "countrySlug": "italy",
+    "born": "2003-09-24",
+    "birthPlace": "Naples, Italy",
+    "nationality": "Italian",
+    "profession": [
+      "Actress"
+    ],
+    "genre": [
+      "Drama",
+      "Social",
+      "Art"
+    ],
+    "bio": "Margherita Mazzucco is a young Italian actress who gained international acclaim for her powerful performance as Elena in My Brilliant Friend. She delivered a remarkable performance alongside Gaia Girace and has established herself as one of the most promising young talents in Italian and European cinema.",
+    "image": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Margherita_Mazzucco",
+    "movies": [],
+    "dramas": [
+      "my-brilliant-friend",
+      "l-amica-geniale"
+    ],
+    "costars": [
+      "gaia-girace"
+    ],
+    "awards": [
+      "Italian TV Award Best New Actress",
+      "Critics Choice Award Nomination"
+    ],
+    "active": "2018",
+    "netWorth": "500K USD",
+    "spouse": "Unmarried",
+    "children": "0"
   }
 ]
