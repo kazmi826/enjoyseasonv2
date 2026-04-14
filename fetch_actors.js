@@ -60,7 +60,7 @@ async function main() {
   const existingData = JSON.parse(fs.readFileSync('data/actors.json','utf8'));
   const existingSlugs = new Set(existingData.map(a => a.slug));
   const newActors = [];
-  const TARGET = 1000;
+  const TARGET = 2000;
 
   console.log('Current actors:', existingData.length);
   console.log('Target new actors:', TARGET);
