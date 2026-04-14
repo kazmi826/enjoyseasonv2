@@ -1,0 +1,66 @@
+name: Auto Generate 1000 Actor Pages Daily
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Verify structure
+      run: |
+        echo "=== Files ==="
+        ls -la
+        echo "=== Data ==="
+        ls -la data/
+        node -e "const d=require('./data/actors.json'); console.log('Current actors:', d.length);"
+
+    - name: Fetch 1000 new actors from TMDB
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: node fetch_actors.js
+
+    - name: Generate ALL HTML pages + sitemap
+      run: |
+        echo "=== Generating pages ==="
+        node generate.js
+        echo "=== Checking results ==="
+        echo "Actor folders:"
+        ls actors/ | wc -l
+        echo "Sitemap URLs:"
+        grep -c '<loc>' sitemap.xml || echo "0"
+        echo "=== Done ==="
+
+    - name: Commit and push EVERYTHING
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Actions Bot"
+        git add -A
+        git status
+        CHANGES=$(git diff --staged --name-only | wc -l)
+        echo "Files changed: $CHANGES"
+        if [ "$CHANGES" -gt "0" ]; then
+          git commit -m "auto: $(date +'%Y-%m-%d') - new actor pages added"
+          git push origin main
+          echo "Successfully pushed!"
+        else
+          echo "No changes to push"
+        fi
