@@ -152,6 +152,8 @@ async function main() {
     const merged = [...existingData, ...newActors];
     fs.writeFileSync('data/actors.json', JSON.stringify(merged, null, 2));
     console.log('Total actors in database:', merged.length);
+    await submitToIndexNow(newActors);
+    console.log('Submitted to IndexNow!');
   } else {
     console.log('No new actors found');
   }
@@ -161,3 +163,33 @@ main().catch(err => {
   console.error('Error:', err.message);
   process.exit(1);
 });
+async function submitToIndexNow(actors) {
+  const urls = actors.map(a => 
+    'https://enjoyseason.com/actors/' + a.countrySlug + '/' + a.slug
+  );
+  
+  const body = JSON.stringify({
+    host: 'enjoyseason.com',
+    key: '9c0c59f42d0c4b1fb9d275d18d201f53',
+    keyLocation: 'https://enjoyseason.com/9c0c59f42d0c4b1fb9d275d18d201f53.txt',
+    urlList: urls.slice(0, 10000)
+  });
+
+  return new Promise((resolve) => {
+    const req = https.request({
+      hostname: 'api.indexnow.org',
+      path: '/indexnow',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(body)
+      }
+    }, (res) => {
+      console.log('IndexNow status:', res.statusCode);
+      resolve();
+    });
+    req.on('error', () => resolve());
+    req.write(body);
+    req.end();
+  });
+}
