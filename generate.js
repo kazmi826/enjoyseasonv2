@@ -819,8 +819,8 @@ const actorDramas = (actor.dramas || []).map(slug => ({
   year: '',
   network: '',
   episodes: '',
-genre: Array.isArray(actor.genre) ? actor.genre.join(', ') : (actor.genre || '')
-  language: actor.nationality || ''
+genre: Array.isArray(actor.genre) ? actor.genre.join(', ') : (actor.genre || ''),
+language: actor.nationality || ''
 }));
   const relatedActors = getActorsByCountry(actor.country, actor.id);
   const costars = (actor.costars || []).map(id => getActorById(id)).filter(Boolean);
