@@ -25,14 +25,14 @@ function toSlug(name) {
 }
 
 function randomPage() {
-  return Math.floor(Math.random() * 50) + 1;
+  return Math.floor(Math.random() * 200) + 1;
 }
 
 async function convertActor(person) {
   try {
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, 300));
     const detail = await fetchTMDB(`/person/${person.id}`);
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, 300));
     const credits = await fetchTMDB(`/person/${person.id}/combined_credits`);
 
     const dramas = (credits.cast || [])
@@ -82,19 +82,22 @@ async function convertActor(person) {
 }
 
 async function main() {
-  console.log('🚀 Auto fetching 100 actors from TMDB...');
+  // ✅ 1000 actors at once!
+  const TARGET = 1000;
+  console.log(`🚀 Auto fetching ${TARGET} actors from TMDB...`);
 
   let existing = [];
   if (fs.existsSync(ACTORS_FILE)) {
     existing = JSON.parse(fs.readFileSync(ACTORS_FILE, 'utf8'));
   }
   const existingSlugs = new Set(existing.map(a => a.slug));
+  console.log(`📊 Existing actors: ${existing.length}`);
 
   let newActors = [];
   let page = randomPage();
 
-  while (newActors.length < 100) {
-    console.log(`\nFetching page ${page}... (${newActors.length}/100)`);
+  while (newActors.length < TARGET) {
+    console.log(`\nFetching page ${page}... (${newActors.length}/${TARGET})`);
     
     const result = await fetchTMDB(`/person/popular?page=${page}`);
     const persons = result.results || [];
@@ -105,7 +108,7 @@ async function main() {
     }
 
     for (const person of persons) {
-      if (newActors.length >= 100) break;
+      if (newActors.length >= TARGET) break;
 
       const slug = toSlug(person.name);
       if (existingSlugs.has(slug)) {
@@ -113,23 +116,38 @@ async function main() {
         continue;
       }
 
-      console.log(`  Adding: ${person.name}`);
+      console.log(`  Adding: ${person.name} (${newActors.length + 1}/${TARGET})`);
       const actor = await convertActor(person);
 
       if (actor) {
         newActors.push(actor);
         existingSlugs.add(slug);
+
+        // Save every 100 actors — data safe rahega
+        if (newActors.length % 100 === 0) {
+          const merged = [...existing, ...newActors];
+          fs.writeFileSync(ACTORS_FILE, JSON.stringify(merged, null, 2));
+          console.log(`\n💾 Auto-saved at ${newActors.length} actors!`);
+        }
       }
     }
     page++;
     if (page > 500) page = 1;
   }
 
-  console.log(`\n✅ Fetched ${newActors.length} new actors!`);
+  // Final save
   const merged = [...existing, ...newActors];
   fs.writeFileSync(ACTORS_FILE, JSON.stringify(merged, null, 2));
+  
+  console.log(`\n✅ Fetched ${newActors.length} new actors!`);
   console.log(`📊 Total actors now: ${merged.length}`);
   console.log('✅ Done!');
+  
+  // Auto generate pages
+  console.log('\n🔄 Generating pages...');
+  const { execSync } = require('child_process');
+  execSync('node generate.js', { stdio: 'inherit' });
+  console.log('✅ Pages generated!');
 }
 
 main().catch(console.error);
