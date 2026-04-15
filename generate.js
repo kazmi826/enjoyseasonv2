@@ -806,8 +806,23 @@ document.getElementById('searchInput')?.addEventListener('keypress', function(e)
 // ACTOR PAGE GENERATOR
 // ============================================================
 const generateActorPage = (actor) => {
-  const actorMovies = (actor.movies || []);
-const actorDramas = (actor.dramas || []);
+  const actorMovies = (actor.movies || []).map(slug => ({
+  title: slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+  year: '',
+  language: actor.nationality || '',
+  genre: (actor.genre || []).join(', '),
+  rating: '',
+  boxOffice: ''
+}));
+
+const actorDramas = (actor.dramas || []).map(slug => ({
+  title: slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
+  year: '',
+  network: '',
+  episodes: '',
+  genre: (actor.genre || []).join(', '),
+  language: actor.nationality || ''
+}));
   const relatedActors = getActorsByCountry(actor.country, actor.id);
   const costars = (actor.costars || []).map(id => getActorById(id)).filter(Boolean);
   const imageUrl = actor.image || getImageUrl(actor.name);
