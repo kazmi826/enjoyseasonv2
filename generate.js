@@ -810,8 +810,8 @@ const generateActorPage = (actor) => {
   title: slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
   year: '',
   language: actor.nationality || '',
-genre: Array.isArray(actor.genre) ? actor.genre.join(', ') : (actor.genre || '')  rating: '',
-  boxOffice: ''
+genre: Array.isArray(actor.genre) ? actor.genre.join(', ') : (actor.genre || ''),
+rating: '',  boxOffice: ''
 }));
 
 const actorDramas = (actor.dramas || []).map(slug => ({
