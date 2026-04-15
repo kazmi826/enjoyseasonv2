@@ -96,13 +96,13 @@ async function main() {
 
         const movies = (detail.movie_credits?.cast || [])
           .sort((a,b) => (b.popularity||0)-(a.popularity||0))
-          .slice(0,5)
+          
           .map(m => makeSlug(m.title||''))
           .filter(Boolean);
 
         const dramas = (detail.tv_credits?.cast || [])
           .sort((a,b) => (b.popularity||0)-(a.popularity||0))
-          .slice(0,5)
+         
           .map(t => makeSlug(t.name||''))
           .filter(Boolean);
 
