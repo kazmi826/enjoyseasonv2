@@ -1,5 +1,5 @@
 // ============================================================
-// EnjoysSeason V2 — Complete Generator
+// EnjoysSeason V2 — Complete Generator — ALL ISSUES FIXED
 // ============================================================
 
 const fs = require('fs');
@@ -12,24 +12,50 @@ let totalPages = 0;
 const allUrls = [];
 
 const makeDir = (d) => { if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true }); };
-const getActorById = (id) => actors.find(a => a.id === id);
 const getAge = (born) => born ? new Date().getFullYear() - new Date(born).getFullYear() : 0;
 const getYear = () => new Date().getFullYear();
 const getActorsByCountry = (country, excludeId) =>
   actors.filter(a => a.country === country && a.id !== excludeId).slice(0, 6);
-
 const slugToTitle = (slug) => (slug||'').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 const toArray = (val) => Array.isArray(val) ? val : (val ? [val] : []);
+
+// FIX: Language mapping
+const languageMap = {
+  'Pakistani': 'Urdu', 'Indian': 'Hindi', 'Turkish': 'Turkish',
+  'South Korean': 'Korean', 'Korean': 'Korean', 'Japanese': 'Japanese',
+  'Chinese': 'Chinese', 'French': 'French', 'Spanish': 'Spanish',
+  'Italian': 'Italian', 'German': 'German', 'Arabic': 'Arabic',
+  'Egyptian': 'Arabic', 'Saudi': 'Arabic', 'Lebanese': 'Arabic',
+  'Brazilian': 'Portuguese', 'Mexican': 'Spanish', 'Iranian': 'Persian',
+  'Russian': 'Russian', 'American': 'English', 'British': 'English',
+  'Canadian': 'English', 'Australian': 'English'
+};
+
+const getLanguage = (nationality) => {
+  if (!nationality) return 'English';
+  for (const [key, lang] of Object.entries(languageMap)) {
+    if (nationality.toLowerCase().includes(key.toLowerCase())) return lang;
+  }
+  return 'English';
+};
+
+// FIX: Clean profession — remove any code artifacts
+const cleanProfession = (profession) => {
+  const arr = toArray(profession);
+  return arr
+    .map(p => (p||'').replace(/node\s+\S+/gi, '').replace(/\.js\S*/gi, '').trim())
+    .filter(p => p && p.length > 0 && p.length < 30)
+    .map(p => p.charAt(0).toUpperCase() + p.slice(1));
+};
 
 const getImageUrl = (name) =>
   `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&size=400&background=0f172a&color=f59e0b&bold=true&format=svg`;
 
 const getTMDBImageTag = (actor) => {
   const fallback = getImageUrl(actor.name);
-  const tmdbName = encodeURIComponent(actor.name);
   return `
 <div class="actor-image-wrap">
-  <img 
+  <img
     id="actorImg"
     src="${actor.image || fallback}"
     alt="${actor.name} - ${actor.nationality} Actor"
@@ -38,17 +64,7 @@ const getTMDBImageTag = (actor) => {
     onerror="this.src='${fallback}'"
   >
   <span class="image-badge">${actor.nationality}</span>
-</div>
-<script>
-(async function(){
-  try {
-    const res = await fetch('https://api.themoviedb.org/3/search/person?api_key=8265bd1679663a7ea12ac168da84d2e8&query=${tmdbName}');
-    const data = await res.json();
-    const path = data.results?.[0]?.profile_path;
-    if(path){ document.getElementById('actorImg').src = 'https://image.tmdb.org/t/p/w500' + path; }
-  } catch(e) {}
-})();
-</script>`;
+</div>`;
 };
 
 // ============================================================
@@ -163,7 +179,6 @@ const siteFooter = `
       <div class="footer-col">
         <h4>📋 Pages</h4>
         <a href="/about">About Us</a>
-        <a href="/contact">Contact</a>
         <a href="/privacy-policy">Privacy Policy</a>
         <a href="/sitemap.xml">Sitemap</a>
       </div>
@@ -273,65 +288,81 @@ document.getElementById('searchInput')?.addEventListener('keypress', function(e)
 `;
 
 // ============================================================
-// ACTOR PAGE GENERATOR — ALL FIXES APPLIED
+// ACTOR PAGE GENERATOR — ALL ISSUES FIXED
 // ============================================================
 const generateActorPage = (actor) => {
-  // FIX 1: Movies aur Dramas slugs se proper titles banao
-  const actorMovies = toArray(actor.movies).map(slug => ({
+  // FIX 1: Clean profession — remove code artifacts
+  const profession = cleanProfession(actor.profession);
+  const professionStr = profession.length > 0 ? profession.join(', ') : 'Actor';
+
+  // FIX 2: Language from nationality
+  const language = getLanguage(actor.nationality);
+
+  // FIX 3: Movies/Dramas from slugs — deduplicate
+  const uniqueMovieSlugs = [...new Set(toArray(actor.movies))];
+  const uniqueDramaSlugs = [...new Set(toArray(actor.dramas))];
+
+  const actorMovies = uniqueMovieSlugs.map(slug => ({
     title: slugToTitle(slug),
     slug: slug,
     year: '',
-    language: actor.nationality || '',
+    language: language,
     genre: toArray(actor.genre).join(', '),
     rating: '',
     boxOffice: ''
   }));
 
-  const actorDramas = toArray(actor.dramas).map(slug => ({
+  const actorDramas = uniqueDramaSlugs.map(slug => ({
     title: slugToTitle(slug),
     slug: slug,
     year: '',
     network: '',
     episodes: '',
     genre: toArray(actor.genre).join(', '),
-    language: actor.nationality || ''
+    language: language
   }));
 
   const relatedActors = getActorsByCountry(actor.country, actor.id);
   const imageUrl = actor.image || getImageUrl(actor.name);
   const age = getAge(actor.born);
   const year = getYear();
-  
-  // FIX 2: knownFor slugs se titles banao
+
+  // FIX 4: Known for — use actual dramas/movies not random
   const knownFor = [
-    ...toArray(actor.dramas).slice(0, 2),
-    ...toArray(actor.movies).slice(0, 1)
-  ].map(slug => slugToTitle(slug)).filter(Boolean).join(', ') || actor.name;
+    ...uniqueDramaSlugs.slice(0, 2),
+    ...uniqueMovieSlugs.slice(0, 1)
+  ].map(s => slugToTitle(s)).filter(Boolean).join(', ') || actor.name;
 
   const genreStr = toArray(actor.genre).join(', ');
-  const professionStr = toArray(actor.profession).join(', ') || 'Actor';
 
   const personSchema = {
-    "@context": "https://schema.org", "@type": "Person",
-    "name": actor.name, "url": `https://enjoyseason.com/actors/${actor.countrySlug}/${actor.slug}`,
-    "image": imageUrl, "birthDate": actor.born,
-    "birthPlace": { "@type": "Place", "name": actor.birthPlace },
-    "nationality": actor.nationality, "jobTitle": professionStr,
-    "description": actor.bio, "award": toArray(actor.awards)
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": actor.name,
+    "url": `https://enjoyseason.com/actors/${actor.countrySlug}/${actor.slug}`,
+    "image": imageUrl,
+    "birthDate": actor.born,
+    "birthPlace": { "@type": "Place", "name": actor.birthPlace || actor.country },
+    "nationality": actor.nationality,
+    "jobTitle": professionStr,
+    "description": actor.bio,
+    "award": toArray(actor.awards)
   };
 
   const faqSchema = {
-    "@context": "https://schema.org", "@type": "FAQPage",
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": `Who is ${actor.name}?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} is a ${actor.nationality} actor born on ${actor.born} in ${actor.birthPlace}. Known for ${knownFor}.` }},
-      { "@type": "Question", "name": `How old is ${actor.name}?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} was born on ${actor.born}. As of ${year}, ${actor.name} is ${age} years old.` }},
-      { "@type": "Question", "name": `What movies has ${actor.name} acted in?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} has acted in ${actorMovies.length} movies including ${actorMovies.map(m=>m.title).join(', ')}.` }},
-      { "@type": "Question", "name": `What dramas has ${actor.name} acted in?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} has acted in ${actorDramas.length} dramas including ${actorDramas.map(d=>d.title).join(', ')}.` }}
+      { "@type": "Question", "name": `Who is ${actor.name}?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} is a ${actor.nationality} ${professionStr} born on ${actor.born || 'N/A'} in ${actor.birthPlace || actor.country}. Known for ${knownFor}.` }},
+      { "@type": "Question", "name": `How old is ${actor.name} in ${year}?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} was born on ${actor.born}. As of ${year}, ${actor.name} is ${age} years old.` }},
+      { "@type": "Question", "name": `What movies has ${actor.name} acted in?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} has acted in ${actorMovies.length} movies including ${actorMovies.slice(0,5).map(m=>m.title).join(', ')}.` }},
+      { "@type": "Question", "name": `What dramas has ${actor.name} acted in?`, "acceptedAnswer": { "@type": "Answer", "text": `${actor.name} has acted in ${actorDramas.length} dramas including ${actorDramas.slice(0,5).map(d=>d.title).join(', ')}.` }}
     ]
   };
 
   const breadcrumbSchema = {
-    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://enjoyseason.com" },
       { "@type": "ListItem", "position": 2, "name": `${actor.country} Actors`, "item": `https://enjoyseason.com/country/${actor.countrySlug}` },
@@ -344,12 +375,14 @@ const generateActorPage = (actor) => {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${actor.name} - ${actor.nationality} Actor | Age ${age}, Movies, Dramas & Biography | EnjoysSeason</title>
-  <meta name="description" content="${actor.name} is a ${actor.nationality} actor born ${actor.born} in ${actor.birthPlace}. Age ${age}. Known for ${knownFor}. Complete biography, movies list, dramas list on EnjoysSeason.">
-  <meta property="og:title" content="${actor.name} - ${actor.nationality} Actor | EnjoysSeason">
+  <title>${actor.name} - ${actor.nationality} ${professionStr} | Age ${age}, Movies, Dramas & Biography | EnjoysSeason</title>
+  <meta name="description" content="${actor.name} is a ${actor.nationality} ${professionStr} born ${actor.born || 'N/A'} in ${actor.birthPlace || actor.country}. Age ${age} in ${year}. Known for ${knownFor}. Complete biography, ${actorMovies.length} movies, ${actorDramas.length} dramas on EnjoysSeason.">
+  <meta property="og:title" content="${actor.name} - ${actor.nationality} ${professionStr} | EnjoysSeason">
+  <meta property="og:description" content="${actor.name} born ${actor.born || 'N/A'}. Known for ${knownFor}. Age ${age}.">
   <meta property="og:image" content="${imageUrl}">
   <meta property="og:url" content="https://enjoyseason.com/actors/${actor.countrySlug}/${actor.slug}">
   <meta property="og:type" content="profile">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://enjoyseason.com/actors/${actor.countrySlug}/${actor.slug}">
   <script type="application/ld+json">${JSON.stringify(personSchema)}</script>
   <script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
@@ -377,18 +410,21 @@ ${megaHeader}
     <div class="actor-info">
       <h1 class="actor-name">${actor.name}</h1>
       <p class="actor-subtitle">${actor.nationality} ${professionStr}</p>
+
       <div class="badges">
         <span class="badge">🌍 <strong>${actor.country}</strong></span>
-        <span class="badge">🎂 <strong>${actor.born||'N/A'}</strong></span>
-        <span class="badge">📍 <strong>${actor.birthPlace||actor.country}</strong></span>
+        ${actor.born ? `<span class="badge">🎂 <strong>${actor.born}</strong></span>` : ''}
+        ${actor.birthPlace ? `<span class="badge">📍 <strong>${actor.birthPlace}</strong></span>` : ''}
         <span class="badge badge-gold">Age: <strong>${age}</strong></span>
-        <span class="badge">⏳ Since <strong>${actor.active||'N/A'}</strong></span>
+        ${actor.active ? `<span class="badge">⏳ Since <strong>${actor.active}</strong></span>` : ''}
         ${genreStr ? `<span class="badge">🎭 <strong>${genreStr}</strong></span>` : ''}
       </div>
+
       <div class="bio-box">
         <strong>Who is ${actor.name}?</strong>
-        ${actor.bio || `${actor.name} is a ${actor.nationality} actor known for outstanding work in film and television.`}
+        ${actor.bio || `${actor.name} is a ${actor.nationality} ${professionStr} known for outstanding work in film and television.`}
       </div>
+
       <div class="ext-links">
         ${actor.wikipedia ? `<a href="${actor.wikipedia}" class="ext-link" target="_blank" rel="nofollow noopener">Wikipedia ↗</a>` : ''}
         <a href="/country/${actor.countrySlug}" class="ext-link">More ${actor.country} Actors</a>
@@ -422,14 +458,17 @@ ${megaHeader}
       <h2 class="section-title">📋 ${actor.name} — Quick Facts</h2>
     </div>
     <table class="info-table">
-      <tr><td>Full Name</td><td>${actor.fullName||actor.name}</td></tr>
-      <tr><td>Date of Birth</td><td>${actor.born||'N/A'}</td></tr>
+      <tr><td>Full Name</td><td>${actor.fullName || actor.name}</td></tr>
+      <tr><td>Date of Birth</td><td>${actor.born || 'N/A'}</td></tr>
       <tr><td>Age in ${year}</td><td>${age} years old</td></tr>
-      <tr><td>Birthplace</td><td>${actor.birthPlace||actor.country}</td></tr>
+      <tr><td>Birthplace</td><td>${actor.birthPlace || actor.country}</td></tr>
       <tr><td>Nationality</td><td>${actor.nationality}</td></tr>
       <tr><td>Profession</td><td>${professionStr}</td></tr>
-      <tr><td>Active Since</td><td>${actor.active||'N/A'}</td></tr>
-      <tr><td>Genre</td><td>${genreStr||'N/A'}</td></tr>
+      <tr><td>Language</td><td>${language}</td></tr>
+      <tr><td>Active Since</td><td>${actor.active || 'N/A'}</td></tr>
+      <tr><td>Genre</td><td>${genreStr || 'N/A'}</td></tr>
+      <tr><td>Total Movies</td><td>${actorMovies.length}</td></tr>
+      <tr><td>Total Dramas</td><td>${actorDramas.length}</td></tr>
       <tr><td>Known For</td><td>${knownFor}</td></tr>
       ${actor.spouse ? `<tr><td>Spouse</td><td>${actor.spouse}</td></tr>` : ''}
       ${actor.netWorth ? `<tr><td>Net Worth</td><td>${actor.netWorth}</td></tr>` : ''}
@@ -444,16 +483,13 @@ ${megaHeader}
       <span class="section-count">${actorDramas.length} Dramas</span>
     </div>
     <table class="content-table">
-      <tr><th>#</th><th>Drama Title</th><th>Year</th><th>Network</th><th>Episodes</th><th>Genre</th><th>Language</th></tr>
+      <tr><th>#</th><th>Drama Title</th><th>Language</th><th>Genre</th></tr>
       ${actorDramas.map((d, i) => `
       <tr>
         <td>${i+1}</td>
         <td>${d.title}</td>
-        <td>${d.year || '-'}</td>
-        <td>${d.network || '-'}</td>
-        <td>${d.episodes || '-'}</td>
+        <td>${d.language}</td>
         <td>${d.genre || '-'}</td>
-        <td>${d.language || '-'}</td>
       </tr>`).join('')}
     </table>
   </div>` : ''}
@@ -466,16 +502,13 @@ ${megaHeader}
       <span class="section-count">${actorMovies.length} Movies</span>
     </div>
     <table class="content-table">
-      <tr><th>#</th><th>Movie Title</th><th>Year</th><th>Language</th><th>Genre</th><th>Rating</th><th>Box Office</th></tr>
+      <tr><th>#</th><th>Movie Title</th><th>Language</th><th>Genre</th></tr>
       ${actorMovies.map((m, i) => `
       <tr>
         <td>${i+1}</td>
         <td>${m.title}</td>
-        <td>${m.year || '-'}</td>
-        <td>${m.language || '-'}</td>
+        <td>${m.language}</td>
         <td>${m.genre || '-'}</td>
-        <td>${m.rating ? '⭐ ' + m.rating : '-'}</td>
-        <td>${m.boxOffice || '-'}</td>
       </tr>`).join('')}
     </table>
   </div>` : ''}
@@ -491,7 +524,7 @@ ${megaHeader}
       ${relatedActors.map(a => `
       <a href="/actors/${a.countrySlug}/${a.slug}" class="card">
         <div class="card-title">${a.name}</div>
-        <div class="card-meta">${a.nationality} Actor<br>${toArray(a.genre).slice(0,2).join(', ')}</div>
+        <div class="card-meta">${a.nationality} ${cleanProfession(a.profession).join(', ') || 'Actor'}<br>${toArray(a.genre).slice(0,2).join(', ')}</div>
       </a>`).join('')}
     </div>
   </div>` : ''}
@@ -504,22 +537,26 @@ ${megaHeader}
     <div class="faq-list">
       <div class="faq-item">
         <div class="faq-q">Who is ${actor.name}?</div>
-        <div class="faq-a">${actor.name} is a ${actor.nationality} actor born on ${actor.born||'N/A'} in ${actor.birthPlace||actor.country}. Known for ${knownFor}.</div>
+        <div class="faq-a">${actor.name} is a ${actor.nationality} ${professionStr} born on ${actor.born || 'N/A'} in ${actor.birthPlace || actor.country}. ${actor.bio ? actor.bio.substring(0, 200) + '...' : `${actor.name} is known for outstanding work in ${actor.country} entertainment industry.`}</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">How old is ${actor.name} in ${year}?</div>
-        <div class="faq-a">${actor.name} was born on ${actor.born||'N/A'}. As of ${year}, ${actor.name} is ${age} years old.</div>
+        <div class="faq-a">${actor.name} was born on ${actor.born || 'N/A'}. As of ${year}, ${actor.name} is ${age} years old.</div>
       </div>
       ${actorMovies.length ? `
       <div class="faq-item">
         <div class="faq-q">What movies has ${actor.name} acted in?</div>
-        <div class="faq-a">${actor.name} has acted in ${actorMovies.length} movies including ${actorMovies.map(m=>m.title).join(', ')}.</div>
+        <div class="faq-a">${actor.name} has acted in ${actorMovies.length} movies including ${actorMovies.slice(0,8).map(m=>m.title).join(', ')}.</div>
       </div>` : ''}
       ${actorDramas.length ? `
       <div class="faq-item">
         <div class="faq-q">What dramas has ${actor.name} acted in?</div>
-        <div class="faq-a">${actor.name} has acted in ${actorDramas.length} dramas including ${actorDramas.map(d=>d.title).join(', ')}.</div>
+        <div class="faq-a">${actor.name} has acted in ${actorDramas.length} dramas including ${actorDramas.slice(0,8).map(d=>d.title).join(', ')}.</div>
       </div>` : ''}
+      <div class="faq-item">
+        <div class="faq-q">Which country is ${actor.name} from?</div>
+        <div class="faq-a">${actor.name} is from ${actor.country}. ${actor.name} is a ${actor.nationality} ${professionStr} who has been active in the entertainment industry since ${actor.active || 'N/A'}.</div>
+      </div>
     </div>
   </div>
 
@@ -533,21 +570,8 @@ ${siteFooter}
   const dir = `./actors/${actor.countrySlug}`;
   makeDir(dir);
   fs.writeFileSync(`${dir}/${actor.slug}.html`, html);
-  allUrls.push({url:`/actors/${actor.countrySlug}/${actor.slug}`, priority:'0.8', freq:'monthly'});
+  allUrls.push({ url: `/actors/${actor.countrySlug}/${actor.slug}`, priority: '0.8', freq: 'monthly' });
   totalPages++;
-};
-
-// ============================================================
-// SITEMAP + ROBOTS + LLMS
-// ============================================================
-const generateSitemap = () => {
-  allUrls.unshift({url:'/', priority:'1.0', freq:'daily'});
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${allUrls.map(u=>`  <url>\n    <loc>https://enjoyseason.com${u.url}</loc>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join('\n')}\n</urlset>`;
-  fs.writeFileSync('./sitemap.xml', xml);
-};
-
-const generateRobots = () => {
-  fs.writeFileSync('./robots.txt', `User-agent: *\nAllow: /\nSitemap: https://enjoyseason.com/sitemap.xml\n`);
 };
 
 // ============================================================
@@ -569,11 +593,11 @@ const generateCountryPages = () => {
     const actorCards = country.actors.map(actor => `
       <div class="actor-card">
         <div class="photo-placeholder">
-          <img src="${actor.image || '/assets/placeholder.jpg'}" alt="${actor.name}" loading="lazy">
+          <img src="${actor.image || getImageUrl(actor.name)}" alt="${actor.name}" loading="lazy" onerror="this.src='${getImageUrl(actor.name)}'">
         </div>
         <h3>${actor.name}</h3>
-        <p>${toArray(actor.profession).join(', ')}</p>
-        <a href="/actors/${country.slug}/${actor.slug}.html" class="view-btn">View Profile</a>
+        <p>${cleanProfession(actor.profession).join(', ') || 'Actor'}</p>
+        <a href="/actors/${country.slug}/${actor.slug}" class="view-btn">View Profile</a>
       </div>`).join('');
 
     const html = `<!DOCTYPE html>
@@ -582,51 +606,66 @@ const generateCountryPages = () => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${country.name} Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore the complete list of famous actors from ${country.name}. Profiles, bios, and movies at EnjoysSeason.">
+  <meta name="description" content="Explore ${country.actors.length} famous actors from ${country.name}. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/${country.slug}">
   <style>
     :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
     body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
     .container{max-width:1200px;margin:0 auto;padding:20px;}
     .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:40px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:25px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s ease;border:1px solid rgba(245,166,35,.1);}
+    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
+    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
+    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
     .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:250px;background:#1c1f45;border-radius:8px;margin-bottom:15px;display:flex;align-items:center;justify-content:center;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;border-radius:8px;}
-    .actor-card h3{margin:10px 0 5px;font-size:1.2rem;color:var(--gold);}
-    .actor-card p{font-size:.9rem;color:#ccc;height:40px;overflow:hidden;}
-    .view-btn{display:inline-block;margin-top:15px;padding:8px 20px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:14px;}
+    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
+    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
+    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
+    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
+    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
     footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> > <a href="/countries/">Countries</a> > ${country.name}</div>
-    <h1>${country.name} Actors</h1>
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › ${country.name}</div>
+    <h1>🎭 ${country.name} Actors</h1>
+    <p class="subtitle">${country.actors.length} actors from ${country.name}</p>
     <div class="actor-grid">${actorCards}</div>
   </div>
-  <footer>&copy; ${getYear()} EnjoysSeason - World Entertainment Hub</footer>
+  <footer>© ${getYear()} EnjoysSeason - World Entertainment Database</footer>
 </body>
 </html>`;
 
     fs.writeFileSync(`${dir}/index.html`, html);
-    allUrls.push({url:`/country/${country.slug}`, priority:'0.7', freq:'weekly'});
-    console.log(`Generated: /country/${country.slug}/index.html`);
+    allUrls.push({ url: `/country/${country.slug}`, priority: '0.7', freq: 'weekly' });
   });
 };
 
 // ============================================================
-// MAIN RUN
+// SITEMAP + ROBOTS
 // ============================================================
-console.log('\n🚀 EnjoysSeason V2 Generator\n' + '='.repeat(45));
+const generateSitemap = () => {
+  allUrls.unshift({ url: '/', priority: '1.0', freq: 'daily' });
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${allUrls.map(u => `  <url>\n    <loc>https://enjoyseason.com${u.url}</loc>\n    <changefreq>${u.freq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join('\n')}\n</urlset>`;
+  fs.writeFileSync('./sitemap.xml', xml);
+};
+
+const generateRobots = () => {
+  fs.writeFileSync('./robots.txt', `User-agent: *\nAllow: /\nSitemap: https://enjoyseason.com/sitemap.xml\n`);
+};
+
+// ============================================================
+// MAIN
+// ============================================================
+console.log('\n🚀 EnjoysSeason V2 Generator — ALL FIXES APPLIED\n' + '='.repeat(50));
 actors.forEach(generateActorPage);
 console.log(`✅ Actor pages: ${actors.length}`);
 generateCountryPages();
+console.log(`✅ Country pages generated`);
 generateSitemap();
 console.log(`✅ Sitemap: ${allUrls.length} URLs`);
 generateRobots();
 console.log(`✅ robots.txt generated`);
-console.log('='.repeat(45));
+console.log('='.repeat(50));
 console.log(`\n🎉 TOTAL: ${totalPages} pages\n`);
