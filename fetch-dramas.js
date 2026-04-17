@@ -34,7 +34,7 @@ function makeSlug(name) {
     .trim();
 }
 
-const TARGET = 100;
+const TARGET = 1000;
 
 async function main() {
   console.log('🚀 Fetching dramas from TMDB...');
@@ -49,7 +49,7 @@ async function main() {
 
   const newDramas = [];
 
-  for (let page = 1; page <= 10; page++) {
+  for (let page = 1; page <= 300; page++) {
     if (newDramas.length >= TARGET) break;
 
     console.log(`\n📄 Fetching page ${page}...`);
