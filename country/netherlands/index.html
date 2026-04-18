@@ -3,210 +3,350 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netherlands Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 22 famous actors from Netherlands. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Netherlands Actors — Complete List of 23 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 23 famous actors from Netherlands. Complete profiles, biographies, movies and dramas. Carice van Houten, Famke Janssen, Gaite Jansen, Rick Nicolet, Eliyha Altena and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/netherlands">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Netherlands Actors","description":"Complete list of 23 famous actors from Netherlands","numberOfItems":23,"itemListElement":[{"@type":"ListItem","position":1,"name":"Carice van Houten","url":"https://enjoyseason.com/actors/netherlands/carice-van-houten"},{"@type":"ListItem","position":2,"name":"Famke Janssen","url":"https://enjoyseason.com/actors/netherlands/famke-janssen"},{"@type":"ListItem","position":3,"name":"Gaite Jansen","url":"https://enjoyseason.com/actors/netherlands/gaite-jansen"},{"@type":"ListItem","position":4,"name":"Rick Nicolet","url":"https://enjoyseason.com/actors/netherlands/rick-nicolet"},{"@type":"ListItem","position":5,"name":"Eliyha Altena","url":"https://enjoyseason.com/actors/netherlands/eliyha-altena"},{"@type":"ListItem","position":6,"name":"Michiel Huisman","url":"https://enjoyseason.com/actors/netherlands/michiel-huisman"},{"@type":"ListItem","position":7,"name":"Sylvia Kristel","url":"https://enjoyseason.com/actors/netherlands/sylvia-kristel"},{"@type":"ListItem","position":8,"name":"Sylvia Hoeks","url":"https://enjoyseason.com/actors/netherlands/sylvia-hoeks"},{"@type":"ListItem","position":9,"name":"Rutger Hauer","url":"https://enjoyseason.com/actors/netherlands/rutger-hauer"},{"@type":"ListItem","position":10,"name":"Ekin Mert Daymaz","url":"https://enjoyseason.com/actors/netherlands/ekin-mert-daymaz"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Netherlands</div>
-    <h1>🎭 Netherlands Actors</h1>
-    <p class="subtitle">22 actors from Netherlands</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Netherlands
+    </div>
+    <h1 class="page-title">🎭 Netherlands Actors</h1>
+    <p class="page-subtitle">Explore 23 famous actors and celebrities from Netherlands. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">23</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">Dutch</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Netherlands</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/netherlands/carice-van-houten" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/eVJqjb7D4FPRcZZ4nqtBk1gnkkj.jpg" alt="Carice van Houten" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Carice%20van%20Houten&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/eVJqjb7D4FPRcZZ4nqtBk1gnkkj.jpg" alt="Carice van Houten - Dutch Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Carice%20van%20Houten&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Carice van Houten</h3>
-        <p>Actress, Singer</p>
-        <a href="/actors/netherlands/carice-van-houten" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Carice van Houten</h3>
+          <p>Actress, Singer</p>
+          <span class="actor-genre">Drama, Fantasy</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/famke-janssen" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/uvZGwNsLqe9NyA57Qlt46IkO8Bd.jpg" alt="Famke Janssen" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Famke%20Janssen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/uvZGwNsLqe9NyA57Qlt46IkO8Bd.jpg" alt="Famke Janssen - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Famke%20Janssen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Famke Janssen</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/famke-janssen" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Famke Janssen</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/gaite-jansen" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9qv1Ocy9I1FLXVo3UeJqBzfu58V.jpg" alt="Gaite Jansen" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Gaite%20Jansen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9qv1Ocy9I1FLXVo3UeJqBzfu58V.jpg" alt="Gaite Jansen - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Gaite%20Jansen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Gaite Jansen</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/gaite-jansen" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Gaite Jansen</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/rick-nicolet" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/r6kvGdNEwJGfxjCoqj7U4Bn0pTD.jpg" alt="Rick Nicolet" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rick%20Nicolet&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/r6kvGdNEwJGfxjCoqj7U4Bn0pTD.jpg" alt="Rick Nicolet - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rick%20Nicolet&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rick Nicolet</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/rick-nicolet" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rick Nicolet</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/eliyha-altena" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/oVAg0sXly0EQ5hKOEwNAd2Mj3Q0.jpg" alt="Eliyha Altena" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eliyha%20Altena&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/oVAg0sXly0EQ5hKOEwNAd2Mj3Q0.jpg" alt="Eliyha Altena - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eliyha%20Altena&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Eliyha Altena</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/eliyha-altena" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Eliyha Altena</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/michiel-huisman" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4QQp2HIrBubKSBZpSWLzI21fNzA.jpg" alt="Michiel Huisman" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michiel%20Huisman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4QQp2HIrBubKSBZpSWLzI21fNzA.jpg" alt="Michiel Huisman - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michiel%20Huisman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Michiel Huisman</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/michiel-huisman" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Michiel Huisman</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/sylvia-kristel" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/t1zaQ8jIJmAcsHHJyBq1qjySULp.jpg" alt="Sylvia Kristel" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sylvia%20Kristel&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/t1zaQ8jIJmAcsHHJyBq1qjySULp.jpg" alt="Sylvia Kristel - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sylvia%20Kristel&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sylvia Kristel</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/sylvia-kristel" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Sylvia Kristel</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/sylvia-hoeks" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/wKC9LgqgJRCXuzs1kUKaK7Uicv.jpg" alt="Sylvia Hoeks" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sylvia%20Hoeks&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/wKC9LgqgJRCXuzs1kUKaK7Uicv.jpg" alt="Sylvia Hoeks - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sylvia%20Hoeks&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sylvia Hoeks</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/sylvia-hoeks" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Sylvia Hoeks</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/rutger-hauer" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/xyag0LbjocTwx2Ht7B3RofvCNMT.jpg" alt="Rutger Hauer" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rutger%20Hauer&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/xyag0LbjocTwx2Ht7B3RofvCNMT.jpg" alt="Rutger Hauer - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rutger%20Hauer&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rutger Hauer</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/rutger-hauer" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rutger Hauer</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/ekin-mert-daymaz" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/hcDkuSJAwsypq47dvCkc9QzNZ9N.jpg" alt="Ekin Mert Daymaz" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ekin%20Mert%20Daymaz&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/hcDkuSJAwsypq47dvCkc9QzNZ9N.jpg" alt="Ekin Mert Daymaz - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ekin%20Mert%20Daymaz&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ekin Mert Daymaz</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/ekin-mert-daymaz" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ekin Mert Daymaz</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/jaap-spijkers" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/thi1QOTdsGmUW13e6aXkQrQmDFs.jpg" alt="Jaap Spijkers" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jaap%20Spijkers&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/thi1QOTdsGmUW13e6aXkQrQmDFs.jpg" alt="Jaap Spijkers - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jaap%20Spijkers&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jaap Spijkers</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/jaap-spijkers" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jaap Spijkers</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/annet-malherbe" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/xAzQjXPop7fEfyOEFNqmW9IiSMv.jpg" alt="Annet Malherbe" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Annet%20Malherbe&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/xAzQjXPop7fEfyOEFNqmW9IiSMv.jpg" alt="Annet Malherbe - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Annet%20Malherbe&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Annet Malherbe</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/annet-malherbe" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Annet Malherbe</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/wilfred-genee" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/nKTBkVGKNYChgl9LupmzY0Zm53E.jpg" alt="Wilfred Genee" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Wilfred%20Genee&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/nKTBkVGKNYChgl9LupmzY0Zm53E.jpg" alt="Wilfred Genee - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Wilfred%20Genee&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Wilfred Genee</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/wilfred-genee" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Wilfred Genee</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/leontine-borsato" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/oNXGyb0PJLFFtZXNGnn0WTb9MnT.jpg" alt="Leontine Borsato" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Leontine%20Borsato&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/oNXGyb0PJLFFtZXNGnn0WTb9MnT.jpg" alt="Leontine Borsato - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Leontine%20Borsato&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Leontine Borsato</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/leontine-borsato" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Leontine Borsato</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/david-goddyn" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=David%20Goddyn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="David Goddyn" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Goddyn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=David%20Goddyn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="David Goddyn - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Goddyn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>David Goddyn</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/david-goddyn" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>David Goddyn</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/loes-haverkort" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/7Mz5pEkDGCXWY5nhiwSn8yWDFjx.jpg" alt="Loes Haverkort" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Loes%20Haverkort&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/7Mz5pEkDGCXWY5nhiwSn8yWDFjx.jpg" alt="Loes Haverkort - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Loes%20Haverkort&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Loes Haverkort</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/loes-haverkort" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Loes Haverkort</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/anna-drijver" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9rucPp1kwmUnXCjLhUD6KKEnmfx.jpg" alt="Anna Drijver" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anna%20Drijver&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9rucPp1kwmUnXCjLhUD6KKEnmfx.jpg" alt="Anna Drijver - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anna%20Drijver&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Anna Drijver</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/anna-drijver" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Anna Drijver</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/olivier-richters" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/8Zz5WYE1Muc3AX9daxCxgNTRE5.jpg" alt="Olivier Richters" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Olivier%20Richters&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/8Zz5WYE1Muc3AX9daxCxgNTRE5.jpg" alt="Olivier Richters - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Olivier%20Richters&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Olivier Richters</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/olivier-richters" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Olivier Richters</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/henkjan-smits" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/tQ1WPteUjlGVJDhSAuYTc6CJc4S.jpg" alt="Henkjan Smits" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Henkjan%20Smits&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/tQ1WPteUjlGVJDhSAuYTc6CJc4S.jpg" alt="Henkjan Smits - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Henkjan%20Smits&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Henkjan Smits</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/henkjan-smits" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Henkjan Smits</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/bo-maerten" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/Ap3Zxewp5ZlhKXpTpWNR84i5K92.jpg" alt="Bo Maerten" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bo%20Maerten&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/Ap3Zxewp5ZlhKXpTpWNR84i5K92.jpg" alt="Bo Maerten - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bo%20Maerten&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Bo Maerten</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/bo-maerten" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Bo Maerten</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/harm-edens" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/x4KIlwb4N63TpRrZEmHy9VwDEp6.jpg" alt="Harm Edens" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Harm%20Edens&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/x4KIlwb4N63TpRrZEmHy9VwDEp6.jpg" alt="Harm Edens - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Harm%20Edens&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Harm Edens</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/harm-edens" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Harm Edens</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/netherlands/sigrid-ten-napel" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/sp9CSIjxPnkkeqU20jIDCDYi0zn.jpg" alt="Sigrid ten Napel" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sigrid%20ten%20Napel&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/sp9CSIjxPnkkeqU20jIDCDYi0zn.jpg" alt="Sigrid ten Napel - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sigrid%20ten%20Napel&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sigrid ten Napel</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/netherlands/sigrid-ten-napel" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Sigrid ten Napel</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/netherlands/remko-vrijdag" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/g6KW48DqW8kcd2JkKRdUDyMrerk.jpg" alt="Remko Vrijdag - Netherlands Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Remko%20Vrijdag&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Remko Vrijdag</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

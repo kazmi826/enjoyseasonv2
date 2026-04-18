@@ -3,106 +3,182 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New York Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 9 famous actors from New York. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>New York Actors — Complete List of 9 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 9 famous actors from New York. Complete profiles, biographies, movies and dramas. Matt McGrath, John Larkin, Gregg Hughes, Román Zaragoza, Rick Hoffman and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/new-york">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"New York Actors","description":"Complete list of 9 famous actors from New York","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"name":"Matt McGrath","url":"https://enjoyseason.com/actors/new-york/matt-mcgrath"},{"@type":"ListItem","position":2,"name":"John Larkin","url":"https://enjoyseason.com/actors/new-york/john-larkin"},{"@type":"ListItem","position":3,"name":"Gregg Hughes","url":"https://enjoyseason.com/actors/new-york/gregg-hughes"},{"@type":"ListItem","position":4,"name":"Román Zaragoza","url":"https://enjoyseason.com/actors/new-york/rom-n-zaragoza"},{"@type":"ListItem","position":5,"name":"Rick Hoffman","url":"https://enjoyseason.com/actors/new-york/rick-hoffman"},{"@type":"ListItem","position":6,"name":"Eileen Pedde","url":"https://enjoyseason.com/actors/new-york/eileen-pedde"},{"@type":"ListItem","position":7,"name":"Michael Gandolfini","url":"https://enjoyseason.com/actors/new-york/michael-gandolfini"},{"@type":"ListItem","position":8,"name":"Greg Berlanti","url":"https://enjoyseason.com/actors/new-york/greg-berlanti"},{"@type":"ListItem","position":9,"name":"Giselle Eisenberg","url":"https://enjoyseason.com/actors/new-york/giselle-eisenberg"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › New York</div>
-    <h1>🎭 New York Actors</h1>
-    <p class="subtitle">9 actors from New York</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › New York
+    </div>
+    <h1 class="page-title">🎭 New York Actors</h1>
+    <p class="page-subtitle">Explore 9 famous actors and celebrities from New York. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">9</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">New York</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/new-york/matt-mcgrath" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/lYdLQvcAYb7PFu37RrjdLZjn49Y.jpg" alt="Matt McGrath" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Matt%20McGrath&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/lYdLQvcAYb7PFu37RrjdLZjn49Y.jpg" alt="Matt McGrath - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Matt%20McGrath&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Matt McGrath</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/matt-mcgrath" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Matt McGrath</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/john-larkin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/rSsrUPD7NDYqfSiVyLBwlSquzkP.jpg" alt="John Larkin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=John%20Larkin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/rSsrUPD7NDYqfSiVyLBwlSquzkP.jpg" alt="John Larkin - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=John%20Larkin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>John Larkin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/john-larkin" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>John Larkin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/gregg-hughes" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/5WoJkQVJBfuG4Uq4SnpOm00Nzhn.jpg" alt="Gregg Hughes" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Gregg%20Hughes&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/5WoJkQVJBfuG4Uq4SnpOm00Nzhn.jpg" alt="Gregg Hughes - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Gregg%20Hughes&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Gregg Hughes</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/gregg-hughes" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Gregg Hughes</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/rom-n-zaragoza" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/uWkOkSLqj2POMqkeLk5E5UJzebv.jpg" alt="Román Zaragoza" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rom%C3%A1n%20Zaragoza&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/uWkOkSLqj2POMqkeLk5E5UJzebv.jpg" alt="Román Zaragoza - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rom%C3%A1n%20Zaragoza&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Román Zaragoza</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/rom-n-zaragoza" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Román Zaragoza</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/rick-hoffman" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/c9CKBkLtGtW1T8GRNUid0tQHaJY.jpg" alt="Rick Hoffman" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rick%20Hoffman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/c9CKBkLtGtW1T8GRNUid0tQHaJY.jpg" alt="Rick Hoffman - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rick%20Hoffman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rick Hoffman</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/rick-hoffman" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rick Hoffman</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/eileen-pedde" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/unjd0sAVtNhdIJAxzx49RfeVevy.jpg" alt="Eileen Pedde" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eileen%20Pedde&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/unjd0sAVtNhdIJAxzx49RfeVevy.jpg" alt="Eileen Pedde - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eileen%20Pedde&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Eileen Pedde</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/eileen-pedde" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Eileen Pedde</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/michael-gandolfini" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/28b4ER8m7AJ40vsgocFIhwTKkzp.jpg" alt="Michael Gandolfini" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michael%20Gandolfini&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/28b4ER8m7AJ40vsgocFIhwTKkzp.jpg" alt="Michael Gandolfini - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michael%20Gandolfini&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Michael Gandolfini</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/michael-gandolfini" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Michael Gandolfini</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/greg-berlanti" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg" alt="Greg Berlanti" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Greg%20Berlanti&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg" alt="Greg Berlanti - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Greg%20Berlanti&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Greg Berlanti</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/greg-berlanti" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Greg Berlanti</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-york/giselle-eisenberg" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/iGXm2t4CyfYRsqIYRviACXpDjDY.jpg" alt="Giselle Eisenberg" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Giselle%20Eisenberg&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/iGXm2t4CyfYRsqIYRviACXpDjDY.jpg" alt="Giselle Eisenberg - New York Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Giselle%20Eisenberg&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Giselle Eisenberg</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-york/giselle-eisenberg" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Giselle Eisenberg</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

@@ -3,154 +3,266 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lebanon Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 15 famous actors from Lebanon. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Lebanon Actors — Complete List of 16 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 16 famous actors from Lebanon. Complete profiles, biographies, movies and dramas. Nadine Njeim, Cyrine Abdelnour, Maguy Bou Ghosn, Nour, Bassem Mughniyeh and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/lebanon">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Lebanon Actors","description":"Complete list of 16 famous actors from Lebanon","numberOfItems":16,"itemListElement":[{"@type":"ListItem","position":1,"name":"Nadine Njeim","url":"https://enjoyseason.com/actors/lebanon/nadine-njeim"},{"@type":"ListItem","position":2,"name":"Cyrine Abdelnour","url":"https://enjoyseason.com/actors/lebanon/cyrine-abdelnour"},{"@type":"ListItem","position":3,"name":"Maguy Bou Ghosn","url":"https://enjoyseason.com/actors/lebanon/maguy-bou-ghosn"},{"@type":"ListItem","position":4,"name":"Nour","url":"https://enjoyseason.com/actors/lebanon/nour-actress"},{"@type":"ListItem","position":5,"name":"Bassem Mughniyeh","url":"https://enjoyseason.com/actors/lebanon/bassem-mughniyeh"},{"@type":"ListItem","position":6,"name":"Nadine Labaki","url":"https://enjoyseason.com/actors/lebanon/nadine-labaki"},{"@type":"ListItem","position":7,"name":"Ward El Khal","url":"https://enjoyseason.com/actors/lebanon/ward-el-khal"},{"@type":"ListItem","position":8,"name":"Bassem Khakhar","url":"https://enjoyseason.com/actors/lebanon/bassem-khakhar"},{"@type":"ListItem","position":9,"name":"Nidal El-Ashtar","url":"https://enjoyseason.com/actors/lebanon/nidal-el-ashtar"},{"@type":"ListItem","position":10,"name":"Rafik Ali Ahmad","url":"https://enjoyseason.com/actors/lebanon/rafik-ali-ahmad"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Lebanon</div>
-    <h1>🎭 Lebanon Actors</h1>
-    <p class="subtitle">15 actors from Lebanon</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Lebanon
+    </div>
+    <h1 class="page-title">🎭 Lebanon Actors</h1>
+    <p class="page-subtitle">Explore 16 famous actors and celebrities from Lebanon. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">16</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">Arabic</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Lebanon</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/lebanon/nadine-njeim" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nadine Njeim" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nadine Njeim - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nadine Njeim</h3>
-        <p>Actress, Model</p>
-        <a href="/actors/lebanon/nadine-njeim" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nadine Njeim</h3>
+          <p>Actress, Model</p>
+          <span class="actor-genre">Drama, Romance</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/cyrine-abdelnour" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9xLCxBuTMkf84SFYr5f1jT3BEVC.jpg" alt="Cyrine Abdelnour" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Cyrine%20Abdelnour&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9xLCxBuTMkf84SFYr5f1jT3BEVC.jpg" alt="Cyrine Abdelnour - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Cyrine%20Abdelnour&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Cyrine Abdelnour</h3>
-        <p>Actress, Singer, Model</p>
-        <a href="/actors/lebanon/cyrine-abdelnour" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Cyrine Abdelnour</h3>
+          <p>Actress, Singer, Model</p>
+          <span class="actor-genre">Romance, Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/maguy-bou-ghosn" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1CuNxLM4UkgsBfykwYKNhLCnEFG.jpg" alt="Maguy Bou Ghosn" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maguy%20Bou%20Ghosn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1CuNxLM4UkgsBfykwYKNhLCnEFG.jpg" alt="Maguy Bou Ghosn - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maguy%20Bou%20Ghosn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Maguy Bou Ghosn</h3>
-        <p>Actress</p>
-        <a href="/actors/lebanon/maguy-bou-ghosn" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Maguy Bou Ghosn</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama, Comedy</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/nour-actress" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/3WrMP0CHwi3fPdxtOkbQtMdMHpW.jpg" alt="Nour" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nour&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/3WrMP0CHwi3fPdxtOkbQtMdMHpW.jpg" alt="Nour - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nour&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nour</h3>
-        <p>Actress</p>
-        <a href="/actors/lebanon/nour-actress" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nour</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama, Romance</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/bassem-mughniyeh" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Bassem%20Mughniyeh&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Bassem Mughniyeh" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bassem%20Mughniyeh&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Bassem%20Mughniyeh&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Bassem Mughniyeh - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bassem%20Mughniyeh&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Bassem Mughniyeh</h3>
-        <p>Actor, Director</p>
-        <a href="/actors/lebanon/bassem-mughniyeh" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Bassem Mughniyeh</h3>
+          <p>Actor, Director</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/nadine-labaki" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/mV1JAlM4CAdzosSqZs2ch2TPKLS.jpg" alt="Nadine Labaki" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadine%20Labaki&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/mV1JAlM4CAdzosSqZs2ch2TPKLS.jpg" alt="Nadine Labaki - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadine%20Labaki&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nadine Labaki</h3>
-        <p>Director, Actress</p>
-        <a href="/actors/lebanon/nadine-labaki" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nadine Labaki</h3>
+          <p>Director, Actress</p>
+          <span class="actor-genre">Drama, Social</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/ward-el-khal" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Ward%20El%20Khal&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Ward El Khal" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ward%20El%20Khal&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Ward%20El%20Khal&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Ward El Khal - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ward%20El%20Khal&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ward El Khal</h3>
-        <p>Actress</p>
-        <a href="/actors/lebanon/ward-el-khal" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ward El Khal</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/bassem-khakhar" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Bassem%20Khakhar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Bassem Khakhar" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bassem%20Khakhar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Bassem%20Khakhar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Bassem Khakhar - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bassem%20Khakhar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Bassem Khakhar</h3>
-        <p>Actor</p>
-        <a href="/actors/lebanon/bassem-khakhar" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Bassem Khakhar</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/nidal-el-ashtar" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Nidal%20El-Ashtar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal El-Ashtar" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20El-Ashtar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Nidal%20El-Ashtar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal El-Ashtar - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20El-Ashtar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nidal El-Ashtar</h3>
-        <p>Actress, Theater Director</p>
-        <a href="/actors/lebanon/nidal-el-ashtar" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nidal El-Ashtar</h3>
+          <p>Actress, Theater Director</p>
+          <span class="actor-genre">Drama, Theater</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/rafik-ali-ahmad" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Rafik%20Ali%20Ahmad&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Rafik Ali Ahmad" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rafik%20Ali%20Ahmad&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Rafik%20Ali%20Ahmad&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Rafik Ali Ahmad - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rafik%20Ali%20Ahmad&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rafik Ali Ahmad</h3>
-        <p>Actor</p>
-        <a href="/actors/lebanon/rafik-ali-ahmad" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rafik Ali Ahmad</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Theater</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/zaki-nassif-legacy" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Zaki%20Nassif&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Zaki Nassif" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Zaki%20Nassif&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Zaki%20Nassif&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Zaki Nassif - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Zaki%20Nassif&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Zaki Nassif</h3>
-        <p>Composer, Singer, Actor</p>
-        <a href="/actors/lebanon/zaki-nassif-legacy" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Zaki Nassif</h3>
+          <p>Composer, Singer, Actor</p>
+          <span class="actor-genre">Musical, Folk</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/nadine-njeim-star" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nadine Njeim" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nadine Njeim - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadine%20Njeim&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nadine Njeim</h3>
-        <p>Actress</p>
-        <a href="/actors/lebanon/nadine-njeim-star" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nadine Njeim</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama, Romance</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/nidal-al-rai" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Nidal%20Al-Rai&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal Al-Rai" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20Al-Rai&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Nidal%20Al-Rai&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal Al-Rai - Lebanese Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20Al-Rai&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nidal Al-Rai</h3>
-        <p>Actor</p>
-        <a href="/actors/lebanon/nidal-al-rai" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nidal Al-Rai</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/razane-jammal" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/nFFZGLhGera8UHImoKNMU63tSDP.jpg" alt="Razane Jammal" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Razane%20Jammal&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/nFFZGLhGera8UHImoKNMU63tSDP.jpg" alt="Razane Jammal - Lebanon Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Razane%20Jammal&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Razane Jammal</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/lebanon/razane-jammal" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Razane Jammal</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/lebanon/nick-e-tarabay" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/pY4eOU29ZqGdS858JRLoS5ReiEB.jpg" alt="Nick E. Tarabay" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nick%20E.%20Tarabay&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/pY4eOU29ZqGdS858JRLoS5ReiEB.jpg" alt="Nick E. Tarabay - Lebanon Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nick%20E.%20Tarabay&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nick E. Tarabay</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/lebanon/nick-e-tarabay" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Nick E. Tarabay</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/lebanon/carmen-bsaibes" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/tXvJF3YbadoNVzXH9XWOuKMVSBP.jpg" alt="Carmen Bsaibes - Lebanon Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Carmen%20Bsaibes&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Carmen Bsaibes</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

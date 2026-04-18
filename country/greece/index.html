@@ -3,138 +3,254 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Greece Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 13 famous actors from Greece. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Greece Actors — Complete List of 15 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 15 famous actors from Greece. Complete profiles, biographies, movies and dramas. Vangelis Ioannidis, Martha Lambiri-Fedorów, Anastasia Pantousi, Stavros Tsoumanis, Sassa Kazeli and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/greece">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Greece Actors","description":"Complete list of 15 famous actors from Greece","numberOfItems":15,"itemListElement":[{"@type":"ListItem","position":1,"name":"Vangelis Ioannidis","url":"https://enjoyseason.com/actors/greece/vangelis-ioannidis"},{"@type":"ListItem","position":2,"name":"Martha Lambiri-Fedorów","url":"https://enjoyseason.com/actors/greece/martha-lambiri-fedor-w"},{"@type":"ListItem","position":3,"name":"Anastasia Pantousi","url":"https://enjoyseason.com/actors/greece/anastasia-pantousi"},{"@type":"ListItem","position":4,"name":"Stavros Tsoumanis","url":"https://enjoyseason.com/actors/greece/stavros-tsoumanis"},{"@type":"ListItem","position":5,"name":"Sassa Kazeli","url":"https://enjoyseason.com/actors/greece/sassa-kazeli"},{"@type":"ListItem","position":6,"name":"Maria Georgiadou","url":"https://enjoyseason.com/actors/greece/maria-georgiadou"},{"@type":"ListItem","position":7,"name":"Klelia Andriolatou","url":"https://enjoyseason.com/actors/greece/klelia-andriolatou"},{"@type":"ListItem","position":8,"name":"Yorgos Lanthimos","url":"https://enjoyseason.com/actors/greece/yorgos-lanthimos"},{"@type":"ListItem","position":9,"name":"Kostas Bakas","url":"https://enjoyseason.com/actors/greece/kostas-bakas"},{"@type":"ListItem","position":10,"name":"Aliki Vougiouklaki","url":"https://enjoyseason.com/actors/greece/aliki-vougiouklaki"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Greece</div>
-    <h1>🎭 Greece Actors</h1>
-    <p class="subtitle">13 actors from Greece</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Greece
+    </div>
+    <h1 class="page-title">🎭 Greece Actors</h1>
+    <p class="page-subtitle">Explore 15 famous actors and celebrities from Greece. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">15</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Greece</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/greece/vangelis-ioannidis" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/qsvnfTOfCzJqJDXU8kPtVzmcG9Q.jpg" alt="Vangelis Ioannidis" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Vangelis%20Ioannidis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/qsvnfTOfCzJqJDXU8kPtVzmcG9Q.jpg" alt="Vangelis Ioannidis - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Vangelis%20Ioannidis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Vangelis Ioannidis</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/vangelis-ioannidis" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Vangelis Ioannidis</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/martha-lambiri-fedor-w" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/rIVvzIHepGarOWBSfjOmWNWQjUr.jpg" alt="Martha Lambiri-Fedorów" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Martha%20Lambiri-Fedor%C3%B3w&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/rIVvzIHepGarOWBSfjOmWNWQjUr.jpg" alt="Martha Lambiri-Fedorów - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Martha%20Lambiri-Fedor%C3%B3w&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Martha Lambiri-Fedorów</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/martha-lambiri-fedor-w" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Martha Lambiri-Fedorów</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/anastasia-pantousi" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4zjfSwYd774GWKiEAwih36Lhshp.jpg" alt="Anastasia Pantousi" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anastasia%20Pantousi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4zjfSwYd774GWKiEAwih36Lhshp.jpg" alt="Anastasia Pantousi - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anastasia%20Pantousi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Anastasia Pantousi</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/anastasia-pantousi" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Anastasia Pantousi</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/stavros-tsoumanis" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/s0COnknR1O3OhXEjfZNrGkLoI6B.jpg" alt="Stavros Tsoumanis" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Stavros%20Tsoumanis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/s0COnknR1O3OhXEjfZNrGkLoI6B.jpg" alt="Stavros Tsoumanis - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Stavros%20Tsoumanis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Stavros Tsoumanis</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/stavros-tsoumanis" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Stavros Tsoumanis</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/sassa-kazeli" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/irTNMbXYu6EGBzLGryAgoT3uX7W.jpg" alt="Sassa Kazeli" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sassa%20Kazeli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/irTNMbXYu6EGBzLGryAgoT3uX7W.jpg" alt="Sassa Kazeli - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sassa%20Kazeli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sassa Kazeli</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/sassa-kazeli" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Sassa Kazeli</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/maria-georgiadou" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/c2gEu3yAZAmnRLWbwz6TNL7YQMP.jpg" alt="Maria Georgiadou" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maria%20Georgiadou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/c2gEu3yAZAmnRLWbwz6TNL7YQMP.jpg" alt="Maria Georgiadou - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maria%20Georgiadou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Maria Georgiadou</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/maria-georgiadou" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Maria Georgiadou</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/klelia-andriolatou" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ePHyPgWa1fJb5FhqDjnN0e2T2u9.jpg" alt="Klelia Andriolatou" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Klelia%20Andriolatou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ePHyPgWa1fJb5FhqDjnN0e2T2u9.jpg" alt="Klelia Andriolatou - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Klelia%20Andriolatou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Klelia Andriolatou</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/klelia-andriolatou" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Klelia Andriolatou</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/yorgos-lanthimos" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/dvtv8eV1O8Fl385ctOu3sqO2PbD.jpg" alt="Yorgos Lanthimos" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Yorgos%20Lanthimos&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/dvtv8eV1O8Fl385ctOu3sqO2PbD.jpg" alt="Yorgos Lanthimos - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Yorgos%20Lanthimos&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Yorgos Lanthimos</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/yorgos-lanthimos" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Yorgos Lanthimos</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/kostas-bakas" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4YldiHFXCyK9b1lBDjzXtBRXKmR.jpg" alt="Kostas Bakas" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kostas%20Bakas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4YldiHFXCyK9b1lBDjzXtBRXKmR.jpg" alt="Kostas Bakas - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kostas%20Bakas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Kostas Bakas</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/kostas-bakas" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Kostas Bakas</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/aliki-vougiouklaki" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/dbgdB2EKMBUK89CR1oB3s5GCHwm.jpg" alt="Aliki Vougiouklaki" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aliki%20Vougiouklaki&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/dbgdB2EKMBUK89CR1oB3s5GCHwm.jpg" alt="Aliki Vougiouklaki - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aliki%20Vougiouklaki&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Aliki Vougiouklaki</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/aliki-vougiouklaki" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Aliki Vougiouklaki</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/antigoni-koukouli" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/em9h4s7tBMHPZftaGrrTL4W79sx.jpg" alt="Antigoni Koukouli" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Antigoni%20Koukouli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/em9h4s7tBMHPZftaGrrTL4W79sx.jpg" alt="Antigoni Koukouli - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Antigoni%20Koukouli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Antigoni Koukouli</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/antigoni-koukouli" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Antigoni Koukouli</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/lila-baklesi" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ig4y2ka5htXRdiiTzEbhZUJvFqN.jpg" alt="Lila Baklesi" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lila%20Baklesi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ig4y2ka5htXRdiiTzEbhZUJvFqN.jpg" alt="Lila Baklesi - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lila%20Baklesi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lila Baklesi</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/lila-baklesi" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lila Baklesi</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/greece/oreste-lionello" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/w3iMIxwX4g5bIFs9u5UTcboXESc.jpg" alt="Oreste Lionello" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Oreste%20Lionello&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/w3iMIxwX4g5bIFs9u5UTcboXESc.jpg" alt="Oreste Lionello - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Oreste%20Lionello&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Oreste Lionello</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/greece/oreste-lionello" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Oreste Lionello</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/greece/vangelis-mourikis" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/vjyCvNNLB4HMHvfpya7dtZTJuNg.jpg" alt="Vangelis Mourikis - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Vangelis%20Mourikis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Vangelis Mourikis</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/greece/haruna-ikezawa" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/8Wf6Kytb41jYs69iXrGBX7fyUtq.jpg" alt="Haruna Ikezawa - Greece Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Haruna%20Ikezawa&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Haruna Ikezawa</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

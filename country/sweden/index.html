@@ -3,306 +3,482 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sweden Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 34 famous actors from Sweden. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Sweden Actors — Complete List of 34 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 34 famous actors from Sweden. Complete profiles, biographies, movies and dramas. Alicia Vikander, Ludwig Göransson, Joel Kinnaman, Alexander Skarsgård, Bill Skarsgård and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/sweden">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Sweden Actors","description":"Complete list of 34 famous actors from Sweden","numberOfItems":34,"itemListElement":[{"@type":"ListItem","position":1,"name":"Alicia Vikander","url":"https://enjoyseason.com/actors/sweden/alicia-vikander"},{"@type":"ListItem","position":2,"name":"Ludwig Göransson","url":"https://enjoyseason.com/actors/sweden/ludwig-goransson"},{"@type":"ListItem","position":3,"name":"Joel Kinnaman","url":"https://enjoyseason.com/actors/sweden/joel-kinnaman"},{"@type":"ListItem","position":4,"name":"Alexander Skarsgård","url":"https://enjoyseason.com/actors/sweden/alexander-skarsg-rd"},{"@type":"ListItem","position":5,"name":"Bill Skarsgård","url":"https://enjoyseason.com/actors/sweden/bill-skarsg-rd"},{"@type":"ListItem","position":6,"name":"Dolph Lundgren","url":"https://enjoyseason.com/actors/sweden/dolph-lundgren"},{"@type":"ListItem","position":7,"name":"Rebecca Ferguson","url":"https://enjoyseason.com/actors/sweden/rebecca-ferguson"},{"@type":"ListItem","position":8,"name":"Noomi Rapace","url":"https://enjoyseason.com/actors/sweden/noomi-rapace"},{"@type":"ListItem","position":9,"name":"Peter Stormare","url":"https://enjoyseason.com/actors/sweden/peter-stormare"},{"@type":"ListItem","position":10,"name":"Malin Åkerman","url":"https://enjoyseason.com/actors/sweden/malin-kerman"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Sweden</div>
-    <h1>🎭 Sweden Actors</h1>
-    <p class="subtitle">34 actors from Sweden</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Sweden
+    </div>
+    <h1 class="page-title">🎭 Sweden Actors</h1>
+    <p class="page-subtitle">Explore 34 famous actors and celebrities from Sweden. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">34</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">Swedish</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Sweden</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/sweden/alicia-vikander" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9pmHTbXeRxUF51jJKthmHI49u9z.jpg" alt="Alicia Vikander" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alicia%20Vikander&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9pmHTbXeRxUF51jJKthmHI49u9z.jpg" alt="Alicia Vikander - Swedish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alicia%20Vikander&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alicia Vikander</h3>
-        <p>Actress</p>
-        <a href="/actors/sweden/alicia-vikander" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alicia Vikander</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama, Sci-Fi</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/ludwig-goransson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/3phYwmonUBcDXZ1DY5kHYjYYoor.jpg" alt="Ludwig Göransson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ludwig%20G%C3%B6ransson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/3phYwmonUBcDXZ1DY5kHYjYYoor.jpg" alt="Ludwig Göransson - Swedish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ludwig%20G%C3%B6ransson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ludwig Göransson</h3>
-        <p>Composer, Producer</p>
-        <a href="/actors/sweden/ludwig-goransson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ludwig Göransson</h3>
+          <p>Composer, Producer</p>
+          <span class="actor-genre">Music, Film Score</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/joel-kinnaman" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/cVfYzTyQdJ4xtxKPZe7IcW3BJN4.jpg" alt="Joel Kinnaman" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Joel%20Kinnaman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/cVfYzTyQdJ4xtxKPZe7IcW3BJN4.jpg" alt="Joel Kinnaman - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Joel%20Kinnaman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Joel Kinnaman</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/joel-kinnaman" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Joel Kinnaman</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/alexander-skarsg-rd" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/6VNNddrSrIVgdzhXr4Zg89gmOzY.jpg" alt="Alexander Skarsgård" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alexander%20Skarsg%C3%A5rd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/6VNNddrSrIVgdzhXr4Zg89gmOzY.jpg" alt="Alexander Skarsgård - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alexander%20Skarsg%C3%A5rd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alexander Skarsgård</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/alexander-skarsg-rd" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alexander Skarsgård</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/bill-skarsg-rd" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/xBXLx1m0uzhXIbY3wN8lmPGeUHl.jpg" alt="Bill Skarsgård" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bill%20Skarsg%C3%A5rd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/xBXLx1m0uzhXIbY3wN8lmPGeUHl.jpg" alt="Bill Skarsgård - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bill%20Skarsg%C3%A5rd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Bill Skarsgård</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/bill-skarsg-rd" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Bill Skarsgård</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/dolph-lundgren" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/fB1tOws6Gav0xE8LYlELEb82hJt.jpg" alt="Dolph Lundgren" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Dolph%20Lundgren&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/fB1tOws6Gav0xE8LYlELEb82hJt.jpg" alt="Dolph Lundgren - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Dolph%20Lundgren&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Dolph Lundgren</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/dolph-lundgren" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Dolph Lundgren</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/rebecca-ferguson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/lJloTOheuQSirSLXNA3JHsrMNfH.jpg" alt="Rebecca Ferguson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rebecca%20Ferguson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/lJloTOheuQSirSLXNA3JHsrMNfH.jpg" alt="Rebecca Ferguson - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rebecca%20Ferguson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rebecca Ferguson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/rebecca-ferguson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rebecca Ferguson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/noomi-rapace" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zkg9wfbXZi9OqvwW2ku38zNC1Hk.jpg" alt="Noomi Rapace" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Noomi%20Rapace&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zkg9wfbXZi9OqvwW2ku38zNC1Hk.jpg" alt="Noomi Rapace - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Noomi%20Rapace&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Noomi Rapace</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/noomi-rapace" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Noomi Rapace</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/peter-stormare" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1rtpuUqBV29jDc1huUhtjGDbEwn.jpg" alt="Peter Stormare" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Peter%20Stormare&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1rtpuUqBV29jDc1huUhtjGDbEwn.jpg" alt="Peter Stormare - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Peter%20Stormare&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Peter Stormare</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/peter-stormare" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Peter Stormare</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/malin-kerman" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/u38qRcCAiO3SZdFKJKx3fncDyef.jpg" alt="Malin Åkerman" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Malin%20%C3%85kerman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/u38qRcCAiO3SZdFKJKx3fncDyef.jpg" alt="Malin Åkerman - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Malin%20%C3%85kerman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Malin Åkerman</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/malin-kerman" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Malin Åkerman</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/magnus-uggla" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/tlhZGp8VrxaYsVDQVnbA9GftMla.jpg" alt="Magnus Uggla" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Magnus%20Uggla&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/tlhZGp8VrxaYsVDQVnbA9GftMla.jpg" alt="Magnus Uggla - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Magnus%20Uggla&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Magnus Uggla</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/magnus-uggla" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Magnus Uggla</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/stellan-skarsg-rd" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg" alt="Stellan Skarsgård" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Stellan%20Skarsg%C3%A5rd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg" alt="Stellan Skarsgård - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Stellan%20Skarsg%C3%A5rd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Stellan Skarsgård</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/stellan-skarsg-rd" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Stellan Skarsgård</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/arne-k-llerud" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4yQMLsJAXMxj83aMAxjd4tnRa9V.jpg" alt="Arne Källerud" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Arne%20K%C3%A4llerud&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4yQMLsJAXMxj83aMAxjd4tnRa9V.jpg" alt="Arne Källerud - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Arne%20K%C3%A4llerud&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Arne Källerud</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/arne-k-llerud" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Arne Källerud</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/lena-olin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/tUg7cH4qLqs5WdOIH0WMQby9kWH.jpg" alt="Lena Olin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lena%20Olin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/tUg7cH4qLqs5WdOIH0WMQby9kWH.jpg" alt="Lena Olin - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lena%20Olin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lena Olin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/lena-olin" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lena Olin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/ann-margret" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/5ytRNHYNqyazk7z7fQt51rYne37.jpg" alt="Ann-Margret" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ann-Margret&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/5ytRNHYNqyazk7z7fQt51rYne37.jpg" alt="Ann-Margret - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ann-Margret&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ann-Margret</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/ann-margret" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ann-Margret</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/max-von-sydow" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/u16BsGyT6v9yuO7wWAF62NayDth.jpg" alt="Max von Sydow" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Max%20von%20Sydow&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/u16BsGyT6v9yuO7wWAF62NayDth.jpg" alt="Max von Sydow - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Max%20von%20Sydow&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Max von Sydow</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/max-von-sydow" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Max von Sydow</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/helena-mattsson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9b3ZG8KoEZA2MlVIyE4hGH00Cr6.jpg" alt="Helena Mattsson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Helena%20Mattsson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9b3ZG8KoEZA2MlVIyE4hGH00Cr6.jpg" alt="Helena Mattsson - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Helena%20Mattsson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Helena Mattsson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/helena-mattsson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Helena Mattsson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/ewa-aulin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/wzUh2maIu5cVtVCongKdrAZDR86.jpg" alt="Ewa Aulin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ewa%20Aulin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/wzUh2maIu5cVtVCongKdrAZDR86.jpg" alt="Ewa Aulin - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ewa%20Aulin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ewa Aulin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/ewa-aulin" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ewa Aulin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/francisca-aronsson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ucOJIDkwzniSmuRMcYELKSz4Gi2.jpg" alt="Francisca Aronsson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Francisca%20Aronsson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ucOJIDkwzniSmuRMcYELKSz4Gi2.jpg" alt="Francisca Aronsson - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Francisca%20Aronsson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Francisca Aronsson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/francisca-aronsson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Francisca Aronsson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/rebecka-hemse" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/nV5pgFit8NS1pV8FNSXs5yXHRYO.jpg" alt="Rebecka Hemse" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rebecka%20Hemse&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/nV5pgFit8NS1pV8FNSXs5yXHRYO.jpg" alt="Rebecka Hemse - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rebecka%20Hemse&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rebecka Hemse</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/rebecka-hemse" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rebecka Hemse</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/myanna-buring" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/oN3YUXsQYfcss2lJZetkRPoKx21.jpg" alt="MyAnna Buring" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=MyAnna%20Buring&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/oN3YUXsQYfcss2lJZetkRPoKx21.jpg" alt="MyAnna Buring - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=MyAnna%20Buring&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>MyAnna Buring</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/myanna-buring" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>MyAnna Buring</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/mercedes-mason" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/56sOwTwRCaEJL2SkgCkTHNPSF55.jpg" alt="Mercedes Mason" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mercedes%20Mason&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/56sOwTwRCaEJL2SkgCkTHNPSF55.jpg" alt="Mercedes Mason - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mercedes%20Mason&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Mercedes Mason</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/mercedes-mason" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Mercedes Mason</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/sofia-helin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/aOzrZ51r9sPAE8sJvQm2LuZ3hYc.jpg" alt="Sofia Helin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sofia%20Helin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/aOzrZ51r9sPAE8sJvQm2LuZ3hYc.jpg" alt="Sofia Helin - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sofia%20Helin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sofia Helin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/sofia-helin" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Sofia Helin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/edvin-ryding" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/d7fcmwBi974TD3soI4VG88c8YN2.jpg" alt="Edvin Ryding" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Edvin%20Ryding&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/d7fcmwBi974TD3soI4VG88c8YN2.jpg" alt="Edvin Ryding - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Edvin%20Ryding&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Edvin Ryding</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/edvin-ryding" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Edvin Ryding</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/ingrid-bergman" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/jXEE0P6705JbMAJ2nwtHjmqkd5F.jpg" alt="Ingrid Bergman" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ingrid%20Bergman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/jXEE0P6705JbMAJ2nwtHjmqkd5F.jpg" alt="Ingrid Bergman - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ingrid%20Bergman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ingrid Bergman</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/ingrid-bergman" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ingrid Bergman</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/ingmar-bergman" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg" alt="Ingmar Bergman" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ingmar%20Bergman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/nkmOaXNRoioViN9OQf2n9Iu6akA.jpg" alt="Ingmar Bergman - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ingmar%20Bergman&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ingmar Bergman</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/ingmar-bergman" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ingmar Bergman</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/alexandra-rapaport" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/s1YiDSnSdXbX4HhbMC8588kWY15.jpg" alt="Alexandra Rapaport" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alexandra%20Rapaport&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/s1YiDSnSdXbX4HhbMC8588kWY15.jpg" alt="Alexandra Rapaport - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alexandra%20Rapaport&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alexandra Rapaport</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/alexandra-rapaport" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alexandra Rapaport</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/katia-winter" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/iMAKw8zStCE1Gf3EU8jrNDIWzGW.jpg" alt="Katia Winter" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Katia%20Winter&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/iMAKw8zStCE1Gf3EU8jrNDIWzGW.jpg" alt="Katia Winter - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Katia%20Winter&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Katia Winter</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/katia-winter" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Katia Winter</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/maiko-kawakami" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/bzP2tzVo6J2mt3uDyYfjXtBfk89.jpg" alt="Maiko Kawakami" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maiko%20Kawakami&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/bzP2tzVo6J2mt3uDyYfjXtBfk89.jpg" alt="Maiko Kawakami - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maiko%20Kawakami&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Maiko Kawakami</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/maiko-kawakami" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Maiko Kawakami</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/alicia-agneson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg" alt="Alicia Agneson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alicia%20Agneson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/a3IrkRmyqbm7NltqvN7ilWZZkx0.jpg" alt="Alicia Agneson - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alicia%20Agneson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alicia Agneson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/alicia-agneson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alicia Agneson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/mai-zetterling" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9F7epVzmm38e3rgLXFM6G6sOZmP.jpg" alt="Mai Zetterling" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mai%20Zetterling&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9F7epVzmm38e3rgLXFM6G6sOZmP.jpg" alt="Mai Zetterling - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mai%20Zetterling&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Mai Zetterling</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/mai-zetterling" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Mai Zetterling</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/simon-j-berger" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/njrbGetxp48znoyte8jHcR5wkgx.jpg" alt="Simon J. Berger" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Simon%20J.%20Berger&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/njrbGetxp48znoyte8jHcR5wkgx.jpg" alt="Simon J. Berger - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Simon%20J.%20Berger&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Simon J. Berger</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/simon-j-berger" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Simon J. Berger</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/lasse-hallstr-m" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zEz9LphkDBcGAAYGdjIU5QzjB9C.jpg" alt="Lasse Hallström" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lasse%20Hallstr%C3%B6m&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zEz9LphkDBcGAAYGdjIU5QzjB9C.jpg" alt="Lasse Hallström - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lasse%20Hallstr%C3%B6m&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lasse Hallström</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/lasse-hallstr-m" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lasse Hallström</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/sweden/david-dencik" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/2BPsGhw8lGhe6HNs1aLu4Q1XeVn.jpg" alt="David Dencik" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Dencik&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/2BPsGhw8lGhe6HNs1aLu4Q1XeVn.jpg" alt="David Dencik - Sweden Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Dencik&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>David Dencik</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/sweden/david-dencik" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>David Dencik</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

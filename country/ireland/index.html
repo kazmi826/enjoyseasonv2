@@ -3,434 +3,722 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ireland Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 50 famous actors from Ireland. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Ireland Actors — Complete List of 54 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 54 famous actors from Ireland. Complete profiles, biographies, movies and dramas. Cillian Murphy, Michael Fassbender, Andrew Scott, Colin Farrell, Brendan Gleeson and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/ireland">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Ireland Actors","description":"Complete list of 54 famous actors from Ireland","numberOfItems":54,"itemListElement":[{"@type":"ListItem","position":1,"name":"Cillian Murphy","url":"https://enjoyseason.com/actors/ireland/cillian-murphy-updated"},{"@type":"ListItem","position":2,"name":"Michael Fassbender","url":"https://enjoyseason.com/actors/ireland/michael-fassbender"},{"@type":"ListItem","position":3,"name":"Andrew Scott","url":"https://enjoyseason.com/actors/ireland/andrew-scott"},{"@type":"ListItem","position":4,"name":"Colin Farrell","url":"https://enjoyseason.com/actors/ireland/colin-farrell"},{"@type":"ListItem","position":5,"name":"Brendan Gleeson","url":"https://enjoyseason.com/actors/ireland/brendan-gleeson"},{"@type":"ListItem","position":6,"name":"Jack Gleeson","url":"https://enjoyseason.com/actors/ireland/jack-gleeson"},{"@type":"ListItem","position":7,"name":"Liam Cunningham","url":"https://enjoyseason.com/actors/ireland/liam-cunningham"},{"@type":"ListItem","position":8,"name":"Aidan Gillen","url":"https://enjoyseason.com/actors/ireland/aidan-gillen"},{"@type":"ListItem","position":9,"name":"Colin O'Donoghue","url":"https://enjoyseason.com/actors/ireland/colin-odonoghue"},{"@type":"ListItem","position":10,"name":"Barry Keoghan","url":"https://enjoyseason.com/actors/ireland/barry-keoghan"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Ireland</div>
-    <h1>🎭 Ireland Actors</h1>
-    <p class="subtitle">50 actors from Ireland</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Ireland
+    </div>
+    <h1 class="page-title">🎭 Ireland Actors</h1>
+    <p class="page-subtitle">Explore 54 famous actors and celebrities from Ireland. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">54</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Ireland</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/ireland/cillian-murphy-updated" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg" alt="Cillian Murphy" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Cillian%20Murphy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/2lKs67r7FI4bPu0AXxMUJZxmUXn.jpg" alt="Cillian Murphy - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Cillian%20Murphy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Cillian Murphy</h3>
-        <p>Actor</p>
-        <a href="/actors/ireland/cillian-murphy-updated" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Cillian Murphy</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Thriller</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/michael-fassbender" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg" alt="Michael Fassbender" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michael%20Fassbender&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg" alt="Michael Fassbender - Irish-German Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michael%20Fassbender&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Michael Fassbender</h3>
-        <p>Actor, Racing Driver</p>
-        <a href="/actors/ireland/michael-fassbender" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Michael Fassbender</h3>
+          <p>Actor, Racing Driver</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/andrew-scott" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/8qyt6HheUQvLwargYvs5EcsceGz.jpg" alt="Andrew Scott" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Andrew%20Scott&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/8qyt6HheUQvLwargYvs5EcsceGz.jpg" alt="Andrew Scott - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Andrew%20Scott&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Andrew Scott</h3>
-        <p>Actor</p>
-        <a href="/actors/ireland/andrew-scott" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Andrew Scott</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Crime</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/colin-farrell" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/oyQVfpowL9eSudYhwoPGkd9WxS7.jpg" alt="Colin Farrell" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Colin%20Farrell&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/oyQVfpowL9eSudYhwoPGkd9WxS7.jpg" alt="Colin Farrell - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Colin%20Farrell&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Colin Farrell</h3>
-        <p>Actor</p>
-        <a href="/actors/ireland/colin-farrell" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Colin Farrell</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Crime</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/brendan-gleeson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ctPPJu5ZYDZr1IPmzoNpezczrm0.jpg" alt="Brendan Gleeson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Brendan%20Gleeson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ctPPJu5ZYDZr1IPmzoNpezczrm0.jpg" alt="Brendan Gleeson - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Brendan%20Gleeson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Brendan Gleeson</h3>
-        <p>Actor, Director</p>
-        <a href="/actors/ireland/brendan-gleeson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Brendan Gleeson</h3>
+          <p>Actor, Director</p>
+          <span class="actor-genre">Drama, Comedy</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/jack-gleeson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/97NkocCiLUwNzMDYjngSm5soGlN.jpg" alt="Jack Gleeson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jack%20Gleeson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/97NkocCiLUwNzMDYjngSm5soGlN.jpg" alt="Jack Gleeson - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jack%20Gleeson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jack Gleeson</h3>
-        <p>Actor</p>
-        <a href="/actors/ireland/jack-gleeson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jack Gleeson</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Fantasy, Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/liam-cunningham" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ljmFT9zYqh4k2bmEcNU6rxoE7fW.jpg" alt="Liam Cunningham" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Liam%20Cunningham&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ljmFT9zYqh4k2bmEcNU6rxoE7fW.jpg" alt="Liam Cunningham - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Liam%20Cunningham&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Liam Cunningham</h3>
-        <p>Actor</p>
-        <a href="/actors/ireland/liam-cunningham" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Liam Cunningham</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Sci-Fi</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/aidan-gillen" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/fWWRgyJEGjOPcx43CaFiUCWMBLo.jpg" alt="Aidan Gillen" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aidan%20Gillen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/fWWRgyJEGjOPcx43CaFiUCWMBLo.jpg" alt="Aidan Gillen - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aidan%20Gillen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Aidan Gillen</h3>
-        <p>Actor</p>
-        <a href="/actors/ireland/aidan-gillen" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Aidan Gillen</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Crime, Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/colin-odonoghue" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/jxdxsSd1cNY3bXqhVwe7BWNjsJ8.jpg" alt="Colin O'Donoghue" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Colin%20O'Donoghue&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/jxdxsSd1cNY3bXqhVwe7BWNjsJ8.jpg" alt="Colin O'Donoghue - Irish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Colin%20O'Donoghue&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Colin O'Donoghue</h3>
-        <p>Actor, Musician</p>
-        <a href="/actors/ireland/colin-odonoghue" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Colin O'Donoghue</h3>
+          <p>Actor, Musician</p>
+          <span class="actor-genre">Fantasy, Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/barry-keoghan" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ngoitknM6hw8fffLywyvjzy6Iti.jpg" alt="Barry Keoghan" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Barry%20Keoghan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ngoitknM6hw8fffLywyvjzy6Iti.jpg" alt="Barry Keoghan - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Barry%20Keoghan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Barry Keoghan</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/barry-keoghan" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Barry Keoghan</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/jessie-buckley" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/qbz9175DERSqsCQeYWGJWwqb38z.jpg" alt="Jessie Buckley" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jessie%20Buckley&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/qbz9175DERSqsCQeYWGJWwqb38z.jpg" alt="Jessie Buckley - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jessie%20Buckley&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jessie Buckley</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/jessie-buckley" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jessie Buckley</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/charlie-murphy" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/AaugO5Qq1Opp3Dv6JuH5ESJYmo9.jpg" alt="Charlie Murphy" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Charlie%20Murphy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/AaugO5Qq1Opp3Dv6JuH5ESJYmo9.jpg" alt="Charlie Murphy - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Charlie%20Murphy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Charlie Murphy</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/charlie-murphy" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Charlie Murphy</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/emmett-j-scanlan" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1NmZuOXJ9XXLU5Yez5iedoEZWRp.jpg" alt="Emmett J. Scanlan" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Emmett%20J.%20Scanlan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1NmZuOXJ9XXLU5Yez5iedoEZWRp.jpg" alt="Emmett J. Scanlan - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Emmett%20J.%20Scanlan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Emmett J. Scanlan</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/emmett-j-scanlan" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Emmett J. Scanlan</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/dominique-mcelligott" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/67WjmwIlPkt6Q6DANkMN1HjWha5.jpg" alt="Dominique McElligott" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Dominique%20McElligott&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/67WjmwIlPkt6Q6DANkMN1HjWha5.jpg" alt="Dominique McElligott - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Dominique%20McElligott&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Dominique McElligott</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/dominique-mcelligott" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Dominique McElligott</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/nicola-coughlan" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/shSN86O3qckxcO7YXVtaNy9ksSU.jpg" alt="Nicola Coughlan" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nicola%20Coughlan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/shSN86O3qckxcO7YXVtaNy9ksSU.jpg" alt="Nicola Coughlan - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nicola%20Coughlan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nicola Coughlan</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/nicola-coughlan" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nicola Coughlan</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/d-nal-finn" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/uKcB9Pac4rvXBlzK7mnEuV3GZZZ.jpg" alt="Dónal Finn" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=D%C3%B3nal%20Finn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/uKcB9Pac4rvXBlzK7mnEuV3GZZZ.jpg" alt="Dónal Finn - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=D%C3%B3nal%20Finn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Dónal Finn</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/d-nal-finn" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Dónal Finn</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/caitr-ona-balfe" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4KQRDj74lKwU52Ewmzz7sVIakgn.jpg" alt="Caitríona Balfe" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Caitr%C3%ADona%20Balfe&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4KQRDj74lKwU52Ewmzz7sVIakgn.jpg" alt="Caitríona Balfe - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Caitr%C3%ADona%20Balfe&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Caitríona Balfe</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/caitr-ona-balfe" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Caitríona Balfe</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/kerry-condon" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/8RO25vJxQSoNdhsVbiAHOsiGfvl.jpg" alt="Kerry Condon" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kerry%20Condon&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/8RO25vJxQSoNdhsVbiAHOsiGfvl.jpg" alt="Kerry Condon - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kerry%20Condon&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Kerry Condon</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/kerry-condon" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Kerry Condon</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/jonathan-rhys-meyers" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/RsrGA98aMmyjTTxTLhAaOqnfLz.jpg" alt="Jonathan Rhys Meyers" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jonathan%20Rhys%20Meyers&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/RsrGA98aMmyjTTxTLhAaOqnfLz.jpg" alt="Jonathan Rhys Meyers - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jonathan%20Rhys%20Meyers&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jonathan Rhys Meyers</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/jonathan-rhys-meyers" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jonathan Rhys Meyers</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/paul-duane" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1ARJpI5TlOdDOaaKYJDv0UwZdRe.jpg" alt="Paul Duane" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Paul%20Duane&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1ARJpI5TlOdDOaaKYJDv0UwZdRe.jpg" alt="Paul Duane - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Paul%20Duane&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Paul Duane</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/paul-duane" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Paul Duane</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/lee-cronin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/qRJgpkLTXE1EkmmHvmD4AnvrFap.jpg" alt="Lee Cronin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lee%20Cronin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/qRJgpkLTXE1EkmmHvmD4AnvrFap.jpg" alt="Lee Cronin - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lee%20Cronin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lee Cronin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/lee-cronin" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lee Cronin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/killian-scott" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/8ri6qJgCitrezFaiCPzgQbdDBYp.jpg" alt="Killian Scott" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Killian%20Scott&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/8ri6qJgCitrezFaiCPzgQbdDBYp.jpg" alt="Killian Scott - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Killian%20Scott&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Killian Scott</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/killian-scott" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Killian Scott</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/richard-harris" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/lCvcVMuxrg1f5A8OMqY9AqkkcZR.jpg" alt="Richard Harris" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Richard%20Harris&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/lCvcVMuxrg1f5A8OMqY9AqkkcZR.jpg" alt="Richard Harris - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Richard%20Harris&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Richard Harris</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/richard-harris" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Richard Harris</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/aidan-turner" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/owWJR9RCq7FcOw9R9yX70TKNsvQ.jpg" alt="Aidan Turner" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aidan%20Turner&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/owWJR9RCq7FcOw9R9yX70TKNsvQ.jpg" alt="Aidan Turner - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aidan%20Turner&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Aidan Turner</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/aidan-turner" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Aidan Turner</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/katie-mcgrath" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/cq9pc7qFRUKCrkXgsi5mJkb64U5.jpg" alt="Katie McGrath" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Katie%20McGrath&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/cq9pc7qFRUKCrkXgsi5mJkb64U5.jpg" alt="Katie McGrath - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Katie%20McGrath&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Katie McGrath</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/katie-mcgrath" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Katie McGrath</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/michael-gambon" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg" alt="Michael Gambon" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michael%20Gambon&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg" alt="Michael Gambon - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Michael%20Gambon&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Michael Gambon</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/michael-gambon" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Michael Gambon</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/chris-o-dowd" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/xhfgliN8DInDVBliPq7JDeKNCvz.jpg" alt="Chris O'Dowd" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Chris%20O'Dowd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/xhfgliN8DInDVBliPq7JDeKNCvz.jpg" alt="Chris O'Dowd - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Chris%20O'Dowd&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Chris O'Dowd</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/chris-o-dowd" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Chris O'Dowd</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/eve-hewson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/Dj3osDr5zSP7uMtBBbbUeIgRMu.jpg" alt="Eve Hewson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eve%20Hewson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/Dj3osDr5zSP7uMtBBbbUeIgRMu.jpg" alt="Eve Hewson - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eve%20Hewson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Eve Hewson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/eve-hewson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Eve Hewson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/niamh-cusack" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/nfSWB8Ek9X9kjUtjD6PzWxVM5Xd.jpg" alt="Niamh Cusack" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Niamh%20Cusack&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/nfSWB8Ek9X9kjUtjD6PzWxVM5Xd.jpg" alt="Niamh Cusack - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Niamh%20Cusack&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Niamh Cusack</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/niamh-cusack" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Niamh Cusack</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/fiona-shaw" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/tjM74LcxwnYM77Csg1EtlXb1F9a.jpg" alt="Fiona Shaw" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Fiona%20Shaw&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/tjM74LcxwnYM77Csg1EtlXb1F9a.jpg" alt="Fiona Shaw - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Fiona%20Shaw&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Fiona Shaw</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/fiona-shaw" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Fiona Shaw</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/amybeth-mcnulty" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/kp8cqxIFdAThkdoNU0qpCZsokqO.jpg" alt="Amybeth McNulty" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Amybeth%20McNulty&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/kp8cqxIFdAThkdoNU0qpCZsokqO.jpg" alt="Amybeth McNulty - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Amybeth%20McNulty&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Amybeth McNulty</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/amybeth-mcnulty" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Amybeth McNulty</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/a-j-buckley" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/arGsJN4HuiNpFsRsNX81fDX1KJj.jpg" alt="A.J. Buckley" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=A.J.%20Buckley&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/arGsJN4HuiNpFsRsNX81fDX1KJj.jpg" alt="A.J. Buckley - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=A.J.%20Buckley&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>A.J. Buckley</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/a-j-buckley" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>A.J. Buckley</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/allen-leech" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/cJZSyKNUKwdNPEgkt2ocXohtUBH.jpg" alt="Allen Leech" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Allen%20Leech&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/cJZSyKNUKwdNPEgkt2ocXohtUBH.jpg" alt="Allen Leech - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Allen%20Leech&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Allen Leech</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/allen-leech" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Allen Leech</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/david-wilmot" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/epb46N0iJyAmSOguMdFn6qQGSsy.jpg" alt="David Wilmot" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Wilmot&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/epb46N0iJyAmSOguMdFn6qQGSsy.jpg" alt="David Wilmot - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Wilmot&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>David Wilmot</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/david-wilmot" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>David Wilmot</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/alison-oliver" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4hP6aIZHsUxfcPC76JPBLssqNuZ.jpg" alt="Alison Oliver" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alison%20Oliver&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4hP6aIZHsUxfcPC76JPBLssqNuZ.jpg" alt="Alison Oliver - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alison%20Oliver&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alison Oliver</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/alison-oliver" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alison Oliver</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/edwin-maxwell" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/k31nSbkIkSqWelDQyWvn5zF1g9q.jpg" alt="Edwin Maxwell" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Edwin%20Maxwell&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/k31nSbkIkSqWelDQyWvn5zF1g9q.jpg" alt="Edwin Maxwell - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Edwin%20Maxwell&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Edwin Maxwell</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/edwin-maxwell" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Edwin Maxwell</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/evanna-lynch" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/mebDQC5FnPVYYRxqmhCVVdl8fVM.jpg" alt="Evanna Lynch" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Evanna%20Lynch&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/mebDQC5FnPVYYRxqmhCVVdl8fVM.jpg" alt="Evanna Lynch - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Evanna%20Lynch&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Evanna Lynch</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/evanna-lynch" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Evanna Lynch</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/gabriel-byrne" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9r9oDGENg92VYYFMkV4C09IUlrb.jpg" alt="Gabriel Byrne" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Gabriel%20Byrne&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9r9oDGENg92VYYFMkV4C09IUlrb.jpg" alt="Gabriel Byrne - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Gabriel%20Byrne&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Gabriel Byrne</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/gabriel-byrne" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Gabriel Byrne</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/ned-dennehy" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/wTacXk4meFOJRK38rED0lrhlLw3.jpg" alt="Ned Dennehy" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ned%20Dennehy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/wTacXk4meFOJRK38rED0lrhlLw3.jpg" alt="Ned Dennehy - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ned%20Dennehy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ned Dennehy</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/ned-dennehy" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ned Dennehy</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/brian-gleeson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/x9uykZetcMYmB6UpQY29ApPedth.jpg" alt="Brian Gleeson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Brian%20Gleeson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/x9uykZetcMYmB6UpQY29ApPedth.jpg" alt="Brian Gleeson - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Brian%20Gleeson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Brian Gleeson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/brian-gleeson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Brian Gleeson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/robert-sheehan" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1lCAN0FZeUhXZo5goabMxk5mYDl.jpg" alt="Robert Sheehan" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Robert%20Sheehan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1lCAN0FZeUhXZo5goabMxk5mYDl.jpg" alt="Robert Sheehan - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Robert%20Sheehan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Robert Sheehan</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/robert-sheehan" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Robert Sheehan</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/eva-birthistle" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/sGprPTt1JDeDIyNKggElYlHCPxc.jpg" alt="Eva Birthistle" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eva%20Birthistle&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/sGprPTt1JDeDIyNKggElYlHCPxc.jpg" alt="Eva Birthistle - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Eva%20Birthistle&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Eva Birthistle</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/eva-birthistle" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Eva Birthistle</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/daryl-mccormack" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/uxBEREn7HCDzhSNJaFw8MPdvXxo.jpg" alt="Daryl McCormack" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Daryl%20McCormack&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/uxBEREn7HCDzhSNJaFw8MPdvXxo.jpg" alt="Daryl McCormack - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Daryl%20McCormack&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Daryl McCormack</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/daryl-mccormack" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Daryl McCormack</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/jason-o-mara" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/9Cs9PD5pwUkFQPLmpp5e6wkFQoY.jpg" alt="Jason O'Mara" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jason%20O'Mara&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/9Cs9PD5pwUkFQPLmpp5e6wkFQoY.jpg" alt="Jason O'Mara - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jason%20O'Mara&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jason O'Mara</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/jason-o-mara" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jason O'Mara</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/francis-magee" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zSUfloXa9Mhy8dkcILq4Jl6iWZU.jpg" alt="Francis Magee" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Francis%20Magee&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zSUfloXa9Mhy8dkcILq4Jl6iWZU.jpg" alt="Francis Magee - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Francis%20Magee&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Francis Magee</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/francis-magee" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Francis Magee</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/sarah-bolger" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/A3K2l5kkqTMQHtAkctzICqtbZMY.jpg" alt="Sarah Bolger" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sarah%20Bolger&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/A3K2l5kkqTMQHtAkctzICqtbZMY.jpg" alt="Sarah Bolger - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sarah%20Bolger&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sarah Bolger</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/sarah-bolger" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Sarah Bolger</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/aisling-franciosi" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/pE5GpcsMbFd3ZFGeiaTIvfapV6m.jpg" alt="Aisling Franciosi" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aisling%20Franciosi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/pE5GpcsMbFd3ZFGeiaTIvfapV6m.jpg" alt="Aisling Franciosi - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Aisling%20Franciosi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Aisling Franciosi</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/aisling-franciosi" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Aisling Franciosi</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/justine-mitchell" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/b8dmEYP6RbwLPL3HdKRcBTfEUPw.jpg" alt="Justine Mitchell" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Justine%20Mitchell&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/b8dmEYP6RbwLPL3HdKRcBTfEUPw.jpg" alt="Justine Mitchell - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Justine%20Mitchell&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Justine Mitchell</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/justine-mitchell" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Justine Mitchell</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/alisha-weir" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/3Qzc4J3zFPw8BGtj0O91Bdutzo1.jpg" alt="Alisha Weir" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alisha%20Weir&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/3Qzc4J3zFPw8BGtj0O91Bdutzo1.jpg" alt="Alisha Weir - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alisha%20Weir&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alisha Weir</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/alisha-weir" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alisha Weir</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/ireland/maureen-o-hara" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/yGNh18kBF7afOdjTcEP2zFCxzCH.jpg" alt="Maureen O'Hara" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maureen%20O'Hara&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/yGNh18kBF7afOdjTcEP2zFCxzCH.jpg" alt="Maureen O'Hara - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maureen%20O'Hara&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Maureen O'Hara</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/ireland/maureen-o-hara" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Maureen O'Hara</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/ireland/maria-doyle-kennedy" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/dlZ5METJ8AKFjjlA6tjQiA9yfK3.jpg" alt="Maria Doyle Kennedy - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maria%20Doyle%20Kennedy&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Maria Doyle Kennedy</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/ireland/graham-norton" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zndDiPrNXtbxGLVhFhSlpCkaHIH.jpg" alt="Graham Norton - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Graham%20Norton&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Graham Norton</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/ireland/niamh-algar" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4FscmD9lWqiJVnOvuWTaVc3ynTb.jpg" alt="Niamh Algar - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Niamh%20Algar&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Niamh Algar</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/ireland/sin-ad-cusack" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/sEYOT1L4t32QDPpRlzYqWBrsXco.jpg" alt="Sinéad Cusack - Ireland Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sin%C3%A9ad%20Cusack&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Sinéad Cusack</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

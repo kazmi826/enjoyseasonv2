@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Bollywood — Complete Indian Film Industry Database | EnjoysSeason</title>
-  <meta name="description" content="Complete Bollywood database. Browse 100+ Indian actors, movies, dramas from Hindi film industry. Shah Rukh Khan, Salman Khan, Deepika Padukone and more.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bollywood 🇮🇳 — Complete India Film Industry Guide | EnjoysSeason</title>
+  <meta name="description" content="Bollywood: Complete India film industry database. 24 actors, dramas, movies in Hindi. Largest film industry in the world by number of films produced.">
+  <meta name="keywords" content="Bollywood, Indian cinema, Hindi films, Mumbai film industry, Bollywood actors">
+  <meta property="og:title" content="Bollywood — India Film Industry | EnjoysSeason">
+  <meta property="og:description" content="Bollywood is the Hindi-language film industry based in Mumbai, India. It is the largest film producer in India and one of the largest in the world. The term "Bollywood" is a portmanteau of Bombay (for">
+  <meta property="og:url" content="https://enjoyseason.com/industry/bollywood">
   <link rel="canonical" href="https://enjoyseason.com/industry/bollywood">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Bollywood — 🇮🇳 India Film Industry","description":"Bollywood is the Hindi-language film industry based in Mumbai, India. It is the largest film producer in India and one of the largest in the world. The term \"Bollywood\" is a portmanteau of Bombay (for","url":"https://enjoyseason.com/industry/bollywood","about":{"@type":"Thing","name":"Bollywood","description":"Bollywood is the Hindi-language film industry based in Mumbai, India. It is the largest film producer in India and one of the largest in the world. The term \"Bollywood\" is a portmanteau of Bombay (for"}}</script>
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@300;400;600&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
@@ -18,20 +24,32 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .nav a:hover{color:var(--gold);text-decoration:none}
 .breadcrumb{background:var(--bg2);padding:.65rem 1.5rem;font-size:.82rem;border-bottom:1px solid var(--border);}
 .breadcrumb-inner{max-width:1200px;margin:0 auto}.breadcrumb a{color:var(--gold)}.sep{color:var(--muted);margin:0 .4rem}
+.hero-banner{background:linear-gradient(135deg,var(--card2),var(--card));border-bottom:2px solid var(--gold);padding:3rem 1.5rem;}
+.hero-inner{max-width:1200px;margin:0 auto;}
+.hero-title{font-family:'Playfair Display',serif;font-size:3rem;color:var(--gold);margin-bottom:.5rem;}
+.hero-sub{color:var(--muted);font-size:1.1rem;margin-bottom:1.5rem;}
+.hero-stats{display:flex;gap:2rem;flex-wrap:wrap;}
+.hero-stat{text-align:center;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:.8rem 1.5rem;}
+.hero-stat-n{font-size:1.6rem;color:var(--gold);font-weight:700;font-family:'Playfair Display',serif;}
+.hero-stat-l{font-size:.8rem;color:var(--muted);}
 .container{max-width:1200px;margin:0 auto;padding:2rem 1.5rem}
-.page-title{font-family:'Playfair Display',serif;font-size:2.2rem;color:var(--gold);margin-bottom:.5rem;}
-.page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
-.stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);flex-wrap:wrap;}
-.stat{text-align:center;min-width:100px;}.stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;font-family:'Playfair Display',serif;}.stat-l{font-size:.8rem;color:var(--muted);}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem;}
+.section{margin:3rem 0}
+.section-title{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--gold);margin-bottom:1.2rem;padding-bottom:.6rem;border-bottom:2px solid var(--border);}
+.prose{background:var(--card2);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:1.2rem 1.4rem;margin:1.5rem 0;font-size:.97rem;line-height:1.95;color:var(--text);}
+.prose strong{color:var(--gold);display:block;margin-bottom:.4rem;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:1rem;}
 .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem;text-decoration:none;color:var(--text);transition:all .25s;display:block;}
 .card:hover{border-color:var(--gold);transform:translateY(-4px);text-decoration:none;}
 .card img{width:100%;height:130px;object-fit:cover;border-radius:8px;margin-bottom:.5rem;}
 .card-title{font-size:.88rem;color:var(--gold);font-weight:600;margin-bottom:.2rem;line-height:1.3;}
 .card-meta{font-size:.75rem;color:var(--muted);}
-.section{margin:3rem 0}
-.section-title{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--gold);margin-bottom:1.2rem;padding-bottom:.6rem;border-bottom:2px solid var(--border);}
-.prose{background:var(--card2);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:1.2rem 1.4rem;margin:1.5rem 0;font-size:.97rem;line-height:1.95;color:var(--text);}
+.drama-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;}
+.drama-card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--text);transition:all .25s;display:block;}
+.drama-card:hover{border-color:var(--gold);transform:translateY(-4px);text-decoration:none;}
+.drama-card img{width:100%;height:220px;object-fit:cover;}
+.drama-card-info{padding:.8rem;}
+.drama-card-title{font-size:.85rem;color:var(--gold);font-weight:600;margin-bottom:.2rem;}
+.drama-card-meta{font-size:.75rem;color:var(--muted);}
 .site-footer{background:var(--header);border-top:2px solid var(--border);margin-top:5rem;padding:3rem 1.5rem 1.5rem;}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2rem;max-width:1200px;margin:0 auto 2rem;}
 .footer-col h3{font-family:'Playfair Display',serif;color:var(--gold);font-size:1.2rem;margin-bottom:.8rem;}
@@ -40,10 +58,11 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
 .footer-col a{display:block;color:var(--muted);font-size:.87rem;padding:.2rem 0;}
 .footer-col a:hover{color:var(--gold);text-decoration:none}
 .footer-bottom{border-top:1px solid var(--border);padding-top:1.2rem;text-align:center;color:var(--muted);font-size:.83rem;max-width:1200px;margin:0 auto;}
-@media(max-width:600px){.grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.hero-title{font-size:2rem}.grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
+
 
 <header class="site-header">
   <div class="header-inner">
@@ -53,530 +72,398 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
       <a href="/category/movies">Movies</a>
       <a href="/category/dramas">Dramas</a>
       <a href="/category/anime">Anime</a>
-      <a href="/industry/bollywood">Bollywood</a>
     </nav>
   </div>
 </header>
-<div class="breadcrumb"><div class="breadcrumb-inner"><a href="/">Home</a><span class="sep">›</span><a href="/category/movies">Movies</a><span class="sep">›</span>Bollywood</div></div>
+
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="/">Home</a><span class="sep">›</span>
+    <a href="/category/movies">Movies</a><span class="sep">›</span>
+    <span>Bollywood</span>
+  </div>
+</div>
+
+<div class="hero-banner">
+  <div class="hero-inner">
+    <h1 class="hero-title">🇮🇳 Bollywood</h1>
+    <p class="hero-sub">India Film & Television Industry — Hindi Language Productions</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-n">24+</div>
+        <div class="hero-stat-l">Actors</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">24+</div>
+        <div class="hero-stat-l">Dramas/Shows</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">Hindi</div>
+        <div class="hero-stat-l">Language</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-n">Mumbai</div>
+        <div class="hero-stat-l">Film Capital</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
-  <h1 class="page-title">🇮🇳 Bollywood</h1>
-  <p class="page-subtitle">Complete Indian Film Industry Database — Actors, Movies, Dramas</p>
-  <div class="stats-row">
-    <div class="stat"><div class="stat-n">360</div><div class="stat-l">Indian Actors</div></div>
-    <div class="stat"><div class="stat-n">Hindi</div><div class="stat-l">Language</div></div>
-    <div class="stat"><div class="stat-n">Mumbai</div><div class="stat-l">Film Capital</div></div>
-  </div>
+
   <div class="prose">
-    <strong>About Bollywood</strong><br>
-    Bollywood is the Hindi-language film industry based in Mumbai, India. It is the largest film producer in India and one of the largest in the world. Bollywood produces over 1,000 films annually and features some of the world's most popular actors including Shah Rukh Khan, Salman Khan, Aamir Khan, Deepika Padukone and many more.
+    <strong>About Bollywood</strong>
+    Bollywood is the Hindi-language film industry based in Mumbai, India. It is the largest film producer in India and one of the largest in the world. The term "Bollywood" is a portmanteau of Bombay (former name of Mumbai) and Hollywood. Bollywood produces over 1,000 films annually and has a massive global audience, particularly in South Asia, the Middle East, and among Indian diaspora worldwide.
   </div>
+
+  <div class="prose">
+    <strong>Key Facts about Bollywood</strong>
+    <ul style="margin-left:1.2rem;margin-top:.5rem">
+      <li style="margin-bottom:.4rem">Largest film industry in the world by number of films produced</li><li style="margin-bottom:.4rem">Based in Mumbai (formerly Bombay), Maharashtra, India</li><li style="margin-bottom:.4rem">Hindi language is primary, with some Urdu influences</li><li style="margin-bottom:.4rem">Known for colorful song and dance sequences</li><li style="margin-bottom:.4rem">Major stars include Shah Rukh Khan, Salman Khan, Aamir Khan, Deepika Padukone</li>
+    </ul>
+  </div>
+
+  <!-- ACTORS -->
+  
   <div class="section">
     <h2 class="section-title">🎭 Popular Bollywood Actors</h2>
     <div class="grid">
       
       <a href="/actors/india/amitabh-bachchan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/u69PvpWqGkywSm0YjFiw77j9eqS.jpg" alt="Amitabh Bachchan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/u69PvpWqGkywSm0YjFiw77j9eqS.jpg" alt="Amitabh Bachchan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Amitabh Bachchan</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/shah-rukh-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/tCEppfUu0g2Luu0rS5VKMoL4eSw.jpg" alt="Shah Rukh Khan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/tCEppfUu0g2Luu0rS5VKMoL4eSw.jpg" alt="Shah Rukh Khan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Shah Rukh Khan</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/salman-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/n7pKtccmf2jVOz8Qn90q2ThqLge.jpg" alt="Salman Khan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/n7pKtccmf2jVOz8Qn90q2ThqLge.jpg" alt="Salman Khan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Salman Khan</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/aamir-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/ayE2Ot15rqWU3YhPI3Yg8xBzVx7.jpg" alt="Aamir Khan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/ayE2Ot15rqWU3YhPI3Yg8xBzVx7.jpg" alt="Aamir Khan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Aamir Khan</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/deepika-padukone" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/rzvvBQ0r6oiqDdzcsdTRB7jN4Rx.jpg" alt="Deepika Padukone" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/rzvvBQ0r6oiqDdzcsdTRB7jN4Rx.jpg" alt="Deepika Padukone" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Deepika Padukone</div>
         <div class="card-meta">Indian · Actress</div>
       </a>
       <a href="/actors/india/priyanka-chopra" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/9n2n3fUFI553HKH0CEAb2TPLtCx.jpg" alt="Priyanka Chopra" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/9n2n3fUFI553HKH0CEAb2TPLtCx.jpg" alt="Priyanka Chopra" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Priyanka Chopra</div>
         <div class="card-meta">Indian · Actress</div>
       </a>
       <a href="/actors/india/ranveer-singh" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/sRiwLmhduFghJo8U2coUafnDD4C.jpg" alt="Ranveer Singh" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/sRiwLmhduFghJo8U2coUafnDD4C.jpg" alt="Ranveer Singh" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Ranveer Singh</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/ranbir-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/a5xWgKh7f4XofIl7ZwisxOi616K.jpg" alt="Ranbir Kapoor" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/a5xWgKh7f4XofIl7ZwisxOi616K.jpg" alt="Ranbir Kapoor" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Ranbir Kapoor</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/alia-bhatt" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/RBnTJPegPFLBS4VPsNLbf6iAoD.jpg" alt="Alia Bhatt" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/RBnTJPegPFLBS4VPsNLbf6iAoD.jpg" alt="Alia Bhatt" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Alia Bhatt</div>
-        <div class="card-meta">Indian · Actress</div>
+        <div class="card-meta">Indian-British · Actress</div>
       </a>
       <a href="/actors/india/katrina-kaif" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/4EAYTJvGdt4NYl2BUKZMdz4lztR.jpg" alt="Katrina Kaif" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/4EAYTJvGdt4NYl2BUKZMdz4lztR.jpg" alt="Katrina Kaif" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Katrina Kaif</div>
-        <div class="card-meta">Indian · Actress</div>
+        <div class="card-meta">British-Indian · Actress</div>
       </a>
       <a href="/actors/india/hrithik-roshan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/5O7WrWe84WDFj7td64NVsobtHf3.jpg" alt="Hrithik Roshan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/5O7WrWe84WDFj7td64NVsobtHf3.jpg" alt="Hrithik Roshan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Hrithik Roshan</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/akshay-kumar" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/sR8nASRtTpiwXqkFHjG2jdRBZ7a.jpg" alt="Akshay Kumar" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/sR8nASRtTpiwXqkFHjG2jdRBZ7a.jpg" alt="Akshay Kumar" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Akshay Kumar</div>
-        <div class="card-meta">Indian · Actor</div>
+        <div class="card-meta">Indian-Canadian · Actor</div>
       </a>
       <a href="/actors/india/kareena-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/pJZJJ93NwJq3kb3RWtaZBYVga1x.jpg" alt="Kareena Kapoor" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/pJZJJ93NwJq3kb3RWtaZBYVga1x.jpg" alt="Kareena Kapoor" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Kareena Kapoor</div>
         <div class="card-meta">Indian · Actress</div>
       </a>
       <a href="/actors/india/kangana-ranaut" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/oTApEkvktswhQOyfsAglJEEJBFW.jpg" alt="Kangana Ranaut" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/oTApEkvktswhQOyfsAglJEEJBFW.jpg" alt="Kangana Ranaut" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Kangana Ranaut</div>
         <div class="card-meta">Indian · Actress</div>
       </a>
       <a href="/actors/india/vidya-balan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/kKZydReqqovZ0dN3CmqbFS3uyUD.jpg" alt="Vidya Balan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/kKZydReqqovZ0dN3CmqbFS3uyUD.jpg" alt="Vidya Balan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Vidya Balan</div>
         <div class="card-meta">Indian · Actress</div>
       </a>
       <a href="/actors/india/taapsee-pannu" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/43e24aeOC8AZITo6ShaKKG9aV0Y.jpg" alt="Taapsee Pannu" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/43e24aeOC8AZITo6ShaKKG9aV0Y.jpg" alt="Taapsee Pannu" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Taapsee Pannu</div>
         <div class="card-meta">Indian · Actress</div>
       </a>
       <a href="/actors/india/ayushmann-khurrana" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/qbdclvnDkJxPX7OQqmMY7w9ekBP.jpg" alt="Ayushmann Khurrana" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/qbdclvnDkJxPX7OQqmMY7w9ekBP.jpg" alt="Ayushmann Khurrana" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Ayushmann Khurrana</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/rajkummar-rao" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/ttBY7Y8x4NCpXfGS9Tc1NN8ISos.jpg" alt="Rajkummar Rao" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/ttBY7Y8x4NCpXfGS9Tc1NN8ISos.jpg" alt="Rajkummar Rao" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Rajkummar Rao</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/irrfan-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/qkA9PpWJRw3rNjVkWfNZdwLvRZx.jpg" alt="Irrfan Khan" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/qkA9PpWJRw3rNjVkWfNZdwLvRZx.jpg" alt="Irrfan Khan" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Irrfan Khan</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/nawazuddin-siddiqui" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg" alt="Nawazuddin Siddiqui" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg" alt="Nawazuddin Siddiqui" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Nawazuddin Siddiqui</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/pankaj-tripathi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/f3Vxz0QB7PHeyPcXrfJX14Xkxnu.jpg" alt="Pankaj Tripathi" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/f3Vxz0QB7PHeyPcXrfJX14Xkxnu.jpg" alt="Pankaj Tripathi" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Pankaj Tripathi</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/manoj-bajpayee" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/hBiAldG2BGMVoZUPbvK3FNDSw22.jpg" alt="Manoj Bajpayee" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/hBiAldG2BGMVoZUPbvK3FNDSw22.jpg" alt="Manoj Bajpayee" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Manoj Bajpayee</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/vicky-kaushal" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/hKSa4DWEAD7DYhABYGwjPmxdpAY.jpg" alt="Vicky Kaushal" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/hKSa4DWEAD7DYhABYGwjPmxdpAY.jpg" alt="Vicky Kaushal" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Vicky Kaushal</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
       <a href="/actors/india/ajay-devgn" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg" alt="Ajay Devgn" loading="lazy">
+        <img src="https://image.tmdb.org/t/p/w500/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg" alt="Ajay Devgn" loading="lazy" onerror="this.style.display='none'">
         <div class="card-title">Ajay Devgn</div>
         <div class="card-meta">Indian · Actor</div>
       </a>
-      <a href="/actors/india/kajol" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/h4m0TkDuEMCUNaPrQxMRyFb2AQ7.jpg" alt="Kajol" loading="lazy">
-        <div class="card-title">Kajol</div>
-        <div class="card-meta">Indian · Actress</div>
+    </div>
+    <p style="margin-top:1rem"><a href="/country/india">View all India actors →</a></p>
+  </div>
+
+  <!-- DRAMAS -->
+  
+  <div class="section">
+    <h2 class="section-title">📺 Popular Bollywood Dramas & Shows</h2>
+    <div class="drama-grid">
+      
+      <a href="/dramas/in/charmsukh" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/6Kt9zIsrtqs1x1XyNFxOeEjlkKB.jpg" alt="Charmsukh" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Charmsukh</div>
+          <div class="drama-card-meta">Drama · ⭐8.0</div>
+        </div>
       </a>
-      <a href="/actors/india/madhuri-dixit" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/8JRQ7bASERlvAIA7mkJYQw4ldS8.jpg" alt="Madhuri Dixit" loading="lazy">
-        <div class="card-title">Madhuri Dixit</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/lbw-love-beyond-wicket" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/tC5K8MkLipwV9bIdJV9SQcCzgUF.jpg" alt="LBW: Love Beyond Wicket" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">LBW: Love Beyond Wicket</div>
+          <div class="drama-card-meta">Drama · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/aishwarya-rai" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/tXlRA4gZgUiKx2P1odBpyXjnkbX.jpg" alt="Aishwarya Rai" loading="lazy">
-        <div class="card-title">Aishwarya Rai</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/the-kapil-sharma-show" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/fBPNBNFmcwhYXUpkW2Kb6jbeJOR.jpg" alt="The Kapil Sharma Show" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">The Kapil Sharma Show</div>
+          <div class="drama-card-meta">Comedy · ⭐7.0</div>
+        </div>
       </a>
-      <a href="/actors/india/shahid-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/q5jqLRioZgIVjXpKS8XHx27ScDQ.jpg" alt="Shahid Kapoor" loading="lazy">
-        <div class="card-title">Shahid Kapoor</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/cid" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/3UymnlLfLMKxG8OcFhSnAlnhQfZ.jpg" alt="C.I.D." loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">C.I.D.</div>
+          <div class="drama-card-meta">Action & Adventure · ⭐5.8</div>
+        </div>
       </a>
-      <a href="/actors/india/tiger-shroff" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/kgvll1RBCcDTs6KJZFDb291AuZb.jpg" alt="Tiger Shroff" loading="lazy">
-        <div class="card-title">Tiger Shroff</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/palang-tod" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/3jAeJu40uKy0ondWdzQxu0A97MT.jpg" alt="Palang Tod" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Palang Tod</div>
+          <div class="drama-card-meta">Drama · ⭐1.0</div>
+        </div>
       </a>
-      <a href="/actors/india/varun-dhawan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/gvvXYTpvO0Tu7naCDLL3tInyN2R.jpg" alt="Varun Dhawan" loading="lazy">
-        <div class="card-title">Varun Dhawan</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/manasaare" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/ibfRtZKnqijIcaCgXNowwBWRSDU.jpg" alt="Manasaare" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Manasaare</div>
+          <div class="drama-card-meta">Drama · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/shraddha-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/70y8OBg29SUUY659UfQ4FquCyOe.jpg" alt="Shraddha Kapoor" loading="lazy">
-        <div class="card-title">Shraddha Kapoor</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/mtv-splitsvilla" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/hbdX2LLJhJemnf3HLodwhjwNaFx.jpg" alt="MTV Splitsvilla" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">MTV Splitsvilla</div>
+          <div class="drama-card-meta">Reality · ⭐5.0</div>
+        </div>
       </a>
-      <a href="/actors/india/kartik-aaryan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/nHdQlBvORSKmH1F1kbyTFs0HLjU.jpg" alt="Kartik Aaryan" loading="lazy">
-        <div class="card-title">Kartik Aaryan</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/kaptaan" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/ebRoRQdgcP6Xk83KxRy7qrVww5f.jpg" alt="Kaptaan" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Kaptaan</div>
+          <div class="drama-card-meta">Crime · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/anushka-sharma" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/8Xmfnwe6pf58duYqxxYv81phs2.jpg" alt="Anushka Sharma" loading="lazy">
-        <div class="card-title">Anushka Sharma</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/indian-idol" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/jCMw8httzGvjTu0NZjiclqUQD6c.jpg" alt="Indian Idol" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Indian Idol</div>
+          <div class="drama-card-meta">Reality · ⭐6.1</div>
+        </div>
       </a>
-      <a href="/actors/india/randeep-hooda" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/6Raio06bsLalCe4XDsknXxfDamV.jpg" alt="Randeep Hooda" loading="lazy">
-        <div class="card-title">Randeep Hooda</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/thinkal-kalamaan" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/m8ZOSb8kBwCkpPSi7KM3YL3KsS6.jpg" alt="Thinkal Kalamaan" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Thinkal Kalamaan</div>
+          <div class="drama-card-meta">Drama · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/sanjay-dutt" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/oq4pnvWhl1HxKpp0KVlSfAr3Tiu.jpg" alt="Sanjay Dutt" loading="lazy">
-        <div class="card-title">Sanjay Dutt</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/seher-hone-ko-hai" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/thC2dgPsSNYVVvNb2SPAolThndQ.jpg" alt="Seher Hone Ko Hai" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Seher Hone Ko Hai</div>
+          <div class="drama-card-meta">Drama · ⭐6.0</div>
+        </div>
       </a>
-      <a href="/actors/india/sunny-deol" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/w9RenJriQVys2k5fa9ojkXpYMwO.jpg" alt="Sunny Deol" loading="lazy">
-        <div class="card-title">Sunny Deol</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/tuu-juliet-jatt-di" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/oy23uz9J5o9hIkZGqMhySajy9Jt.jpg" alt="Tuu Juliet Jatt Di" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Tuu Juliet Jatt Di</div>
+          <div class="drama-card-meta">Drama · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/anil-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/6RcrXGFzO50Tazqc8tbDlzYKvTd.jpg" alt="Anil Kapoor" loading="lazy">
-        <div class="card-title">Anil Kapoor</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/koffee-with-karan" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/xyaDqO917xzA0iQwtdMPHC5oJVV.jpg" alt="Koffee with Karan" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Koffee with Karan</div>
+          <div class="drama-card-meta">Talk · ⭐5.8</div>
+        </div>
       </a>
-      <a href="/actors/india/saif-ali-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/85uKiFDEcIqzLh0GwqYvecXw4uA.jpg" alt="Saif Ali Khan" loading="lazy">
-        <div class="card-title">Saif Ali Khan</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/naagin" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/r76GlGdzE5OCq3LRx1niR8IEli0.jpg" alt="Naagin" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Naagin</div>
+          <div class="drama-card-meta">Action & Adventure · ⭐3.1</div>
+        </div>
       </a>
-      <a href="/actors/india/kriti-sanon" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/go8GUz7poytTvm9P9HNHQ3T84N1.jpg" alt="Kriti Sanon" loading="lazy">
-        <div class="card-title">Kriti Sanon</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/comedy-nights-with-kapil" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/9rScFaEadiT3r46LuT9wWOkh3fo.jpg" alt="Comedy Nights with Kapil" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Comedy Nights with Kapil</div>
+          <div class="drama-card-meta">Comedy · ⭐6.8</div>
+        </div>
       </a>
-      <a href="/actors/india/sidharth-malhotra" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/9mWAZy2565Eo1ABmRqRtyasTIrf.jpg" alt="Sidharth Malhotra" loading="lazy">
-        <div class="card-title">Sidharth Malhotra</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/heart-beat" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/odnF5hyuYI8itcMLxFT6H9IpKoT.jpg" alt="Heart Beat" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Heart Beat</div>
+          <div class="drama-card-meta">Drama · ⭐7.8</div>
+        </div>
       </a>
-      <a href="/actors/india/kiara-advani" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/zEhXyCvmttj9pQOXgNpO2deqtWD.jpg" alt="Kiara Advani" loading="lazy">
-        <div class="card-title">Kiara Advani</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/mastram" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/uckX3gm2M3mCFqkajZnRU9pYWfQ.jpg" alt="Mastram" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Mastram</div>
+          <div class="drama-card-meta">Drama · ⭐7.3</div>
+        </div>
       </a>
-      <a href="/actors/india/bobby-deol" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/2npVa3PduichY8e7qBiE54m9VVP.jpg" alt="Bobby Deol" loading="lazy">
-        <div class="card-title">Bobby Deol</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/chachi-no1" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/mZI0Zdfh2fCAoL9vbZhmTmh7Dob.jpg" alt="Chachi No.1" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Chachi No.1</div>
+          <div class="drama-card-meta">Drama · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/parineeti-chopra" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/DDBuGxqPZOcb2o9bk3ihPQdBn8.jpg" alt="Parineeti Chopra" loading="lazy">
-        <div class="card-title">Parineeti Chopra</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/miley-jab-hum-tum" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/UhUhOeis1j8wHwqaGUKwWxmeHV.jpg" alt="Miley Jab Hum Tum" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Miley Jab Hum Tum</div>
+          <div class="drama-card-meta">Drama · ⭐N/A</div>
+        </div>
       </a>
-      <a href="/actors/india/nawazuddin-siddiqui" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg" alt="Nawazuddin Siddiqui" loading="lazy">
-        <div class="card-title">Nawazuddin Siddiqui</div>
-        <div class="card-meta">Indian · Actor</div>
+      <a href="/dramas/in/devon-ke-devmahadev" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/oMzXcYsUVIt6pQEODc6FRe8IBug.jpg" alt="Devon Ke Dev...Mahadev" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Devon Ke Dev...Mahadev</div>
+          <div class="drama-card-meta">Drama · ⭐8.8</div>
+        </div>
       </a>
-      <a href="/actors/india/sara-ali-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/nRtF9kNgIt9q52jy89cyZBimUPs.jpg" alt="Sara Ali Khan" loading="lazy">
-        <div class="card-title">Sara Ali Khan</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/janhvi-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/gzTtKYASxhUUF5DqxqrWW3IT9GC.jpg" alt="Janhvi Kapoor" loading="lazy">
-        <div class="card-title">Janhvi Kapoor</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/jackie-shroff" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/1UNJypgEyuihUW2avLLVYj76jie.jpg" alt="Jackie Shroff" loading="lazy">
-        <div class="card-title">Jackie Shroff</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/suniel-shetty" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/7N2gTXit5GMfgUhkZ3QsjTnoMH6.jpg" alt="Suniel Shetty" loading="lazy">
-        <div class="card-title">Suniel Shetty</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/dharmendra" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/aagrv7LIDWq0GxZelUPqubCg7sH.jpg" alt="Dharmendra" loading="lazy">
-        <div class="card-title">Dharmendra</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/hema-malini" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/dfNRjtvbxisRSBDhCoUMuEFyY3V.jpg" alt="Hema Malini" loading="lazy">
-        <div class="card-title">Hema Malini</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/abhishek-bachchan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/cALtfAvfUtS0Luf8MZaSiLfFRwd.jpg" alt="Abhishek Bachchan" loading="lazy">
-        <div class="card-title">Abhishek Bachchan</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/juhi-chawla" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/gyZLscSW3dYYe3N5K2YcYtRnbq5.jpg" alt="Juhi Chawla" loading="lazy">
-        <div class="card-title">Juhi Chawla</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/rekha" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/fTXd5QlWck5CDxijM56YXx2Crob.jpg" alt="Rekha" loading="lazy">
-        <div class="card-title">Rekha</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/sridevi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/6wxquADm0CMYMon04uEI48ZiBBf.jpg" alt="Sridevi" loading="lazy">
-        <div class="card-title">Sridevi</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/amrita-singh" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/yzGYLwPUvn5ksdisC0L4bQiLTNj.jpg" alt="Amrita Singh" loading="lazy">
-        <div class="card-title">Amrita Singh</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/govinda" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/jIY8akWgvhgbIgZDd20yIPFDSv8.jpg" alt="Govinda" loading="lazy">
-        <div class="card-title">Govinda</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/karisma-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/fqSzKXcBzTP0BxWUh3poExOApmd.jpg" alt="Karisma Kapoor" loading="lazy">
-        <div class="card-title">Karisma Kapoor</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/sonakshi-sinha" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/7HaI5owaKzOb6Qdtwifp29uhHk2.jpg" alt="Sonakshi Sinha" loading="lazy">
-        <div class="card-title">Sonakshi Sinha</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/riteish-deshmukh" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/b4Mwk9dDgMS82269iBX7V1YsOpu.jpg" alt="Riteish Deshmukh" loading="lazy">
-        <div class="card-title">Riteish Deshmukh</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/genelia-dsouza" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/q4g6maGv227VuxGQdtNfyJ1SKXR.jpg" alt="Genelia D Souza" loading="lazy">
-        <div class="card-title">Genelia D Souza</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/arjun-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/24NE9QaKp66sM6C3eCsGUuleXXf.jpg" alt="Arjun Kapoor" loading="lazy">
-        <div class="card-title">Arjun Kapoor</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/john-abraham" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/9Ur8Ki6dSEQVS0YgjDzFKxt1WmG.jpg" alt="John Abraham" loading="lazy">
-        <div class="card-title">John Abraham</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/emraan-hashmi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/kflgvFCFZnpTRbKmJWn5T0G5EKI.jpg" alt="Emraan Hashmi" loading="lazy">
-        <div class="card-title">Emraan Hashmi</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/akshay-khanna" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/L2JWyOTwPRLHBLV7xUmDOcRHU3.jpg" alt="Akshay Khanna" loading="lazy">
-        <div class="card-title">Akshay Khanna</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/bipasha-basu" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/j4p0NOHUNvOCBcfaZiCoyxdJJou.jpg" alt="Bipasha Basu" loading="lazy">
-        <div class="card-title">Bipasha Basu</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/sushmita-sen" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/arteijssIoHzs8wFLjs6pvqRnlJ.jpg" alt="Sushmita Sen" loading="lazy">
-        <div class="card-title">Sushmita Sen</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/preity-zinta" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/uaY2M3goYsp0QpNenharmIqnMvy.jpg" alt="Preity Zinta" loading="lazy">
-        <div class="card-title">Preity Zinta</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/rani-mukerji" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/6bm1lhrEgGFpOLBjvcOi3aoQmtg.jpg" alt="Rani Mukerji" loading="lazy">
-        <div class="card-title">Rani Mukerji</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/dia-mirza" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/oJSZlMkIGC1Yr8QxdBLliUjPRSd.jpg" alt="Dia Mirza" loading="lazy">
-        <div class="card-title">Dia Mirza</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/ameesha-patel" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/d6FmmnSylIxvmJezAJLkPpJ9z1t.jpg" alt="Ameesha Patel" loading="lazy">
-        <div class="card-title">Ameesha Patel</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/vivek-oberoi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/60T3Q8CsxF4kF6RIHZ1yis2Q0wA.jpg" alt="Vivek Oberoi" loading="lazy">
-        <div class="card-title">Vivek Oberoi</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/fardeen-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/pr3VEjdUTOKSNBFHgwjH9rOT5nC.jpg" alt="Fardeen Khan" loading="lazy">
-        <div class="card-title">Fardeen Khan</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/tusshar-kapoor" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/5ApUsEt56R0SVQMu11fbmUSHCIi.jpg" alt="Tusshar Kapoor" loading="lazy">
-        <div class="card-title">Tusshar Kapoor</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/rohit-roy" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/pkojboidxzuxSrAYWaWhhEzEy0d.jpg" alt="Rohit Roy" loading="lazy">
-        <div class="card-title">Rohit Roy</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/nana-patekar" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/gnhcslE2k2pgZK9xi1XFNZvZiEs.jpg" alt="Nana Patekar" loading="lazy">
-        <div class="card-title">Nana Patekar</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/naseeruddin-shah" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/aVCigTGfijAnnm7I7TZbceXzPMl.jpg" alt="Naseeruddin Shah" loading="lazy">
-        <div class="card-title">Naseeruddin Shah</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/om-puri" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/3xENmjr7CA8ACRViHnjOI5jPQUt.jpg" alt="Om Puri" loading="lazy">
-        <div class="card-title">Om Puri</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/amol-palekar" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/kUnejDjArzNVxouIaIj3WxxC83G.jpg" alt="Amol Palekar" loading="lazy">
-        <div class="card-title">Amol Palekar</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/mithun-chakraborty" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/4z8c5YAe0TCkEZNHXWlKxNTD8sV.jpg" alt="Mithun Chakraborty" loading="lazy">
-        <div class="card-title">Mithun Chakraborty</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/sunny-leone" class="card">
+      <a href="/dramas/in/jeena-isi-ka-naam-hai" class="drama-card">
         
-        <div class="card-title">Sunny Leone</div>
-        <div class="card-meta">Indian · Actress</div>
+        <div class="drama-card-info">
+          <div class="drama-card-title">Jeena Isi Ka Naam Hai</div>
+          <div class="drama-card-meta">Talk · ⭐6.2</div>
+        </div>
       </a>
-      <a href="/actors/india/radhika-apte" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/wKPybRcSYcbgDiJZwELudrRNf0r.jpg" alt="Radhika Apte" loading="lazy">
-        <div class="card-title">Radhika Apte</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/iss-pyaar-ko-kya-naam-doon" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/bAHnfeAz4yF3SpZdVSOVMUEjMSP.jpg" alt="Iss Pyaar Ko Kya Naam Doon?" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Iss Pyaar Ko Kya Naam Doon?</div>
+          <div class="drama-card-meta">Drama · ⭐7.7</div>
+        </div>
       </a>
-      <a href="/actors/india/konkona-sen-sharma" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/i538HToMEGR6J2OVmOGX3GfWcQC.jpg" alt="Konkona Sen Sharma" loading="lazy">
-        <div class="card-title">Konkona Sen Sharma</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/the-family-man" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/tE1NUJqw9gV6AVjQ1GTK78LbWJ9.jpg" alt="The Family Man" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">The Family Man</div>
+          <div class="drama-card-meta">Drama · ⭐7.7</div>
+        </div>
       </a>
-      <a href="/actors/india/swara-bhasker" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/3sFsKzsW8l2BtHl385UWw8Xewyp.jpg" alt="Swara Bhasker" loading="lazy">
-        <div class="card-title">Swara Bhasker</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/kalki-koechlin" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/5lVx30awwxvvyKIG8Pok9tu9P8r.jpg" alt="Kalki Koechlin" loading="lazy">
-        <div class="card-title">Kalki Koechlin</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/richa-chadha" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/cb15PLOeRNt7uxsiymjHfnJPm3i.jpg" alt="Richa Chadha" loading="lazy">
-        <div class="card-title">Richa Chadha</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/ali-fazal" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/lLDmx3RDuMXObASvdFXeUh1GOgd.jpg" alt="Ali Fazal" loading="lazy">
-        <div class="card-title">Ali Fazal</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/divyanka-tripathi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/dXF5KbAYcLHcdb6sSa74u5WySfQ.jpg" alt="Divyanka Tripathi" loading="lazy">
-        <div class="card-title">Divyanka Tripathi</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/jennifer-winget" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/eQx5zsmvPkjaWiMh5fMQMSCJUwC.jpg" alt="Jennifer Winget" loading="lazy">
-        <div class="card-title">Jennifer Winget</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/hina-khan" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/gxhkMMFNieDYTubzD3NLMLi293l.jpg" alt="Hina Khan" loading="lazy">
-        <div class="card-title">Hina Khan</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/mohit-raina" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/mPQ68Zweqt8HC6tI9tQ8i3KW3g9.jpg" alt="Mohit Raina" loading="lazy">
-        <div class="card-title">Mohit Raina</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/pratik-gandhi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/dM6X5HrC1WKMfk3MwQJk1YFelk9.jpg" alt="Pratik Gandhi" loading="lazy">
-        <div class="card-title">Pratik Gandhi</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/jim-sarbh" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/lJPX2ehRqqtrJOqx5PS9dkSAw7.jpg" alt="Jim Sarbh" loading="lazy">
-        <div class="card-title">Jim Sarbh</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/vikrant-massey" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/zvpP52P7CtVXYONmvWrH1aOcRTx.jpg" alt="Vikrant Massey" loading="lazy">
-        <div class="card-title">Vikrant Massey</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/siddhant-chaturvedi" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/2MTk5cqZUZEi35ksPbs6lr5I7wA.jpg" alt="Siddhant Chaturvedi" loading="lazy">
-        <div class="card-title">Siddhant Chaturvedi</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/ishaan-khatter" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/a71GZNDh1zxr182cHXr1z4UmXO0.jpg" alt="Ishaan Khatter" loading="lazy">
-        <div class="card-title">Ishaan Khatter</div>
-        <div class="card-meta">Indian · Actor</div>
-      </a>
-      <a href="/actors/india/ananya-panday" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/AgywmKnKdOJ7HvlNKBc3hADsF1S.jpg" alt="Ananya Panday" loading="lazy">
-        <div class="card-title">Ananya Panday</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/alaya-f" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/8RahngJTEEzFjU5AyTZc0f97L5g.jpg" alt="Alaya F" loading="lazy">
-        <div class="card-title">Alaya F</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/rashmika-mandanna" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/c1wQq0OAzU9nFhGYn4iOoi7dmqD.jpg" alt="Rashmika Mandanna" loading="lazy">
-        <div class="card-title">Rashmika Mandanna</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/samantha-ruth-prabhu" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/iGQ0AT1bNULlrJwSOGSRqLDSfGG.jpg" alt="Samantha Ruth Prabhu" loading="lazy">
-        <div class="card-title">Samantha Ruth Prabhu</div>
-        <div class="card-meta">Indian · Actress</div>
-      </a>
-      <a href="/actors/india/esha-deol" class="card">
-        <img src="https://image.tmdb.org/t/p/w500/kf61c4lNSAjExCHQh03x5f0tQWL.jpg" alt="Esha Deol" loading="lazy">
-        <div class="card-title">Esha Deol</div>
-        <div class="card-meta">Indian · Actress</div>
+      <a href="/dramas/in/maamla-legal-hai" class="drama-card">
+        <img src="https://image.tmdb.org/t/p/w500/A9krYovvsiUXcQLOnQ2O53MHVwd.jpg" alt="Maamla Legal Hai" loading="lazy">
+        <div class="drama-card-info">
+          <div class="drama-card-title">Maamla Legal Hai</div>
+          <div class="drama-card-meta">Comedy · ⭐7.8</div>
+        </div>
       </a>
     </div>
   </div>
+
+  <!-- RELATED INDUSTRIES -->
+  <div class="section">
+    <h2 class="section-title">🎬 Other Film Industries</h2>
+    <div class="grid">
+      
+      <a href="/industry/hollywood" class="card">
+        <div class="card-title">🇺🇸 Hollywood</div>
+        <div class="card-meta">USA · English</div>
+      </a>
+      <a href="/industry/lollywood" class="card">
+        <div class="card-title">🇵🇰 Lollywood</div>
+        <div class="card-meta">Pakistan · Urdu</div>
+      </a>
+      <a href="/industry/korean" class="card">
+        <div class="card-title">🇰🇷 K-Drama</div>
+        <div class="card-meta">South Korea · Korean</div>
+      </a>
+      <a href="/industry/turkish" class="card">
+        <div class="card-title">🇹🇷 Turkish Drama</div>
+        <div class="card-meta">Turkey · Turkish</div>
+      </a>
+      <a href="/industry/anime" class="card">
+        <div class="card-title">🎌 Anime</div>
+        <div class="card-meta">Japan · Japanese</div>
+      </a>
+      <a href="/industry/tollywood" class="card">
+        <div class="card-title">🇮🇳 Tollywood</div>
+        <div class="card-meta">India · Telugu/Bengali</div>
+      </a>
+    </div>
+  </div>
+
 </div>
+
 
 <footer class="site-footer">
   <div class="footer-grid">
@@ -585,12 +472,13 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
       <p>World's complete entertainment database. Actors, movies, dramas from 200+ countries.</p>
     </div>
     <div class="footer-col">
-      <h4>🌍 Countries</h4>
-      <a href="/country/pakistan">Pakistan</a>
-      <a href="/country/india">India</a>
-      <a href="/country/usa">USA</a>
-      <a href="/country/turkey">Turkey</a>
-      <a href="/country/south-korea">South Korea</a>
+      <h4>🎬 Industries</h4>
+      <a href="/industry/bollywood">Bollywood</a>
+      <a href="/industry/hollywood">Hollywood</a>
+      <a href="/industry/lollywood">Lollywood</a>
+      <a href="/industry/korean">K-Drama</a>
+      <a href="/industry/turkish">Turkish</a>
+      <a href="/industry/anime">Anime</a>
     </div>
     <div class="footer-col">
       <h4>🎭 Categories</h4>
@@ -598,17 +486,16 @@ a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
       <a href="/category/movies">All Movies</a>
       <a href="/category/dramas">All Dramas</a>
       <a href="/category/web-series">Web Series</a>
-      <a href="/category/anime">Anime</a>
     </div>
     <div class="footer-col">
       <h4>📋 Pages</h4>
       <a href="/about">About Us</a>
       <a href="/contact">Contact</a>
       <a href="/privacy-policy">Privacy Policy</a>
-      <a href="/disclaimer">Disclaimer</a>
       <a href="/sitemap.xml">Sitemap</a>
     </div>
   </div>
   <div class="footer-bottom">© 2026 EnjoysSeason — World Entertainment Database</div>
 </footer>
-</body></html>
+</body>
+</html>

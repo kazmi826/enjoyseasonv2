@@ -3,98 +3,206 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Korea Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 8 famous actors from Korea. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Korea Actors — Complete List of 11 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 11 famous actors from Korea. Complete profiles, biographies, movies and dramas. Yoon Yool, Park Joo-bin, Kang Hanna, Han Se-hee, Lee Soon-jae and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/korea">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Korea Actors","description":"Complete list of 11 famous actors from Korea","numberOfItems":11,"itemListElement":[{"@type":"ListItem","position":1,"name":"Yoon Yool","url":"https://enjoyseason.com/actors/korea/yoon-yool"},{"@type":"ListItem","position":2,"name":"Park Joo-bin","url":"https://enjoyseason.com/actors/korea/park-joo-bin"},{"@type":"ListItem","position":3,"name":"Kang Hanna","url":"https://enjoyseason.com/actors/korea/kang-hanna"},{"@type":"ListItem","position":4,"name":"Han Se-hee","url":"https://enjoyseason.com/actors/korea/han-se-hee"},{"@type":"ListItem","position":5,"name":"Lee Soon-jae","url":"https://enjoyseason.com/actors/korea/lee-soon-jae"},{"@type":"ListItem","position":6,"name":"Kim Se-in","url":"https://enjoyseason.com/actors/korea/kim-se-in"},{"@type":"ListItem","position":7,"name":"Shin Seong-il","url":"https://enjoyseason.com/actors/korea/shin-seong-il"},{"@type":"ListItem","position":8,"name":"Youn Yuh-jung","url":"https://enjoyseason.com/actors/korea/youn-yuh-jung"},{"@type":"ListItem","position":9,"name":"Jun Fukuda","url":"https://enjoyseason.com/actors/korea/jun-fukuda"},{"@type":"ListItem","position":10,"name":"Shin Sang-ok","url":"https://enjoyseason.com/actors/korea/shin-sang-ok"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Korea</div>
-    <h1>🎭 Korea Actors</h1>
-    <p class="subtitle">8 actors from Korea</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Korea
+    </div>
+    <h1 class="page-title">🎭 Korea Actors</h1>
+    <p class="page-subtitle">Explore 11 famous actors and celebrities from Korea. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">11</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Korea</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/korea/yoon-yool" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/21kdujBeL2hrJ50RyMxmuEsHZAT.jpg" alt="Yoon Yool" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Yoon%20Yool&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/21kdujBeL2hrJ50RyMxmuEsHZAT.jpg" alt="Yoon Yool - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Yoon%20Yool&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Yoon Yool</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/yoon-yool" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Yoon Yool</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/park-joo-bin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4nBQP186tLmNRZ1Uf20nw42z2iF.jpg" alt="Park Joo-bin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Park%20Joo-bin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4nBQP186tLmNRZ1Uf20nw42z2iF.jpg" alt="Park Joo-bin - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Park%20Joo-bin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Park Joo-bin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/park-joo-bin" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Park Joo-bin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/kang-hanna" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/fXydO3AV3arjm3mMPhIxbf26l6a.jpg" alt="Kang Hanna" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kang%20Hanna&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/fXydO3AV3arjm3mMPhIxbf26l6a.jpg" alt="Kang Hanna - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kang%20Hanna&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Kang Hanna</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/kang-hanna" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Kang Hanna</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/han-se-hee" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/aOzgGk5W9rM5kc5FDNcDkDfK7jd.jpg" alt="Han Se-hee" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Han%20Se-hee&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/aOzgGk5W9rM5kc5FDNcDkDfK7jd.jpg" alt="Han Se-hee - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Han%20Se-hee&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Han Se-hee</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/han-se-hee" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Han Se-hee</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/lee-soon-jae" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zYjhQJ27PUY2hxiIr50AIJ7TWa8.jpg" alt="Lee Soon-jae" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lee%20Soon-jae&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zYjhQJ27PUY2hxiIr50AIJ7TWa8.jpg" alt="Lee Soon-jae - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lee%20Soon-jae&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lee Soon-jae</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/lee-soon-jae" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lee Soon-jae</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/kim-se-in" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/jOl8yUn5dw1JoEJCCNrD1tbMynP.jpg" alt="Kim Se-in" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kim%20Se-in&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/jOl8yUn5dw1JoEJCCNrD1tbMynP.jpg" alt="Kim Se-in - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kim%20Se-in&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Kim Se-in</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/kim-se-in" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Kim Se-in</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/shin-seong-il" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ufEihELzSxUbiRxKJBXXCLbcfiF.jpg" alt="Shin Seong-il" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Shin%20Seong-il&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ufEihELzSxUbiRxKJBXXCLbcfiF.jpg" alt="Shin Seong-il - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Shin%20Seong-il&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Shin Seong-il</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/shin-seong-il" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Shin Seong-il</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/korea/youn-yuh-jung" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/rSoSAX85gvPNSWmWXcCaJ2eBPrp.jpg" alt="Youn Yuh-jung" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Youn%20Yuh-jung&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/rSoSAX85gvPNSWmWXcCaJ2eBPrp.jpg" alt="Youn Yuh-jung - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Youn%20Yuh-jung&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Youn Yuh-jung</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/korea/youn-yuh-jung" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Youn Yuh-jung</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/korea/jun-fukuda" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/3ZVBiyMohlAi76EPkFZXjpkf4ju.jpg" alt="Jun Fukuda - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jun%20Fukuda&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Jun Fukuda</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/korea/shin-sang-ok" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/z4u9xaPaSHPyoneOL1kXaxyfu1R.jpg" alt="Shin Sang-ok - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Shin%20Sang-ok&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Shin Sang-ok</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/korea/lee-jung-jin" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/rOSw03FHuJtnuWJuTJGJWxj1cLs.jpg" alt="Lee Jung-jin - Korea Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lee%20Jung-jin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Lee Jung-jin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

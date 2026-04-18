@@ -3,114 +3,206 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Puerto Rico Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 10 famous actors from Puerto Rico. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Puerto Rico Actors — Complete List of 11 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 11 famous actors from Puerto Rico. Complete profiles, biographies, movies and dramas. Benicio del Toro, Adria Arjona, Luis Guzmán, Roselyn Sánchez, David Zayas and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/puerto-rico">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Puerto Rico Actors","description":"Complete list of 11 famous actors from Puerto Rico","numberOfItems":11,"itemListElement":[{"@type":"ListItem","position":1,"name":"Benicio del Toro","url":"https://enjoyseason.com/actors/puerto-rico/benicio-del-toro"},{"@type":"ListItem","position":2,"name":"Adria Arjona","url":"https://enjoyseason.com/actors/puerto-rico/adria-arjona"},{"@type":"ListItem","position":3,"name":"Luis Guzmán","url":"https://enjoyseason.com/actors/puerto-rico/luis-guzm-n"},{"@type":"ListItem","position":4,"name":"Roselyn Sánchez","url":"https://enjoyseason.com/actors/puerto-rico/roselyn-s-nchez"},{"@type":"ListItem","position":5,"name":"David Zayas","url":"https://enjoyseason.com/actors/puerto-rico/david-zayas"},{"@type":"ListItem","position":6,"name":"Ramón Rodríguez","url":"https://enjoyseason.com/actors/puerto-rico/ram-n-rodr-guez"},{"@type":"ListItem","position":7,"name":"Adamari López","url":"https://enjoyseason.com/actors/puerto-rico/adamari-l-pez"},{"@type":"ListItem","position":8,"name":"Rita Moreno","url":"https://enjoyseason.com/actors/puerto-rico/rita-moreno"},{"@type":"ListItem","position":9,"name":"Raúl Juliá","url":"https://enjoyseason.com/actors/puerto-rico/ra-l-juli"},{"@type":"ListItem","position":10,"name":"Ricky Martin","url":"https://enjoyseason.com/actors/puerto-rico/ricky-martin"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Puerto Rico</div>
-    <h1>🎭 Puerto Rico Actors</h1>
-    <p class="subtitle">10 actors from Puerto Rico</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Puerto Rico
+    </div>
+    <h1 class="page-title">🎭 Puerto Rico Actors</h1>
+    <p class="page-subtitle">Explore 11 famous actors and celebrities from Puerto Rico. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">11</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Puerto Rico</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/puerto-rico/benicio-del-toro" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/aYomJWx0B2B8ra6Rmgt8lr0XCrw.jpg" alt="Benicio del Toro" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Benicio%20del%20Toro&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/aYomJWx0B2B8ra6Rmgt8lr0XCrw.jpg" alt="Benicio del Toro - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Benicio%20del%20Toro&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Benicio del Toro</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/benicio-del-toro" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Benicio del Toro</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/adria-arjona" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/hzu7OqTmNCT1xdCdmwBSf2yJvaO.jpg" alt="Adria Arjona" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Adria%20Arjona&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/hzu7OqTmNCT1xdCdmwBSf2yJvaO.jpg" alt="Adria Arjona - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Adria%20Arjona&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Adria Arjona</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/adria-arjona" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Adria Arjona</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/luis-guzm-n" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg" alt="Luis Guzmán" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Luis%20Guzm%C3%A1n&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/kSdxUckOJj9R5VKrLUnRy14YhNV.jpg" alt="Luis Guzmán - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Luis%20Guzm%C3%A1n&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Luis Guzmán</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/luis-guzm-n" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Luis Guzmán</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/roselyn-s-nchez" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/srU7Oi0P5F3IuEEk14gKZwzzMWu.jpg" alt="Roselyn Sánchez" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Roselyn%20S%C3%A1nchez&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/srU7Oi0P5F3IuEEk14gKZwzzMWu.jpg" alt="Roselyn Sánchez - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Roselyn%20S%C3%A1nchez&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Roselyn Sánchez</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/roselyn-s-nchez" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Roselyn Sánchez</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/david-zayas" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/w1E8n9gl2HcZEhfBOXdVzMvIlzg.jpg" alt="David Zayas" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Zayas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/w1E8n9gl2HcZEhfBOXdVzMvIlzg.jpg" alt="David Zayas - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=David%20Zayas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>David Zayas</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/david-zayas" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>David Zayas</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/ram-n-rodr-guez" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/1gobmVevxCWVhV7s6J2B0oWPDZj.jpg" alt="Ramón Rodríguez" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ram%C3%B3n%20Rodr%C3%ADguez&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/1gobmVevxCWVhV7s6J2B0oWPDZj.jpg" alt="Ramón Rodríguez - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ram%C3%B3n%20Rodr%C3%ADguez&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ramón Rodríguez</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/ram-n-rodr-guez" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Ramón Rodríguez</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/adamari-l-pez" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/71lr7u5duqinoe9bsB2Q01KPiE3.jpg" alt="Adamari López" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Adamari%20L%C3%B3pez&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/71lr7u5duqinoe9bsB2Q01KPiE3.jpg" alt="Adamari López - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Adamari%20L%C3%B3pez&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Adamari López</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/adamari-l-pez" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Adamari López</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/rita-moreno" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zB0M77jr7tmsmWHEr2bWO2Xq66L.jpg" alt="Rita Moreno" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rita%20Moreno&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zB0M77jr7tmsmWHEr2bWO2Xq66L.jpg" alt="Rita Moreno - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rita%20Moreno&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rita Moreno</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/rita-moreno" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rita Moreno</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/ra-l-juli" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zRvv5vdqCxdio38gx0WWmof4cO5.jpg" alt="Raúl Juliá" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ra%C3%BAl%20Juli%C3%A1&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zRvv5vdqCxdio38gx0WWmof4cO5.jpg" alt="Raúl Juliá - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ra%C3%BAl%20Juli%C3%A1&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Raúl Juliá</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/ra-l-juli" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Raúl Juliá</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/puerto-rico/ricky-martin" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/mAkdpTplDii6otg5fWli74K44o5.jpg" alt="Ricky Martin" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ricky%20Martin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/mAkdpTplDii6otg5fWli74K44o5.jpg" alt="Ricky Martin - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Ricky%20Martin&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Ricky Martin</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/puerto-rico/ricky-martin" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Ricky Martin</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/puerto-rico/bert-rosario" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/5Wt6TNB3ncreaJ7dL4wQkl3ALyG.jpg" alt="Bert Rosario - Puerto Rico Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Bert%20Rosario&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Bert Rosario</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

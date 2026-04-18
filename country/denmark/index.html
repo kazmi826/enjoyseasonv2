@@ -3,130 +3,230 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Denmark Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 12 famous actors from Denmark. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Denmark Actors — Complete List of 13 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 13 famous actors from Denmark. Complete profiles, biographies, movies and dramas. Mads Mikkelsen, Giancarlo Esposito, Nikolaj Coster-Waldau, Connie Nielsen, Kim Bodnia and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/denmark">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Denmark Actors","description":"Complete list of 13 famous actors from Denmark","numberOfItems":13,"itemListElement":[{"@type":"ListItem","position":1,"name":"Mads Mikkelsen","url":"https://enjoyseason.com/actors/denmark/mads-mikkelsen"},{"@type":"ListItem","position":2,"name":"Giancarlo Esposito","url":"https://enjoyseason.com/actors/denmark/giancarlo-esposito"},{"@type":"ListItem","position":3,"name":"Nikolaj Coster-Waldau","url":"https://enjoyseason.com/actors/denmark/nikolaj-coster-waldau"},{"@type":"ListItem","position":4,"name":"Connie Nielsen","url":"https://enjoyseason.com/actors/denmark/connie-nielsen"},{"@type":"ListItem","position":5,"name":"Kim Bodnia","url":"https://enjoyseason.com/actors/denmark/kim-bodnia"},{"@type":"ListItem","position":6,"name":"Pilou Asbæk","url":"https://enjoyseason.com/actors/denmark/pilou-asb-k"},{"@type":"ListItem","position":7,"name":"Lars von Trier","url":"https://enjoyseason.com/actors/denmark/lars-von-trier"},{"@type":"ListItem","position":8,"name":"Mikael Salomon","url":"https://enjoyseason.com/actors/denmark/mikael-salomon"},{"@type":"ListItem","position":9,"name":"Maria Sten","url":"https://enjoyseason.com/actors/denmark/maria-sten"},{"@type":"ListItem","position":10,"name":"Nicolas Winding Refn","url":"https://enjoyseason.com/actors/denmark/nicolas-winding-refn"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Denmark</div>
-    <h1>🎭 Denmark Actors</h1>
-    <p class="subtitle">12 actors from Denmark</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Denmark
+    </div>
+    <h1 class="page-title">🎭 Denmark Actors</h1>
+    <p class="page-subtitle">Explore 13 famous actors and celebrities from Denmark. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">13</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">Danish</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Denmark</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/denmark/mads-mikkelsen" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/AsX4bdvZ8UCayWTmAf9lAqOA8V7.jpg" alt="Mads Mikkelsen" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mads%20Mikkelsen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/AsX4bdvZ8UCayWTmAf9lAqOA8V7.jpg" alt="Mads Mikkelsen - Danish Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mads%20Mikkelsen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Mads Mikkelsen</h3>
-        <p>Actor</p>
-        <a href="/actors/denmark/mads-mikkelsen" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Mads Mikkelsen</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Thriller</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/giancarlo-esposito" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/rcXnr82TwDzU4ZGdBeNXfG0ZQnZ.jpg" alt="Giancarlo Esposito" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Giancarlo%20Esposito&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/rcXnr82TwDzU4ZGdBeNXfG0ZQnZ.jpg" alt="Giancarlo Esposito - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Giancarlo%20Esposito&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Giancarlo Esposito</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/giancarlo-esposito" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Giancarlo Esposito</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/nikolaj-coster-waldau" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/rpFOERbHkj7GWxkinUNiQ76sSGk.jpg" alt="Nikolaj Coster-Waldau" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nikolaj%20Coster-Waldau&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/rpFOERbHkj7GWxkinUNiQ76sSGk.jpg" alt="Nikolaj Coster-Waldau - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nikolaj%20Coster-Waldau&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nikolaj Coster-Waldau</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/nikolaj-coster-waldau" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nikolaj Coster-Waldau</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/connie-nielsen" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg" alt="Connie Nielsen" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Connie%20Nielsen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/gSQ3O3PJ6ly6nT63joOtfZyscFP.jpg" alt="Connie Nielsen - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Connie%20Nielsen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Connie Nielsen</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/connie-nielsen" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Connie Nielsen</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/kim-bodnia" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/koWU6vb82cuCDLeYE1erqnQ39cW.jpg" alt="Kim Bodnia" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kim%20Bodnia&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/koWU6vb82cuCDLeYE1erqnQ39cW.jpg" alt="Kim Bodnia - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Kim%20Bodnia&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Kim Bodnia</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/kim-bodnia" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Kim Bodnia</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/pilou-asb-k" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/hUJAtjbYG7rqm54aoWtNWeeKjTY.jpg" alt="Pilou Asbæk" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Pilou%20Asb%C3%A6k&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/hUJAtjbYG7rqm54aoWtNWeeKjTY.jpg" alt="Pilou Asbæk - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Pilou%20Asb%C3%A6k&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Pilou Asbæk</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/pilou-asb-k" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Pilou Asbæk</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/lars-von-trier" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/a1zVySI0Yqqf3ORegQ1icMfvhAa.jpg" alt="Lars von Trier" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lars%20von%20Trier&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/a1zVySI0Yqqf3ORegQ1icMfvhAa.jpg" alt="Lars von Trier - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lars%20von%20Trier&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lars von Trier</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/lars-von-trier" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lars von Trier</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/mikael-salomon" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/2vrGZoDHsXzywPsTMApMrBLeCIN.jpg" alt="Mikael Salomon" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mikael%20Salomon&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/2vrGZoDHsXzywPsTMApMrBLeCIN.jpg" alt="Mikael Salomon - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mikael%20Salomon&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Mikael Salomon</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/mikael-salomon" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Mikael Salomon</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/maria-sten" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/7QlPWbZRH2ORMmAHKAj0rq54t4A.jpg" alt="Maria Sten" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maria%20Sten&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/7QlPWbZRH2ORMmAHKAj0rq54t4A.jpg" alt="Maria Sten - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Maria%20Sten&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Maria Sten</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/maria-sten" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Maria Sten</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/nicolas-winding-refn" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/o1PZZaqPbYt6f6e8PJkES73QKTG.jpg" alt="Nicolas Winding Refn" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nicolas%20Winding%20Refn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/o1PZZaqPbYt6f6e8PJkES73QKTG.jpg" alt="Nicolas Winding Refn - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nicolas%20Winding%20Refn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nicolas Winding Refn</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/nicolas-winding-refn" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nicolas Winding Refn</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/lars-mikkelsen" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/xw3bJxjf8yT8TS8zigEGWQYSaXH.jpg" alt="Lars Mikkelsen" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lars%20Mikkelsen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/xw3bJxjf8yT8TS8zigEGWQYSaXH.jpg" alt="Lars Mikkelsen - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lars%20Mikkelsen&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lars Mikkelsen</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/lars-mikkelsen" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lars Mikkelsen</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/denmark/thure-lindhardt" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/lDkRe6dlQoiehjay8pEP2WLU4qG.jpg" alt="Thure Lindhardt" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Thure%20Lindhardt&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/lDkRe6dlQoiehjay8pEP2WLU4qG.jpg" alt="Thure Lindhardt - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Thure%20Lindhardt&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Thure Lindhardt</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/denmark/thure-lindhardt" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Thure Lindhardt</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/denmark/delia-sheppard" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/11kMXk6uaHNs1qyeKIQTmy7PgIb.jpg" alt="Delia Sheppard - Denmark Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Delia%20Sheppard&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Delia Sheppard</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

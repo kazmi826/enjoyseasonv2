@@ -3,162 +3,266 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Morocco Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 16 famous actors from Morocco. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>Morocco Actors — Complete List of 16 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 16 famous actors from Morocco. Complete profiles, biographies, movies and dramas. Zubair Hajji, Said Taghmaoui, Fatym Layachi, Younes Bouab, Naima Elmcherqui and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/morocco">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Morocco Actors","description":"Complete list of 16 famous actors from Morocco","numberOfItems":16,"itemListElement":[{"@type":"ListItem","position":1,"name":"Zubair Hajji","url":"https://enjoyseason.com/actors/morocco/zubair-hajji"},{"@type":"ListItem","position":2,"name":"Said Taghmaoui","url":"https://enjoyseason.com/actors/morocco/said-taghmaoui"},{"@type":"ListItem","position":3,"name":"Fatym Layachi","url":"https://enjoyseason.com/actors/morocco/fatym-layachi"},{"@type":"ListItem","position":4,"name":"Younes Bouab","url":"https://enjoyseason.com/actors/morocco/younes-bouab"},{"@type":"ListItem","position":5,"name":"Naima Elmcherqui","url":"https://enjoyseason.com/actors/morocco/naima-elmcherqui"},{"@type":"ListItem","position":6,"name":"Mayssa Maghrebi","url":"https://enjoyseason.com/actors/morocco/mayssa-maghrebi"},{"@type":"ListItem","position":7,"name":"Assaad Bouab","url":"https://enjoyseason.com/actors/morocco/assaad-bouab"},{"@type":"ListItem","position":8,"name":"Mouna Fettou","url":"https://enjoyseason.com/actors/morocco/mouna-fettou"},{"@type":"ListItem","position":9,"name":"Hassan Saqalli","url":"https://enjoyseason.com/actors/morocco/hassan-saqalli"},{"@type":"ListItem","position":10,"name":"Zubair Al-Taghmaoui","url":"https://enjoyseason.com/actors/morocco/zubair-al-taghmaoui"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › Morocco</div>
-    <h1>🎭 Morocco Actors</h1>
-    <p class="subtitle">16 actors from Morocco</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › Morocco
+    </div>
+    <h1 class="page-title">🎭 Morocco Actors</h1>
+    <p class="page-subtitle">Explore 16 famous actors and celebrities from Morocco. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">16</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">Morocco</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/morocco/zubair-hajji" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Zubair%20Hajji&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Zubair Hajji" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Zubair%20Hajji&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Zubair%20Hajji&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Zubair Hajji - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Zubair%20Hajji&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Zubair Hajji</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/zubair-hajji" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Zubair Hajji</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/said-taghmaoui" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/kuxI08YpwQFGweIXK7TELknwexr.jpg" alt="Said Taghmaoui" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Said%20Taghmaoui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/kuxI08YpwQFGweIXK7TELknwexr.jpg" alt="Said Taghmaoui - Moroccan-French-American Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Said%20Taghmaoui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Said Taghmaoui</h3>
-        <p>Actor, Screenwriter</p>
-        <a href="/actors/morocco/said-taghmaoui" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Said Taghmaoui</h3>
+          <p>Actor, Screenwriter</p>
+          <span class="actor-genre">Action, Crime</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/fatym-layachi" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Fatym%20Layachi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Fatym Layachi" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Fatym%20Layachi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Fatym%20Layachi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Fatym Layachi - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Fatym%20Layachi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Fatym Layachi</h3>
-        <p>Actress</p>
-        <a href="/actors/morocco/fatym-layachi" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Fatym Layachi</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Arthouse, Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/younes-bouab" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/vlZtenkbtcUB6nt6qyfRjYRzshR.jpg" alt="Younes Bouab" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Younes%20Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/vlZtenkbtcUB6nt6qyfRjYRzshR.jpg" alt="Younes Bouab - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Younes%20Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Younes Bouab</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/younes-bouab" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Younes Bouab</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Thriller</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/naima-elmcherqui" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/bDxWnN9O0AFz49seIpEOpKiRvZ3.jpg" alt="Naima Elmcherqui" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Naima%20Elmcherqui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/bDxWnN9O0AFz49seIpEOpKiRvZ3.jpg" alt="Naima Elmcherqui - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Naima%20Elmcherqui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Naima Elmcherqui</h3>
-        <p>Actress</p>
-        <a href="/actors/morocco/naima-elmcherqui" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Naima Elmcherqui</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/mayssa-maghrebi" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Mayssa%20Maghrebi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Mayssa Maghrebi" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mayssa%20Maghrebi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Mayssa%20Maghrebi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Mayssa Maghrebi - Moroccan-Emirati Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mayssa%20Maghrebi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Mayssa Maghrebi</h3>
-        <p>Actress, Director</p>
-        <a href="/actors/morocco/mayssa-maghrebi" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Mayssa Maghrebi</h3>
+          <p>Actress, Director</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/assaad-bouab" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/zIqK5a0H3e6z2vFhRDdWQCMQIRT.jpg" alt="Assaad Bouab" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Assaad%20Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/zIqK5a0H3e6z2vFhRDdWQCMQIRT.jpg" alt="Assaad Bouab - Moroccan-French Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Assaad%20Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Assaad Bouab</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/assaad-bouab" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Assaad Bouab</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, International</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/mouna-fettou" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/wKmGuT15RE6ludEt9MS3ytrJAQT.jpg" alt="Mouna Fettou" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mouna%20Fettou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/wKmGuT15RE6ludEt9MS3ytrJAQT.jpg" alt="Mouna Fettou - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Mouna%20Fettou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Mouna Fettou</h3>
-        <p>Actress</p>
-        <a href="/actors/morocco/mouna-fettou" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Mouna Fettou</h3>
+          <p>Actress</p>
+          <span class="actor-genre">Drama, Comedy</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/hassan-saqalli" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Hassan%20Saqalli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Hassan Saqalli" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Hassan%20Saqalli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Hassan%20Saqalli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Hassan Saqalli - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Hassan%20Saqalli&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Hassan Saqalli</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/hassan-saqalli" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Hassan Saqalli</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama, Historical</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/zubair-al-taghmaoui" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Zubair%20Al-Taghmaoui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Zubair Al-Taghmaoui" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Zubair%20Al-Taghmaoui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Zubair%20Al-Taghmaoui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Zubair Al-Taghmaoui - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Zubair%20Al-Taghmaoui&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Zubair Al-Taghmaoui</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/zubair-al-taghmaoui" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Zubair Al-Taghmaoui</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/nidal-al-bouab" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Nidal%20Al-Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal Al-Bouab" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20Al-Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Nidal%20Al-Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal Al-Bouab - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20Al-Bouab&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nidal Al-Bouab</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/nidal-al-bouab" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nidal Al-Bouab</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/nidal-al-fettou" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Nidal%20Al-Fettou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal Al-Fettou" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20Al-Fettou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Nidal%20Al-Fettou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Nidal Al-Fettou - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nidal%20Al-Fettou&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nidal Al-Fettou</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/nidal-al-fettou" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nidal Al-Fettou</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/abdelhadi-el-sonni" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://ui-avatars.com/api/?name=Abdelhadi%20El%20Sonni&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Abdelhadi El Sonni" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Abdelhadi%20El%20Sonni&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://ui-avatars.com/api/?name=Abdelhadi%20El%20Sonni&size=400&background=0f172a&color=f59e0b&bold=true&format=svg" alt="Abdelhadi El Sonni - Moroccan Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Abdelhadi%20El%20Sonni&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Abdelhadi El Sonni</h3>
-        <p>Actor</p>
-        <a href="/actors/morocco/abdelhadi-el-sonni" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Abdelhadi El Sonni</h3>
+          <p>Actor</p>
+          <span class="actor-genre">Drama</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/nadia-far-s" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/uvomxwk2CfO8scOsR60CxHGM2J3.jpg" alt="Nadia Farès" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadia%20Far%C3%A8s&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/uvomxwk2CfO8scOsR60CxHGM2J3.jpg" alt="Nadia Farès - Morocco Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Nadia%20Far%C3%A8s&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Nadia Farès</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/morocco/nadia-far-s" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Nadia Farès</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/hiba-bennani" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/7IRzUznlWjWofmYt3qvUkk2RFTy.jpg" alt="Hiba Bennani" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Hiba%20Bennani&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/7IRzUznlWjWofmYt3qvUkk2RFTy.jpg" alt="Hiba Bennani - Morocco Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Hiba%20Bennani&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Hiba Bennani</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/morocco/hiba-bennani" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Hiba Bennani</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/morocco/sofia-pernas" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/cE7yE1VSv8tUhvTz2kNG17gI9wL.jpg" alt="Sofia Pernas" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sofia%20Pernas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/cE7yE1VSv8tUhvTz2kNG17gI9wL.jpg" alt="Sofia Pernas - Morocco Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Sofia%20Pernas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Sofia Pernas</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/morocco/sofia-pernas" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Sofia Pernas</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>

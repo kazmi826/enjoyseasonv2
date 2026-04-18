@@ -3,258 +3,434 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Zealand Actors - Complete List | EnjoysSeason</title>
-  <meta name="description" content="Explore 28 famous actors from New Zealand. Complete profiles, biographies, movies and dramas list on EnjoysSeason.">
+  <title>New Zealand Actors — Complete List of 30 Famous Actors | EnjoysSeason</title>
+  <meta name="description" content="Explore 30 famous actors from New Zealand. Complete profiles, biographies, movies and dramas. Karl Urban, Antony Starr, Laura Surrich, Taika Waititi, Russell Crowe and more on EnjoysSeason.">
   <link rel="canonical" href="https://enjoyseason.com/country/new-zealand">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"New Zealand Actors","description":"Complete list of 30 famous actors from New Zealand","numberOfItems":30,"itemListElement":[{"@type":"ListItem","position":1,"name":"Karl Urban","url":"https://enjoyseason.com/actors/new-zealand/karl-urban"},{"@type":"ListItem","position":2,"name":"Antony Starr","url":"https://enjoyseason.com/actors/new-zealand/antony-starr"},{"@type":"ListItem","position":3,"name":"Laura Surrich","url":"https://enjoyseason.com/actors/new-zealand/laura-surrich"},{"@type":"ListItem","position":4,"name":"Taika Waititi","url":"https://enjoyseason.com/actors/new-zealand/taika-waititi"},{"@type":"ListItem","position":5,"name":"Russell Crowe","url":"https://enjoyseason.com/actors/new-zealand/russell-crowe"},{"@type":"ListItem","position":6,"name":"Martin Henderson","url":"https://enjoyseason.com/actors/new-zealand/martin-henderson"},{"@type":"ListItem","position":7,"name":"Lucy Lawless","url":"https://enjoyseason.com/actors/new-zealand/lucy-lawless"},{"@type":"ListItem","position":8,"name":"Anna Sawai","url":"https://enjoyseason.com/actors/new-zealand/anna-sawai"},{"@type":"ListItem","position":9,"name":"Rose McIver","url":"https://enjoyseason.com/actors/new-zealand/rose-mciver"},{"@type":"ListItem","position":10,"name":"Peter Jackson","url":"https://enjoyseason.com/actors/new-zealand/peter-jackson"}]}</script>
   <style>
-    :root{--bg:#08091a;--card-bg:#121430;--gold:#f5a623;--text:#ffffff;}
-    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;margin:0;padding:0;}
-    .container{max-width:1200px;margin:0 auto;padding:20px;}
-    .breadcrumb{padding:20px 0;color:#888;font-size:14px;}.breadcrumb a{color:var(--gold);text-decoration:none;}
-    h1{color:var(--gold);text-align:center;margin-bottom:10px;}
-    .subtitle{text-align:center;color:#aaa;margin-bottom:40px;font-size:14px;}
-    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding-bottom:50px;}
-    .actor-card{background:var(--card-bg);border-radius:12px;overflow:hidden;text-align:center;padding:15px;transition:transform .3s;border:1px solid rgba(245,166,35,.1);}
-    .actor-card:hover{transform:translateY(-5px);border-color:var(--gold);}
-    .photo-placeholder{width:100%;height:220px;background:#1c1f45;border-radius:8px;margin-bottom:15px;overflow:hidden;}
-    .photo-placeholder img{width:100%;height:100%;object-fit:cover;}
-    .actor-card h3{margin:8px 0 4px;font-size:1rem;color:var(--gold);}
-    .actor-card p{font-size:.85rem;color:#ccc;margin-bottom:10px;}
-    .view-btn{display:inline-block;padding:7px 18px;background:var(--gold);color:#000;text-decoration:none;font-weight:bold;border-radius:5px;font-size:13px;}
-    footer{text-align:center;padding:40px;background:#050612;color:#666;font-size:14px;margin-top:50px;}
+    :root{--bg:#08091a;--card:#121430;--gold:#f5a623;--text:#fff;--muted:#94a3b8;--border:#1e3a5f;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;}
+    .header{background:#050612;border-bottom:2px solid var(--gold);padding:1rem 2rem;display:flex;align-items:center;gap:1rem;}
+    .header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem;}
+    .header nav a{color:var(--muted);font-size:.9rem;margin-left:1rem;}
+    .header nav a:hover{color:var(--gold)}
+    .container{max-width:1200px;margin:0 auto;padding:2rem;}
+    .breadcrumb{color:#888;font-size:.85rem;margin-bottom:1.5rem;}
+    .breadcrumb a{color:var(--gold);text-decoration:none;}
+    .page-title{color:var(--gold);font-size:2rem;margin-bottom:.5rem;}
+    .page-subtitle{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+    .actor-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.5rem;}
+    .actor-card-link{text-decoration:none;color:inherit;}
+    .actor-card{background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:all .25s;}
+    .actor-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 25px rgba(245,166,35,.15);}
+    .photo-wrap{width:100%;height:220px;overflow:hidden;background:#1c1f45;}
+    .photo-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .3s;}
+    .actor-card:hover .photo-wrap img{transform:scale(1.05);}
+    .actor-card-info{padding:1rem;}
+    .actor-card-info h3{font-size:.95rem;color:var(--gold);margin-bottom:.3rem;}
+    .actor-card-info p{font-size:.8rem;color:var(--muted);margin-bottom:.3rem;}
+    .actor-genre{font-size:.75rem;color:#64748b;}
+    .stats-row{display:flex;gap:2rem;background:var(--card);border-radius:12px;padding:1.5rem;margin-bottom:2rem;border:1px solid var(--border);}
+    .stat{text-align:center;}
+    .stat-n{font-size:1.8rem;color:var(--gold);font-weight:700;}
+    .stat-l{font-size:.8rem;color:var(--muted);}
+    footer{text-align:center;padding:3rem;background:#050612;color:#666;font-size:.85rem;margin-top:4rem;border-top:1px solid var(--border);}
+    footer a{color:var(--gold);}
   </style>
 </head>
 <body>
+  <header class="header">
+    <a href="/">🎬 EnjoysSeason</a>
+    <nav>
+      <a href="/category/actors">Actors</a>
+      <a href="/category/movies">Movies</a>
+      <a href="/category/dramas">Dramas</a>
+    </nav>
+  </header>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Home</a> › <a href="/">Countries</a> › New Zealand</div>
-    <h1>🎭 New Zealand Actors</h1>
-    <p class="subtitle">28 actors from New Zealand</p>
+    <div class="breadcrumb">
+      <a href="/">Home</a> › <a href="/category/actors">Actors</a> › New Zealand
+    </div>
+    <h1 class="page-title">🎭 New Zealand Actors</h1>
+    <p class="page-subtitle">Explore 30 famous actors and celebrities from New Zealand. Full biographies, filmographies, movies and dramas.</p>
+    
+    <div class="stats-row">
+      <div class="stat"><div class="stat-n">30</div><div class="stat-l">Total Actors</div></div>
+      <div class="stat"><div class="stat-n">English</div><div class="stat-l">Language</div></div>
+      <div class="stat"><div class="stat-n">New Zealand</div><div class="stat-l">Country</div></div>
+    </div>
+
     <div class="actor-grid">
+    <a href="/actors/new-zealand/karl-urban" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/6CkZLwEJxfqqcJHyeXegMAvOlPh.jpg" alt="Karl Urban" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Karl%20Urban&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/6CkZLwEJxfqqcJHyeXegMAvOlPh.jpg" alt="Karl Urban - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Karl%20Urban&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Karl Urban</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/karl-urban" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Karl Urban</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/antony-starr" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/b0T56GMrHM24hDDjJ4DNPJcEUp6.jpg" alt="Antony Starr" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Antony%20Starr&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/b0T56GMrHM24hDDjJ4DNPJcEUp6.jpg" alt="Antony Starr - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Antony%20Starr&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Antony Starr</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/antony-starr" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Antony Starr</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/laura-surrich" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/fbXZxpfIYjN0uexfAELkOVPx1bi.jpg" alt="Laura Surrich" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Laura%20Surrich&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/fbXZxpfIYjN0uexfAELkOVPx1bi.jpg" alt="Laura Surrich - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Laura%20Surrich&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Laura Surrich</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/laura-surrich" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Laura Surrich</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/taika-waititi" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/ww6L2ksfJNMbuiIdDuvVKndUHsv.jpg" alt="Taika Waititi" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Taika%20Waititi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/ww6L2ksfJNMbuiIdDuvVKndUHsv.jpg" alt="Taika Waititi - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Taika%20Waititi&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Taika Waititi</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/taika-waititi" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Taika Waititi</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/russell-crowe" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg" alt="Russell Crowe" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Russell%20Crowe&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg" alt="Russell Crowe - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Russell%20Crowe&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Russell Crowe</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/russell-crowe" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Russell Crowe</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/martin-henderson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/avJFARzEPaB24rKQUYLinGQqilL.jpg" alt="Martin Henderson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Martin%20Henderson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/avJFARzEPaB24rKQUYLinGQqilL.jpg" alt="Martin Henderson - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Martin%20Henderson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Martin Henderson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/martin-henderson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Martin Henderson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/lucy-lawless" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/7fYfVk6jtdCWuJEo9pEqc6O2JkD.jpg" alt="Lucy Lawless" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lucy%20Lawless&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/7fYfVk6jtdCWuJEo9pEqc6O2JkD.jpg" alt="Lucy Lawless - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Lucy%20Lawless&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Lucy Lawless</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/lucy-lawless" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Lucy Lawless</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/anna-sawai" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/6uFaCOupDTPRnTiedveTUvjOikC.jpg" alt="Anna Sawai" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anna%20Sawai&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/6uFaCOupDTPRnTiedveTUvjOikC.jpg" alt="Anna Sawai - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anna%20Sawai&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Anna Sawai</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/anna-sawai" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Anna Sawai</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/rose-mciver" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/7oswXIUIGAZphpZMBhuXoUgOIJi.jpg" alt="Rose McIver" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rose%20McIver&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/7oswXIUIGAZphpZMBhuXoUgOIJi.jpg" alt="Rose McIver - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rose%20McIver&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rose McIver</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/rose-mciver" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Rose McIver</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/peter-jackson" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/bNc908d59Ba8VDNr4eCcm4G1cR.jpg" alt="Peter Jackson" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Peter%20Jackson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/bNc908d59Ba8VDNr4eCcm4G1cR.jpg" alt="Peter Jackson - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Peter%20Jackson&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Peter Jackson</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/peter-jackson" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Peter Jackson</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/melanie-lynskey" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/kzrWI1sTgnA0H7TCIKzDOUtOW4n.jpg" alt="Melanie Lynskey" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Melanie%20Lynskey&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/kzrWI1sTgnA0H7TCIKzDOUtOW4n.jpg" alt="Melanie Lynskey - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Melanie%20Lynskey&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Melanie Lynskey</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/melanie-lynskey" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Melanie Lynskey</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/cliff-curtis" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/dfaElGoyJWseFWxXwEMLL9WTi7V.jpg" alt="Cliff Curtis" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Cliff%20Curtis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/dfaElGoyJWseFWxXwEMLL9WTi7V.jpg" alt="Cliff Curtis - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Cliff%20Curtis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Cliff Curtis</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/cliff-curtis" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Cliff Curtis</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/marton-csokas" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/gmeUY7FR0bFLdu7Ma5kvpH3Gt6B.jpg" alt="Marton Csokas" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Marton%20Csokas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/gmeUY7FR0bFLdu7Ma5kvpH3Gt6B.jpg" alt="Marton Csokas - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Marton%20Csokas&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Marton Csokas</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/marton-csokas" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Marton Csokas</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/thomasin-mckenzie" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/of8zI5FA5cNBbZK8KdgTSw0znXK.jpg" alt="Thomasin McKenzie" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Thomasin%20McKenzie&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/of8zI5FA5cNBbZK8KdgTSw0znXK.jpg" alt="Thomasin McKenzie - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Thomasin%20McKenzie&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Thomasin McKenzie</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/thomasin-mckenzie" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Thomasin McKenzie</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/anna-hutchison" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/i7o5JRt43W3qsPbFm8qhsQAws6t.jpg" alt="Anna Hutchison" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anna%20Hutchison&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/i7o5JRt43W3qsPbFm8qhsQAws6t.jpg" alt="Anna Hutchison - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Anna%20Hutchison&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Anna Hutchison</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/anna-hutchison" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Anna Hutchison</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/ros" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/qAu8cDQto6hbYa3YmVWvEjH4vuM.jpg" alt="ROSÉ" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=ROS%C3%89&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/qAu8cDQto6hbYa3YmVWvEjH4vuM.jpg" alt="ROSÉ - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=ROS%C3%89&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>ROSÉ</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/ros" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>ROSÉ</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/alan-dale" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/3BcpSoKBOwHX0wxaPZpOJ5buO89.jpg" alt="Alan Dale" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alan%20Dale&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/3BcpSoKBOwHX0wxaPZpOJ5buO89.jpg" alt="Alan Dale - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Alan%20Dale&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Alan Dale</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/alan-dale" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Alan Dale</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/manu-bennett" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/vwcTCQoRqfOjGZA1TPCx9TWTNht.jpg" alt="Manu Bennett" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Manu%20Bennett&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/vwcTCQoRqfOjGZA1TPCx9TWTNht.jpg" alt="Manu Bennett - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Manu%20Bennett&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Manu Bennett</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/manu-bennett" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Manu Bennett</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/luciane-buchanan" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/4BVfv9HE6ZipHqZO8xDlkDFBWlN.jpg" alt="Luciane Buchanan" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Luciane%20Buchanan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/4BVfv9HE6ZipHqZO8xDlkDFBWlN.jpg" alt="Luciane Buchanan - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Luciane%20Buchanan&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Luciane Buchanan</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/luciane-buchanan" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Luciane Buchanan</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/temuera-morrison" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/AvtSC0f9QW7fMyFFNXEWDeQyfUk.jpg" alt="Temuera Morrison" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Temuera%20Morrison&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/AvtSC0f9QW7fMyFFNXEWDeQyfUk.jpg" alt="Temuera Morrison - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Temuera%20Morrison&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Temuera Morrison</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/temuera-morrison" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Temuera Morrison</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/jemaine-clement" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/6eiNbeurpHb2fxIeT0RrJ0wRI25.jpg" alt="Jemaine Clement" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jemaine%20Clement&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/6eiNbeurpHb2fxIeT0RrJ0wRI25.jpg" alt="Jemaine Clement - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jemaine%20Clement&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jemaine Clement</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/jemaine-clement" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jemaine Clement</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/kj-apa" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/e2mowKCKKkexzsKy0bTGk5S5Soa.jpg" alt="KJ Apa" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=KJ%20Apa&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/e2mowKCKKkexzsKy0bTGk5S5Soa.jpg" alt="KJ Apa - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=KJ%20Apa&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>KJ Apa</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/kj-apa" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>KJ Apa</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/richard-curtis" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/dLhFfcHJvOLzzykO3LYkinXJUA1.jpg" alt="Richard Curtis" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Richard%20Curtis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/dLhFfcHJvOLzzykO3LYkinXJUA1.jpg" alt="Richard Curtis - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Richard%20Curtis&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Richard Curtis</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/richard-curtis" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Richard Curtis</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/frankie-adams" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/aAUHUSf0lh3OBRoaiCRL9ep8lfL.jpg" alt="Frankie Adams" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Frankie%20Adams&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/aAUHUSf0lh3OBRoaiCRL9ep8lfL.jpg" alt="Frankie Adams - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Frankie%20Adams&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Frankie Adams</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/frankie-adams" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Frankie Adams</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/julian-dennison" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/pP9tymIRkOEEQqetcC1Yby5rGbi.jpg" alt="Julian Dennison" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Julian%20Dennison&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/pP9tymIRkOEEQqetcC1Yby5rGbi.jpg" alt="Julian Dennison - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Julian%20Dennison&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Julian Dennison</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/julian-dennison" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Julian Dennison</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/andrew-niccol" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/jTNhskoCvZsLqZwk5CFIrMpCftx.jpg" alt="Andrew Niccol" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Andrew%20Niccol&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/jTNhskoCvZsLqZwk5CFIrMpCftx.jpg" alt="Andrew Niccol - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Andrew%20Niccol&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Andrew Niccol</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/andrew-niccol" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Andrew Niccol</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/jonathan-king" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/vtwDB0C9I0Td43TCenNPN2jNZgH.jpg" alt="Jonathan King" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jonathan%20King&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/vtwDB0C9I0Td43TCenNPN2jNZgH.jpg" alt="Jonathan King - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Jonathan%20King&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Jonathan King</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/jonathan-king" class="view-btn">View Profile</a>
+        <div class="actor-card-info">
+          <h3>Jonathan King</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
       </div>
+    </a>
+    <a href="/actors/new-zealand/rachel-house" class="actor-card-link">
       <div class="actor-card">
-        <div class="photo-placeholder">
-          <img src="https://image.tmdb.org/t/p/w500/2LCQF7Bn0I91o17GGkox0ZhhbE7.jpg" alt="Rachel House" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rachel%20House&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/2LCQF7Bn0I91o17GGkox0ZhhbE7.jpg" alt="Rachel House - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Rachel%20House&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
         </div>
-        <h3>Rachel House</h3>
-        <p>Actor, Actress</p>
-        <a href="/actors/new-zealand/rachel-house" class="view-btn">View Profile</a>
-      </div></div>
+        <div class="actor-card-info">
+          <h3>Rachel House</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/new-zealand/andrew-dominik" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/blo8doyYK1Swsa4ThRgq3OT62J1.jpg" alt="Andrew Dominik - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Andrew%20Dominik&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Andrew Dominik</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a>
+    <a href="/actors/new-zealand/vincent-klyn" class="actor-card-link">
+      <div class="actor-card">
+        <div class="photo-wrap">
+          <img src="https://image.tmdb.org/t/p/w500/J6KgdQAdKm8LaOJKety2l1lWFh.jpg" alt="Vincent Klyn - New Zealand Actor" loading="lazy" onerror="this.src='https://ui-avatars.com/api/?name=Vincent%20Klyn&size=400&background=0f172a&color=f59e0b&bold=true&format=svg'">
+        </div>
+        <div class="actor-card-info">
+          <h3>Vincent Klyn</h3>
+          <p>Actor, Actress</p>
+          <span class="actor-genre">Drama, Action</span>
+        </div>
+      </div>
+    </a></div>
   </div>
-  <footer>© 2026 EnjoysSeason - World Entertainment Database</footer>
+  <footer>
+    <p>© 2026 <a href="/">EnjoysSeason</a> — World Entertainment Database</p>
+    <p style="margin-top:.5rem">
+      <a href="/category/actors">All Actors</a> · 
+      <a href="/category/movies">Movies</a> · 
+      <a href="/category/dramas">Dramas</a> · 
+      <a href="/sitemap.xml">Sitemap</a>
+    </p>
+  </footer>
 </body>
 </html>
